@@ -1,0 +1,63 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run MoMa YSD",
+            "command": "python ./HighLightMoMa/HighLightMoMa.py 'C:/Users/urimrm/Programy/QC_Terminal/QC_Terminal506/QcSettings/log/SUC_20240726_Copy.log'",
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "focus": true
+            }
+        },
+        {
+            "label": "Run AddGuiTexts",
+            "command": "python ./AddGuiTexts/AddGuiTexts.py 'C:/Users/urimrm/Programy/QC_Terminal/QC_Terminal506/QcSettings/log/SUC_20240726_Copy.log'",
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "focus": true
+            }
+        },
+        {
+            "label": "Run AddGuiTexts",
+            "command": "python ./AddComments/AddComment.py 'C:/Users/urimrm/Programy/QC_Terminal/QC_Terminal506/QcSettings/log/SUC_20240821_delete.log'",
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "focus": true
+            }
+        },
+        {
+            "label": "nosetest",
+            "command": "nosetests -v",
+            "type": "shell",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "focus": true
+            }
+        }
+    ]
+}
