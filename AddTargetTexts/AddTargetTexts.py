@@ -1,8 +1,8 @@
 # This script is used to comment log from R70 SUC.
 # It will append a full target text comment to log message.
 #
-# @author: Martin Imrich (martin.imrich@rieter.com)
-# @modified: your_name
+# @author: Martin Imrich (martin.imrich@rieter.com) Version: 1.0.0
+# @modified: your_name () Version: 1.0.1
 #
 # Example:
 # You run logging to a file SUC_20241113.log using QCterminal tool.

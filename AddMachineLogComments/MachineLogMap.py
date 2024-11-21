@@ -1,10 +1,14 @@
+# Map file for a machine log file
+#
+# @author: Martin Imrich (martin.imrich@rieter.com) Version: 1.0.0
+# @modified: your_name () Version: 1.0.1
+#
 # Debug shortcuts:
 # - AS(automatic service), PY(piecing to yarn), SY(seed yarn),
 # - MSL(Machine side left), MSR(Machine side right),
 # - ??
 # - BA? = AS: PY piecing failed with BA,
-
-
+#
 # Example:
 # Nov 13 16: 28: 58 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.61 Debug 0x00  0x2D 0x01 0x00 0x00
 # Nov 13 15: 39: 52 [INF] MEH LP: MEvt Info 20100(69) SUC.61 Debug 0x01  0x10 0x16 0x00 0x00 << < Technical Alarms >> >
@@ -13,13 +17,29 @@
 # Nov 13 16: 28: 58 [INF] MEH LP: MEvt Info 20100(69) SUC.61 Debug 0x04  0x02 0x04 0x00 0x00
 
 # Definition files:
-# C: \Users\urimrm\Projekty\Rx\R70\SC_newAPI\SW\Common\ASW\MEH_DEF.h
+# C:\Users\urimrm\Projekty\Rx\R70\SC_newAPI\SW\Common\ASW\MEH_DEF.h
 
 # Explanation:
 # Numbers:
 # - 17000(67) = MEH_SI_BASE
 # - 20100(69) = MEH_SUC_BASE
 
+"""
+Example:
+Line 450: Nov 13 15:40:10 [INF] McCtrl BE: 33F03006 SC3>MC:   Emergency event! Code 0x30 0x06 // EMCY invalidate transition=(0x30), Transition ?? = 0x06
+Line 452: Nov 13 15:40:10 [INF] McCtrl BE: 33F03008 SC3>MC:   Emergency event! Code 0x30 0x08
+Line 453: Nov 13 15:40:10 [INF] McCtrl BE: 33F03008 SC3>MC:   Emergency event! Code 0x30 0x08
+Line 467: Nov 13 15:41:04 [INF] McCtrl BE: 33F03006 SC3>MC:   Emergency event! Code 0x30 0x06
+Line 468: Nov 13 15:41:04 [INF] McCtrl BE: 33F03008 SC3>MC:   Emergency event! Code 0x30 0x08 //
+Line 469: Nov 13 15:41:04 [INF] McCtrl BE: 33F03010 SC3>MC:   Emergency event! Code 0x30 0x10
+
+Emergency event! Code 0x30 0x06 // EMCY invalidate transition=(0x30), Transition 0x06 =  ??
+Emergency event! Code 0x30 0x08 // EMCY invalidate transition=(0x30), Transition 0x08 =  (neso s yarn run)
+Emergency event! Code 0x30 0x08
+Emergency event! Code 0x30 0x06
+Emergency event! Code 0x30 0x08 //
+Emergency event! Code 0x30 0x10 // EMCY invalidate transition=(0x30), State 0x10 = slave TA
+"""
 
 Debug_0x00 = {
     "Debug_id": 0x00,
@@ -154,21 +174,3 @@ Debug_0x04 = {
          },
     ],
 }
-
-
-"""
-Example:
-Line 450: Nov 13 15:40:10 [INF] McCtrl BE: 33F03006 SC3>MC:   Emergency event! Code 0x30 0x06 // EMCY invalidate transition=(0x30), Transition ?? = 0x06
-Line 452: Nov 13 15:40:10 [INF] McCtrl BE: 33F03008 SC3>MC:   Emergency event! Code 0x30 0x08
-Line 453: Nov 13 15:40:10 [INF] McCtrl BE: 33F03008 SC3>MC:   Emergency event! Code 0x30 0x08
-Line 467: Nov 13 15:41:04 [INF] McCtrl BE: 33F03006 SC3>MC:   Emergency event! Code 0x30 0x06
-Line 468: Nov 13 15:41:04 [INF] McCtrl BE: 33F03008 SC3>MC:   Emergency event! Code 0x30 0x08 //
-Line 469: Nov 13 15:41:04 [INF] McCtrl BE: 33F03010 SC3>MC:   Emergency event! Code 0x30 0x10
-
-Emergency event! Code 0x30 0x06 // EMCY invalidate transition=(0x30), Transition 0x06 =  ??
-Emergency event! Code 0x30 0x08 // EMCY invalidate transition=(0x30), Transition 0x08 =  (neso s yarn run)
-Emergency event! Code 0x30 0x08
-Emergency event! Code 0x30 0x06
-Emergency event! Code 0x30 0x08 //
-Emergency event! Code 0x30 0x10 // EMCY invalidate transition=(0x30), State 0x10 = slave TA
-"""

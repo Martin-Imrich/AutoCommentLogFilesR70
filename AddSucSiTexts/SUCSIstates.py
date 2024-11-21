@@ -1,3 +1,8 @@
+# Map file for SUC->SI states.
+#
+# @author: Martin Imrich (martin.imrich@rieter.com) Version: 1.0.0
+# @modified: your_name () Version: 1.0.1
+
 """/*----------------------------------------------------------------------------
  *      Communication SU/SUC => SI <- ./SC_newAPI\SW\Specific\SUC\ASW\CAN\CAN_DEF_XXBC.h
  *---------------------------------------------------------------------------*/
@@ -100,7 +105,7 @@ SUCSIState = [
         {'code': 0x07, 'text': " "},
         {'code': 0x08, 'text': " "}
     ]},
-    {'id': 0x08, 'text': ' < Robot > ', 'substates': [ # SUSI_RCCTRL
+    {'id': 0x08, 'text': ' < Robot > ', 'substates': [  # SUSI_RCCTRL
         {'code': 0x00, 'text': "CLEANING_READY"},
         {'code': 0x01, 'text': "CLEANING_UNDERPRESSURE_ON"},
         {'code': 0x02, 'text': "CLEANING_BOX_CLOSED"},
@@ -123,7 +128,7 @@ SUCSIState = [
         {'code': 0x81, 'text': "TERMINATE_HANGUP_RC"},
         {'code': 0x82, 'text': "TERMINATE_TA"}
     ]},
-    {'id': 0x09, 'text': 'YMS', 'substates': [ # SUSI_YR_CTRL_CHANNEL
+    {'id': 0x09, 'text': 'YMS', 'substates': [  # SUSI_YR_CTRL_CHANNEL
         {'code': 0x00, 'text': "yarn break signal"},
         {'code': 0x01, 'text': "yarn run signal"},
     ]},
@@ -162,4 +167,3 @@ SUCSIState = [
         {'code': 0x08, 'text': " "}
     ]}
 ]
-

@@ -1,8 +1,8 @@
 # This script is used to comment log from R70 Machine.
 # It will append a debug text comment to log message.
 #
-# @author: Martin Imrich (martin.imrich@rieter.com)
-# @modified: your_name
+# @author: Martin Imrich (martin.imrich@rieter.com) Version: 1.0.0
+# @modified: your_name () Version: 1.0.1
 #
 # Example:
 # You download log files from machine log.

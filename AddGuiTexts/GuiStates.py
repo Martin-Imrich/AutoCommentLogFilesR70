@@ -1,3 +1,8 @@
+# Map of Gui states on R70 SUC.
+#
+# @author: Martin Imrich (martin.imrich@rieter.com) Version: 1.0.0
+# @modified: your_name () Version: 1.0.1
+
 GUIState = [
     {'id': 0x00, 'text': 'Spinning unit fault', 'substates': [
         {'code': 0x00, 'text': " "},

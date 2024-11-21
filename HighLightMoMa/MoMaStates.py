@@ -1,4 +1,9 @@
 # List of texts to search for
+#
+# @author: Martin Imrich (martin.imrich@rieter.com) Version: 1.0.0
+# @modified: your_name () Version: 1.0.1
+
+
 search_texts_1 = [
     "MM_fct_GO_SPINNING_SPEED",
     "MM_fct_HOMING_DRIVES",

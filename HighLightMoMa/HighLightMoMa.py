@@ -1,8 +1,8 @@
 # This script is used to comment log from R70 SUC.
 # It will append a MoMa text comment to log message.
 #
-# @author: Martin Imrich (martin.imrich@rieter.com)
-# @modified: your_name
+# @author: Martin Imrich (martin.imrich@rieter.com) Version: 1.0.0
+# @modified: your_name () Version: 1.0.1
 #
 # I used it in past to highlight states related to
 # Yarn Suction Drive and Loop Compensator Drive
