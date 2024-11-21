@@ -1,12 +1,16 @@
 # This script is used to comment log from R70 SUC.
 # It will append a GUI text comment to log message.
-
+#
+# @author: Martin Imrich (martin.imrich@rieter.com)
+# @modified: your_name
+#
 # Example:
 # You run logging to a file SUC_20241113.log using QCterminal tool.
 # Use debug mask 0x7f it will log messages like:
-# "DEB 17:24:07:170  Send_SUCSI_Ctrl_Msg: SUCSI msg 02, Data0 33, Data1 00"
+# Use debug mask 0x7f it will log messages like:
+# "DEB 17:24:07:170  MA_STATE 13 received SubState 6"
 # Running this script, a comment is appended
-# " <<< SUSI_STATE >, < READY >>>"
+# "<<< Process >, < YEP is active >>>"
 
 # You can update comment strings in GUIStates.py.
 # Used string are defined:
