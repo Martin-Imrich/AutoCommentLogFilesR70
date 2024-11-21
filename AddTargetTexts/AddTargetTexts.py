@@ -1,9 +1,29 @@
+# This script is used to comment log from R70 SUC.
+# It will append a full target text comment to log message.
+#
+# @author: Martin Imrich (martin.imrich@rieter.com)
+# @modified: your_name
+#
+# Example:
+# You run logging to a file SUC_20241113.log using QCterminal tool.
+# Use debug mask 0x7f it will log messages like:
+# "DEB 09:59:40:046  StartPos(Target=0, Position=36000, Ctrl=0)"
+# Running this script, a comment is appended
+# "<<< SWF_MTD - Measuringhead Traverse Drive >>>"
+
+# You can update comment strings in search_target_texts dictionary.
+
+# To run from notepad++ use:
+# python {Your_path}}\AnalyzeRxLogFiles\AddTargetTexts\AddTargetTexts.py "$(FULL_CURRENT_PATH)"
+# Example:
+# python C:/Users/urimrm/Projekty/Scripts/AnalyzeRxLogFiles/AddTargetTexts/AddTargetTexts.py "$(FULL_CURRENT_PATH)"
+
+import os
 import re
 import sys
-import os
 
 # Dictionary of strings to search for with their corresponding comments
-search_texts = {
+search_target_texts = {
     "Target=0": " <<< SWF_MTD - Measuringhead Traverse Drive >>>",
     "Target=1": " <<< SWF_DYD - Delivery Drive >>>",
     "Target=2": " <<< SWF_YTD - Yarn Traverse Drive >>>",
@@ -13,16 +33,18 @@ search_texts = {
     "Target=6": " <<< SWF_TLD - Top roller Lift Drive >>>",
     "Target=7": " <<< SWF_YHD - Yarn Handling Drive >>>",
     "Target=8": " <<< SWF_SND - Suction Nozzle Drive >>>",
-    "Target=10": " <<< SWF_WXD - Waxing Drive >>>", 
+    "Target=10": " <<< SWF_WXD - Waxing Drive >>>",
     # Add more search strings and their corresponding comments here
 }
 
+
 def find_text_suffix(line):
     # Check if any of the search texts are in the line
-    for search_text, comment in search_texts.items():
+    for search_text, comment in search_target_texts.items():
         if search_text in line:
             return comment
     return ""
+
 
 def modify_file(file_path):
     # Read the file contents
@@ -43,14 +65,9 @@ def modify_file(file_path):
     with open(file_path, 'w') as file:
         file.writelines(modified_lines)
 
-# Use this function to modify your file
-#modify_file('C:/Users/urimrm/Programy/QC_Terminal/QC_Terminal506/QcSettings/log/SUC_20240821_delete.log')
 
-
-# C:\Users\urimrm\Programy\QC_Terminal\QC_Terminal506\QcSettings\log\SUC_20240821_delete.log
-# run command in notepad++ python C:\Users\urimrm\Programy\QC_Terminal\QC_Terminal506\QcSettings\log\SUC_20240821_delete.log "$(FULL_CURRENT_PATH)"
 fn = sys.argv[1]
+# fn = "C:/Users/urimrm/Projekty/Rx/Documentation to R70/MyNotesToRx/R70_dbglogs/240821_SucLog/SUC_20240821_delete.log"
 if os.path.exists(fn):
     print(fn)
     modify_file(fn)
-

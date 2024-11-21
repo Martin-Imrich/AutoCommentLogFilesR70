@@ -1,12 +1,28 @@
+# This script is used to comment log from R70 Machine.
+# It will append a debug text comment to log message.
 #
-# SU communicate with SI on messages Send_SUCSI_Ctrl_Msg:
-# Send_SUCSI_Ctrl_Msg: SUCSI msg 08, Data0 05, Data1 00 is send to sth Robot
+# @author: Martin Imrich (martin.imrich@rieter.com)
+# @modified: your_name
+#
+# Example:
+# You download log files from machine log.
+#
+# "DEB 09:59:40:047  Send_SUCSI_Ctrl_Msg: SUCSI msg 02, Data0 25, Data1 00"
+# Running this script, a comment is appended
+# "<<< SUSI_STATE >, < YARNTRANSFER >>>"
+#
+# You can update comment strings in MachineLogMap.py.
+#
+# To run from notepad++ use:
+# python {Your_path}}\AnalyzeRxLogFiles\AddMachineLogComments\AddMachineLogComments.py "$(FULL_CURRENT_PATH)"
+# Example:
+# python C:\Users\urimrm\Projekty\Scripts\AnalyzeRxLogFiles\AddMachineLogComments\AddMachineLogComments.py "$(FULL_CURRENT_PATH)"
 
 import os
 import re
 import sys
 
-from dbglog_map import Debug_0x00, Debug_0x01, Debug_0x02, Debug_0x03, Debug_0x04
+from MachineLogMap import Debug_0x00, Debug_0x01, Debug_0x02, Debug_0x03, Debug_0x04
 
 
 def get_debug_0_comment(substate: int) -> str:

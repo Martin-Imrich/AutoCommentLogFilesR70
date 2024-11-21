@@ -86,7 +86,8 @@ SUCSIState = [
         {'code': 0x05, 'text': " "},
         {'code': 0x06, 'text': " "},
         {'code': 0x07, 'text': " "},
-        {'code': 0x08, 'text': " "}
+        {'code': 0x08, 'text': " "},
+        {'code': 0x90, 'text': " "},
     ]},
     {'id': 0x07, 'text': 'SUSI_ALARM_TECH_SPEC', 'substates': [
         {'code': 0x00, 'text': " "},
@@ -135,7 +136,8 @@ SUCSIState = [
         {'code': 0x05, 'text': " "},
         {'code': 0x06, 'text': " "},
         {'code': 0x07, 'text': " "},
-        {'code': 0x08, 'text': " "}
+        {'code': 0x08, 'text': " "},
+        {'code': 0x2d, 'text': " "}
     ]},
     {'id': 0x0b, 'text': 'SUSI_RESOURCE_REQUEST', 'substates': [
         {'code': 0x00, 'text': " "},
