@@ -17,6 +17,7 @@ Python project to auto-comment a log files of R70 project.
 # How to contribute
 - follow a pattern, create new folder and script that search for regex string create a map file,
 - add/modify to a map file state
+- update your version with a file
 
 # Environment setup
 * Tool QCterminal from Uster Technologies AG
@@ -57,6 +58,7 @@ Note: Once environment is created, it is still needed to activate environment ea
 ## AddMachineLogComments
 * This script is used to comment log from R70 Machine.
 * It will append a debug text comment to log message.
+
 * ![product-screenshot](Documentation/ReadMeImages/AddMachineLogComments.png)
 * Example:
     * You download log files from machine log:

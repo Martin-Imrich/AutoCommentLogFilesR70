@@ -187,8 +187,7 @@ def modify_file(file_path) -> None:
 # run command in notepad++ python:
 # python C:\Users\urimrm\Projekty\Scripts\AnalyzeRxLogFiles\dbglog_comment\dbglog_comment.py "$(FULL_CURRENT_PATH)"
 
-# fn = sys.argv[1]
-fn = 'C:/Users/urimrm/Projekty/Rx/Documentation to R70/MyNotesToRx/R70_Velen/02_Feeder_running/SUC002_01.txt'
+fn = sys.argv[1]
 
 # option = sys.argv[2]  # Option
 option = "Debug_all"
