@@ -1,0 +1,33 @@
+{
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+    },
+
+    "isort.args":["--profile", "black"],
+
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": ["--line-length", "65"],
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.pytestParameters": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.inlayHints.callArgumentNames": "all",
+
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "code-runner.runInTerminal": true,
+
+    // Use spaces instead of tabs
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+
+    // Remove white spaces on end of line
+    "files.trimTrailingWhitespace": true,
+
+
+    // M.I.: personal settings
+    //"editor.fontSize": 19, // 34inch monitor:
+    "editor.fontSize": 17, // 24inch monitor:
+    //"editor.fontSize": 12, // 15inch monitor:
+}

@@ -1,8 +1,22 @@
 {
-    // See https://go.microsoft.com/fwlink/?LinkId=733558
-    // for the documentation about the tasks.json format
+    // M.I.: used during development,
+
     "version": "2.0.0",
     "tasks": [
+        {
+            "label": "Comment Machine dbglog",
+            "command": "python ./dbglog_comment/dbglog_comment.py 'C:/Users/urimrm/Projekty/Rx/Documentation to R70/MyNotesToRx/R70_Velen/01_Rotor_Cleaning_Active/LOG/split/SC04/SUC073.txt'",
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "focus": true
+            }
+        },
         {
             "label": "Run MoMa YSD",
             "command": "python ./HighLightMoMa/HighLightMoMa.py 'C:/Users/urimrm/Programy/QC_Terminal/QC_Terminal506/QcSettings/log/SUC_20240726_Copy.log'",
@@ -22,7 +36,7 @@
             "command": "python ./AddGuiTexts/AddGuiTexts.py 'C:/Users/urimrm/Programy/QC_Terminal/QC_Terminal506/QcSettings/log/SUC_20240726_Copy.log'",
             "type": "shell",
             "group": {
-                "kind": "build",
+                "kind": "test",
                 "isDefault": false
             },
             "presentation": {
@@ -32,12 +46,12 @@
             }
         },
         {
-            "label": "Run AddGuiTexts",
-            "command": "python ./AddComments/AddComment.py 'C:/Users/urimrm/Programy/QC_Terminal/QC_Terminal506/QcSettings/log/SUC_20240821_delete.log'",
+            "label": "Run AddTargetTexts",
+            "command": "python ./AddTargetTexts/AddTargetTexts.py 'C:/Users/urimrm/Programy/QC_Terminal/QC_Terminal506/QcSettings/log/SUC_20240821_delete.log'",
             "type": "shell",
             "group": {
-                "kind": "build",
-                "isDefault": true
+                "kind": "test",
+                "isDefault": false
             },
             "presentation": {
                 "reveal": "always",
@@ -46,8 +60,8 @@
             }
         },
         {
-            "label": "nosetest",
-            "command": "nosetests -v",
+            "label": "Template",
+            "command": "ls",
             "type": "shell",
             "group": {
                 "kind": "test",

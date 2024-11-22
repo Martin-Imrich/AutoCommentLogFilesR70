@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "ms-python.black-formatter",
+        "formulahendry.code-runner",
+        "ms-python.isort",
+        "zainchen.json",
+        "ms-python.python",
+        "donjayamanne.python-environment-manager"
+    ]
+}
