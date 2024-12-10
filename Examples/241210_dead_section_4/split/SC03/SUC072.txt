@@ -1,0 +1,51 @@
+Dec 09 07:49:09 [INF] McCtrl BE: 33174F01 MC>SC3:   SpP  72: Set WaitRB, reason 0x01
+Dec 09 07:49:27 [INF] McCtrl BE: 33174F01 MC>SC3:   SpP  72: Set WaitRB, reason 0x01
+Dec 09 07:49:27 [INF] McCtrl BE: 33171001 MC>SC3:   SpP  72: Add to PG 1
+Dec 09 07:52:58 [INF] Q10CCU 2: TA set on spp 72 type 101, PGrp 2
+Dec 09 07:52:58 [INF] Q10CCU 2: SPPINFO update spp 72 index 2, YSpeed 169.00, PGrp 2
+Dec 09 07:52:58 [INF] Q10CCU 2: SPPINFO update spp 72 index 1, YCount 41.70, PGrp 2
+Dec 09 07:52:58 [INF] Q10CCU 2: SPPINFO update spp 72 index 3, Rotor 104, PGrp 2
+Dec 09 07:52:58 [INF] Q10CCU 7: QInit event spp 72, PGrp 2, Protocol 3
+Dec 09 07:53:06 [INF] McCtrl BE: 33171701 SC3>MC:   SpP  72: TA state left + SP-Lock
+Dec 09 07:53:08 [INF] Q10CCU 2: TA reset on spp 72, PGpr 2
+Dec 09 07:53:14 [INF] McCtrl BE: 33171100 SC3>MC:   SpP  72: New SpP state: RDY
+Dec 09 08:05:41 [INF] Q10CCU 2: SPPINFO update spp 72 index 2, YSpeed 167.00, PGrp 2
+Dec 09 08:05:41 [INF] Q10CCU 6: SPPINFO update spp 72 index 1, YCount 35.70, PGrp 2
+Dec 09 18:30:27 [INF] McCtrl BE: 220A4700 MC>RB2:   SpP  72: SpP requires service 01
+Dec 09 18:33:33 [INF] McCtrl BE: 220A4700 MC>RB2:   SpP  72: SpP requires service 01
+Dec 09 22:03:39 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:04:39 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:05:39 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:06:39 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:07:39 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:08:39 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:09:39 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:10:39 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:11:39 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:12:39 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:13:39 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:14:39 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:15:39 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:16:39 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:17:39 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:18:39 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:19:39 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:20:39 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:21:40 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:22:40 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:23:39 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:24:39 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:25:39 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:26:39 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:27:40 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:28:40 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:29:40 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:30:40 [INF] McCtrl BE: View update: Handle  247   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:36:34 [INF] McCtrl BE: View update: Handle  263   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:37:34 [INF] McCtrl BE: View update: Handle  263   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:38:34 [INF] McCtrl BE: View update: Handle  263   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:39:34 [INF] McCtrl BE: View update: Handle  263   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:40:34 [INF] McCtrl BE: View update: Handle  263   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:57:24 [INF] McCtrl BE: View update: Handle  267   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:58:24 [INF] McCtrl BE: View update: Handle  267   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295
+Dec 09 22:59:24 [INF] McCtrl BE: View update: Handle  269   Id 4  RepID 65535  Grp 0  SpP 72  Rb 0  Misc 4294967295

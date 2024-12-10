@@ -1,0 +1,243 @@
+Dec 09 07:46:45 [INF] NuuX BE: 78310000 CND>MC:   SC1 Boot message
+Dec 09 07:46:45 [INF] NuuX BE: 7831F000 MC>CND:   Start guarding node SC1
+Dec 09 07:46:46 [INF] NuuX BE: 78317F00 CND>MC:   SC1 Pre-Operational
+Dec 09 07:46:48 [INF] NuuX BE: 78310100 MC>CND:   Start Remote Node SC1
+Dec 09 07:46:48 [INF] NuuX BE: 78310500 CND>MC:   SC1 Operational
+Dec 09 07:46:49 [INF] NuuX BE: 31310402 MC>SC1:   Machine type code 02
+Dec 09 07:46:49 [INF] NuuX BE: 31310316 MC>SC1:   YC type code 16
+Dec 09 07:46:49 [INF] NuuX BE: 313F0200 MC>SC1:   Configuration done
+Dec 09 07:49:01 [INF] Q10CCU 1:  Q_InspectMode.c ->Q_INSM_Init_Deafult firts spp 1, last spp 1, active 0
+Dec 09 07:49:06 [INF] McCtrl BE: View HMI 0: Handle   -1   Id ffffffff  RepID 65535  Grp 0  SpP 1  Rb 0  Misc 0
+Dec 09 07:49:07 [INF] McCtrl BE: 31004F01 MC>SC1:   SpP   1: Set WaitRB, reason 0x01
+Dec 09 07:49:09 [INF] McCtrl BE: 78310000 CND>MC:   SC1 Boot message
+Dec 09 07:49:10 [INF] McCtrl BE: 78317F00 CND>MC:   SC1 Pre-Operational
+Dec 09 07:49:10 [INF] McCtrl BE: 7831F000 MC>CND:   Start guarding node SC1
+Dec 09 07:49:10 [INF] McCtrl BE: 78310100 MC>CND:   Start Remote Node SC1
+Dec 09 07:49:10 [INF] McCtrl BE: 78310500 CND>MC:   SC1 Operational
+Dec 09 07:49:11 [INF] McCtrl BE: 31333724 SC1>MC:   Release 241203
+Dec 09 07:49:24 [INF] McCtrl BE: 31004F01 MC>SC1:   SpP   1: Set WaitRB, reason 0x01
+Dec 09 07:49:24 [INF] McCtrl BE: 31001000 MC>SC1:   SpP   1: Add to PG 0
+Dec 09 07:49:25 [INF] McCtrl BE: 31F08080 SC1>MC:   Emergency event! Code 0x80 0x80
+Dec 09 07:50:27 [INF] McCtrl BE: View open  : Handle   13   Id 27  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 07:51:43 [INF] Q10CCU 2: TA set on spp 1 type 101, PGrp 1
+Dec 09 07:51:43 [INF] Q10CCU 6: SPPINFO update spp 1 index 2, YSpeed 169.00, PGrp 1
+Dec 09 07:51:43 [INF] Q10CCU 2: SPPINFO update spp 1 index 1, YCount 41.70, PGrp 1
+Dec 09 07:51:43 [INF] Q10CCU 6: SPPINFO update spp 1 index 3, Rotor 104, PGrp 1
+Dec 09 07:51:43 [INF] Q10CCU 2: QInit event spp 1, PGrp 1, Protocol 3
+Dec 09 07:52:20 [INF] McCtrl BE: 31001701 SC1>MC:   SpP   1: TA state left + SP-Lock
+Dec 09 07:52:21 [INF] Q10CCU 2: TA reset on spp 1, PGpr 1
+Dec 09 07:52:28 [INF] McCtrl BE: 31001100 SC1>MC:   SpP   1: New SpP state: RDY
+Dec 09 07:52:31 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 07:52:31 [INF] McCtrl BE: View open  : Handle   15   Id 26  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 07:52:32 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 07:52:32 [INF] McCtrl BE: View open  : Handle   17   Id 1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 07:52:33 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 07:52:33 [INF] McCtrl BE: View open  : Handle   19   Id 25  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 07:52:37 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 07:52:57 [INF] McCtrl BE: View open  : Handle   23   Id 27  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 07:53:28 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 07:53:38 [INF] McCtrl BE: View open  : Handle   25   Id 27  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 07:54:08 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 07:54:41 [INF] McCtrl BE: View open  : Handle   27   Id 26  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 07:54:42 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 07:54:42 [INF] McCtrl BE: View open  : Handle   29   Id 27  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 07:54:43 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 07:54:43 [INF] McCtrl BE: View open  : Handle   31   Id 26  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 07:54:43 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 07:54:44 [INF] McCtrl BE: View open  : Handle   33   Id 1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:00:57 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:01:12 [INF] McCtrl BE: View open  : Handle   35   Id 1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:01:31 [INF] Q10CCU 6: SPPINFO update spp 1 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:01:31 [INF] Q10CCU 6: SPPINFO update spp 1 index 1, YCount 35.70, PGrp 1
+Dec 09 08:02:03 [INF] Q10CCU 2: SPPINFO update spp 1 index 2, YSpeed 169.00, PGrp 1
+Dec 09 08:02:03 [INF] Q10CCU 6: SPPINFO update spp 1 index 1, YCount 41.70, PGrp 1
+Dec 09 08:02:07 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:02:09 [INF] McCtrl BE: View open  : Handle   37   Id 27  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:02:14 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:02:45 [INF] McCtrl BE: View open  : Handle   41   Id 1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:03:01 [INF] Q10CCU 6: SPPINFO update spp 1 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:03:01 [INF] Q10CCU 6: SPPINFO update spp 1 index 1, YCount 35.70, PGrp 1
+Dec 09 08:03:14 [INF] Q10CCU 2: SPPINFO update spp 1 index 2, YSpeed 169.00, PGrp 1
+Dec 09 08:03:14 [INF] Q10CCU 6: SPPINFO update spp 1 index 1, YCount 41.70, PGrp 1
+Dec 09 08:03:37 [INF] Q10CCU 2: SPPINFO update spp 1 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:03:37 [INF] Q10CCU 6: SPPINFO update spp 1 index 1, YCount 35.70, PGrp 1
+Dec 09 08:05:23 [INF] Q10CCU 2: SPPINFO update spp 1 index 2, YSpeed 169.00, PGrp 1
+Dec 09 08:05:23 [INF] Q10CCU 2: SPPINFO update spp 1 index 1, YCount 41.70, PGrp 1
+Dec 09 08:05:32 [INF] Q10CCU 6: SPPINFO update spp 1 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:05:32 [INF] Q10CCU 2: SPPINFO update spp 1 index 1, YCount 35.70, PGrp 1
+Dec 09 08:05:36 [INF] McCtrl BE: View open  : Handle   42   Id 1  RepID 65535  Grp 2  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:05:54 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 2  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:05:55 [INF] McCtrl BE: View open  : Handle   44   Id 27  RepID 65535  Grp 2  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:05:59 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 2  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:13:23 [INF] McCtrl BE: View open  : Handle   49   Id 1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:14:00 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:19:44 [INF] McCtrl BE: View open  : Handle   53   Id 1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:19:46 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:19:49 [INF] McCtrl BE: View open  : Handle   55   Id 29  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:20:09 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:21:54 [INF] McCtrl BE: View open  : Handle   57   Id 2  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:22:24 [INF] McCtrl BE: View open  : Handle   58   Id 2  RepID 65535  Grp 2  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:22:31 [INF] McCtrl BE: View open  : Handle   59   Id 2  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:28:54 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:28:59 [INF] McCtrl BE: View open  : Handle   61   Id 26  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:29:01 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:29:01 [INF] McCtrl BE: View open  : Handle   63   Id 27  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:29:47 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:29:53 [INF] McCtrl BE: View open  : Handle   65   Id 27  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:30:22 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:35:43 [INF] McCtrl BE: View open  : Handle   68   Id 2  RepID 65535  Grp 2  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:35:54 [INF] McCtrl BE: View open  : Handle   69   Id 2  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:35:58 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:42:25 [INF] McCtrl BE: View open  : Handle   73   Id 25  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:42:27 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:42:27 [INF] McCtrl BE: View open  : Handle   75   Id 27  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:42:40 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:46:15 [INF] McCtrl BE: View open  : Handle   77   Id 1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:49:09 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:49:18 [INF] McCtrl BE: View open  : Handle   79   Id 28  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:49:44 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:49:44 [INF] McCtrl BE: View open  : Handle   81   Id 28  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:50:15 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:50:15 [INF] McCtrl BE: View open  : Handle   83   Id 28  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:50:59 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:51:00 [INF] McCtrl BE: View open  : Handle   85   Id 28  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:51:18 [INF] McCtrl BE: View open  : Handle   86   Id 28  RepID 65535  Grp 2  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:51:35 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 2  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:51:35 [INF] McCtrl BE: View open  : Handle   88   Id 28  RepID 65535  Grp 2  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:52:00 [INF] McCtrl BE: View open  : Handle   89   Id 28  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:52:03 [INF] McCtrl BE: View open  : Handle   90   Id 28  RepID 65535  Grp 2  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:52:14 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 2  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:52:14 [INF] McCtrl BE: View open  : Handle   92   Id 28  RepID 65535  Grp 2  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:52:29 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 2  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:52:29 [INF] McCtrl BE: View open  : Handle   94   Id 28  RepID 65535  Grp 2  SpP 1  Rb 1  Misc 4294967295
+Dec 09 08:58:33 [INF] McCtrl RS: SpS 89  YC1 cut, code 0x00
+Dec 09 09:06:46 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 2  SpP 1  Rb 1  Misc 4294967295
+Dec 09 09:06:52 [INF] McCtrl BE: View open  : Handle   96   Id 7  RepID 65535  Grp 2  SpP 1  Rb 1  Misc 4294967295
+Dec 09 09:06:57 [INF] McCtrl BE: View open  : Handle   97   Id 7  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 09:59:00 [INF] McCtrl RS: SpS 79  YC1 cut, code 0x00
+Dec 09 10:10:18 [INF] McCtrl BE: View open  : Handle  123   Id 4  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 10:30:34 [INF] McCtrl RS: SpS 86  YC1 cut, code 0x10
+Dec 09 10:32:10 [INF] RepEn AC: >EnyLog<  Group 1: running SU 1,  active power 24.763 kW,  specific energy 27130.48 Wh/kg  of last 31.0 minutes
+Dec 09 11:03:10 [INF] RepEn AC: >EnyLog<  Group 1: running SU 1,  active power 24.261 kW,  specific energy 67683.45 Wh/kg  of last 31.0 minutes
+Dec 09 11:32:10 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.364 kW,  specific energy 68403.85 Wh/kg  of last 31.0 minutes
+Dec 09 11:34:10 [INF] RepEn AC: >EnyLog<  Group 1: running SU 1,  active power 24.361 kW,  specific energy 68024.59 Wh/kg  of last 31.0 minutes
+Dec 09 11:52:54 [INF] McCtrl RS: SpS 74  YC1 cut, code 0x00
+Dec 09 11:53:32 [INF] McCtrl RS: SpS 74  YC1 cut, code 0x00
+Dec 09 12:04:11 [INF] RepEn AC: >EnyLog<  Group 1: running SU 1,  active power 24.268 kW,  specific energy 67970.83 Wh/kg  of last 30.0 minutes
+Dec 09 12:33:11 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.254 kW,  specific energy 865868.57 Wh/kg  of last 30.0 minutes
+Dec 09 12:35:11 [INF] RepEn AC: >EnyLog<  Group 1: running SU 1,  active power 24.278 kW,  specific energy 68068.64 Wh/kg  of last 31.0 minutes
+Dec 09 13:04:11 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.375 kW,  specific energy 68060.05 Wh/kg  of last 31.0 minutes
+Dec 09 13:05:12 [INF] RepEn AC: >EnyLog<  Group 1: running SU 1,  active power 24.379 kW,  specific energy 67727.83 Wh/kg  of last 30.0 minutes
+Dec 09 13:34:14 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.358 kW,  specific energy 68149.16 Wh/kg  of last 30.1 minutes
+Dec 09 13:35:14 [INF] RepEn AC: >EnyLog<  Group 1: running SU 1,  active power 24.364 kW,  specific energy 68110.05 Wh/kg  of last 30.0 minutes
+Dec 09 14:00:00 [INF] RepEn AC: >EnyLog<  Group 1: running SU 1,  active power 24.380 kW,  specific energy 68445.78 Wh/kg  of last 24.8 minutes
+Dec 09 14:00:00 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.381 kW,  specific energy 67973.24 Wh/kg  of last 25.8 minutes
+Dec 09 14:22:06 [INF] McCtrl RS: SpS 74  YC1 cut, code 0x00
+Dec 09 14:30:15 [INF] RepEn AC: >EnyLog<  Group 1: running SU 1,  active power 24.383 kW,  specific energy 68285.00 Wh/kg  of last 30.3 minutes
+Dec 09 14:30:15 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.383 kW,  specific energy 71461.04 Wh/kg  of last 30.3 minutes
+Dec 09 15:00:17 [INF] RepEn AC: >EnyLog<  Group 1: running SU 1,  active power 24.347 kW,  specific energy 68077.48 Wh/kg  of last 30.0 minutes
+Dec 09 15:00:18 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.347 kW,  specific energy 68077.48 Wh/kg  of last 30.0 minutes
+Dec 09 15:30:20 [INF] RepEn AC: >EnyLog<  Group 1: running SU 1,  active power 24.338 kW,  specific energy 67728.27 Wh/kg  of last 30.1 minutes
+Dec 09 15:30:20 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.338 kW,  specific energy 68106.64 Wh/kg  of last 30.1 minutes
+Dec 09 16:01:20 [INF] RepEn AC: >EnyLog<  Group 1: running SU 1,  active power 24.351 kW,  specific energy 68376.90 Wh/kg  of last 31.0 minutes
+Dec 09 16:01:20 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.351 kW,  specific energy 68007.29 Wh/kg  of last 31.0 minutes
+Dec 09 16:31:23 [INF] RepEn AC: >EnyLog<  Group 1: running SU 1,  active power 24.336 kW,  specific energy 68090.50 Wh/kg  of last 30.1 minutes
+Dec 09 16:31:23 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.336 kW,  specific energy 68090.33 Wh/kg  of last 30.1 minutes
+Dec 09 16:53:03 [INF] McCtrl RS: SpS 73  YC1 cut, code 0x00
+Dec 09 16:53:59 [INF] McCtrl RS: SpS 73  YC1 cut, code 0x00
+Dec 09 17:01:25 [INF] RepEn AC: >EnyLog<  Group 1: running SU 1,  active power 24.368 kW,  specific energy 73900.84 Wh/kg  of last 30.0 minutes
+Dec 09 17:01:25 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.368 kW,  specific energy 68120.89 Wh/kg  of last 30.0 minutes
+Dec 09 17:31:27 [INF] RepEn AC: >EnyLog<  Group 1: running SU 1,  active power 24.334 kW,  specific energy 68008.82 Wh/kg  of last 30.0 minutes
+Dec 09 17:31:27 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.334 kW,  specific energy 68046.42 Wh/kg  of last 30.0 minutes
+Dec 09 18:01:28 [INF] RepEn AC: >EnyLog<  Group 1: running SU 1,  active power 24.345 kW,  specific energy 68061.89 Wh/kg  of last 30.0 minutes
+Dec 09 18:01:28 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.345 kW,  specific energy 68024.30 Wh/kg  of last 30.0 minutes
+Dec 09 18:09:34 [INF] McCtrl RS: SpS 74  YC1 cut, code 0x00
+Dec 09 18:10:26 [INF] McCtrl RS: SpS 74  YC1 cut, code 0x00
+Dec 09 18:26:49 [INF] McCtrl RS: SpS 74  YC1 cut, code 0x00
+Dec 09 18:31:25 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 09 18:31:29 [INF] RepEn AC: >EnyLog<  Group 1: running SU 1,  active power 24.530 kW,  specific energy 68308.60 Wh/kg  of last 30.0 minutes
+Dec 09 18:31:29 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.530 kW,  specific energy 76420.25 Wh/kg  of last 30.0 minutes
+Dec 09 18:32:17 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 09 19:01:32 [INF] RepEn AC: >EnyLog<  Group 1: running SU 1,  active power 24.384 kW,  specific energy 68471.89 Wh/kg  of last 30.1 minutes
+Dec 09 19:01:33 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.384 kW,  specific energy 48636.78 Wh/kg  of last 30.1 minutes
+Dec 09 19:12:30 [INF] McCtrl RS: SpS 73  YC1 cut, code 0x00
+Dec 09 19:31:35 [INF] RepEn AC: >EnyLog<  Group 1: running SU 1,  active power 24.375 kW,  specific energy 73562.16 Wh/kg  of last 30.1 minutes
+Dec 09 19:31:35 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.375 kW,  specific energy 68219.66 Wh/kg  of last 30.1 minutes
+Dec 09 19:33:03 [INF] McCtrl RS: SpS 74  YC1 cut, code 0x00
+Dec 09 20:01:42 [INF] RepEn AC: >EnyLog<  Group 1: running SU 1,  active power 24.404 kW,  specific energy 68267.93 Wh/kg  of last 30.0 minutes
+Dec 09 20:01:42 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.404 kW,  specific energy 73614.21 Wh/kg  of last 30.0 minutes
+Dec 09 20:32:42 [INF] RepEn AC: >EnyLog<  Group 1: running SU 1,  active power 24.352 kW,  specific energy 68102.70 Wh/kg  of last 31.0 minutes
+Dec 09 20:32:42 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.352 kW,  specific energy 68102.70 Wh/kg  of last 31.0 minutes
+Dec 09 21:02:43 [INF] RepEn AC: >EnyLog<  Group 1: running SU 1,  active power 24.348 kW,  specific energy 68109.49 Wh/kg  of last 30.0 minutes
+Dec 09 21:02:43 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.348 kW,  specific energy 68109.49 Wh/kg  of last 30.0 minutes
+Dec 09 21:13:54 [INF] McCtrl BE: View open  : Handle  225   Id 4  RepID 65535  Grp 2  SpP 1  Rb 1  Misc 4294967295
+Dec 09 21:14:21 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 09 21:14:57 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 09 21:32:45 [INF] RepEn AC: >EnyLog<  Group 1: running SU 1,  active power 24.207 kW,  specific energy 67711.67 Wh/kg  of last 30.0 minutes
+Dec 09 21:32:45 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.207 kW,  specific energy 94690.54 Wh/kg  of last 30.0 minutes
+Dec 09 22:00:04 [INF] RepEn AC: >EnyLog<  Group 1: running SU 1,  active power 24.213 kW,  specific energy 101936.29 Wh/kg  of last 27.3 minutes
+Dec 09 22:00:05 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.213 kW,  specific energy 67540.61 Wh/kg  of last 27.3 minutes
+Dec 09 22:30:47 [INF] RepEn AC: >EnyLog<  Group 1: running SU 1,  active power 24.192 kW,  specific energy 67637.86 Wh/kg  of last 30.7 minutes
+Dec 09 22:30:47 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.192 kW,  specific energy 67637.75 Wh/kg  of last 30.7 minutes
+Dec 09 22:31:29 [INF] McCtrl BE: View open  : Handle  248   Id 4  RepID 65535  Grp 1  SpP 1  Rb 1  Misc 4294967295
+Dec 09 23:00:48 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.067 kW,  specific energy 67418.99 Wh/kg  of last 30.0 minutes
+Dec 09 23:30:50 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.056 kW,  specific energy 67292.40 Wh/kg  of last 30.0 minutes
+Dec 10 00:00:52 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.065 kW,  specific energy 67292.68 Wh/kg  of last 30.0 minutes
+Dec 10 00:30:53 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.067 kW,  specific energy 67262.01 Wh/kg  of last 30.0 minutes
+Dec 10 01:01:53 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.065 kW,  specific energy 67253.35 Wh/kg  of last 31.0 minutes
+Dec 10 01:32:54 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.077 kW,  specific energy 67239.62 Wh/kg  of last 31.0 minutes
+Dec 10 02:02:56 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.082 kW,  specific energy 67347.15 Wh/kg  of last 30.0 minutes
+Dec 10 02:32:56 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.054 kW,  specific energy 67265.41 Wh/kg  of last 30.0 minutes
+Dec 10 03:03:57 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.085 kW,  specific energy 67293.18 Wh/kg  of last 31.0 minutes
+Dec 10 03:33:58 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.100 kW,  specific energy 67393.24 Wh/kg  of last 30.0 minutes
+Dec 10 04:04:01 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.104 kW,  specific energy 67422.56 Wh/kg  of last 30.0 minutes
+Dec 10 04:34:04 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.102 kW,  specific energy 67469.27 Wh/kg  of last 30.1 minutes
+Dec 10 05:04:06 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.112 kW,  specific energy 67378.71 Wh/kg  of last 30.0 minutes
+Dec 10 05:35:06 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.107 kW,  specific energy 67331.29 Wh/kg  of last 31.0 minutes
+Dec 10 06:00:01 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.083 kW,  specific energy 67602.63 Wh/kg  of last 24.9 minutes
+Dec 10 06:30:09 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.054 kW,  specific energy 67123.83 Wh/kg  of last 30.1 minutes
+Dec 10 06:52:48 [INF] McCtrl RS: SpS 12  YC1 cut, code 0x00
+Dec 10 06:52:55 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 10 07:00:10 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.062 kW,  specific energy 69182.87 Wh/kg  of last 30.0 minutes
+Dec 10 07:21:00 [INF] McCtrl BE: 210A0000 MC>RB1:   SpP   1: SpP requires service 01
+Dec 10 07:21:25 [INF] McCtrl BE: 210A0000 MC>RB1:   SpP   1: SpP requires service 61
+Dec 10 07:21:28 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.1 Debug 0x00  0x31 0x01 0x00 0x00 
+Dec 10 07:21:28 [INF] McCtrl BE: 210A0008 RB1>MC:   SpP   1: Request registration
+Dec 10 07:21:28 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.1 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 10 07:21:28 [INF] McCtrl BE: 31008161 MC>SC1:   SpP   1: RB1 registration request 61h
+Dec 10 07:21:28 [INF] McCtrl BE: 31008100 SC1>MC:   SpP   1: RB1 registration accepted
+Dec 10 07:21:28 [INF] McCtrl BE: 31320000 MC>SC1:   Assign resources for MSR
+Dec 10 07:21:28 [INF] McCtrl BE: 210B0008 MC>RB1:   SpP   1: Registration accepted
+Dec 10 07:21:28 [INF] McCtrl BE: 31001280 SC1>MC:   SpP   1: AS: Start SY piecing cycle
+Dec 10 07:21:28 [INF] McCtrl BE: 31004E00 MC>SC1:   SpP   1: Package diameter 0
+Dec 10 07:21:29 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.1 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 10 07:21:31 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.1 Debug 0x00  0x31 0x02 0x00 0x00 
+Dec 10 07:21:40 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.1 Debug 0x00  0x31 0x03 0x00 0x00 
+Dec 10 07:21:40 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.1 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 10 07:21:50 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.1 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 10 07:21:50 [INF] MEH LP: MEvt Info 18000(68) SU.1 Debug 0x00  0x04 0x00 0x00 0x00 
+Dec 10 07:21:53 [INF] MEH LP: MEvt Info 20100(69) SUC.1 Debug 0x04  0x8D 0x04 0x00 0x00 
+Dec 10 07:21:58 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.1 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 10 07:22:09 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.1 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 10 07:22:11 [INF] MEH LP: MEvt Info 18000(68) SU.1 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 10 07:22:11 [INF] MEH LP: MEvt Info 20150(141) SU.1  0x00 0x00 0x00 0x00 
+Dec 10 07:22:12 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.1 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 10 07:22:15 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.1 Debug 0x00  0x29 0x00 0x00 0x00 
+Dec 10 07:22:17 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.1 Debug 0x00  0x2A 0x00 0x00 0x00 
+Dec 10 07:22:17 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.1 Debug 0x03  0x00 0x01 0x01 0x2A 
+Dec 10 07:22:17 [INF] McCtrl BE: 31001283 SC1>MC:   SpP   1: AS: SY piecing succeeded
+Dec 10 07:22:18 [INF] McCtrl BE: 31008A00 MC>SC1:   SpP   1: RB releases registration
+Dec 10 07:22:22 [INF] McCtrl BE: 31320000 MC>SC1:   Assign resources for MSR
+Dec 10 07:30:12 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.045 kW,  specific energy 67242.23 Wh/kg  of last 30.0 minutes
+Dec 10 08:00:13 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.078 kW,  specific energy 67300.39 Wh/kg  of last 30.0 minutes
+Dec 10 08:30:15 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.068 kW,  specific energy 67703.76 Wh/kg  of last 30.0 minutes
+Dec 10 08:33:14 [INF] McCtrl RS: SpS 12  YC1 cut, code 0x00
+Dec 10 08:33:21 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 10 08:47:08 [INF] McCtrl RS: SpS 12  YC1 cut, code 0x00
+Dec 10 08:47:16 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 10 08:47:58 [INF] McCtrl RS: SpS 12  YC1 cut, code 0x01
+Dec 10 08:48:04 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 10 08:48:37 [INF] McCtrl RS: SpS 12  YC1 cut, code 0x00
+Dec 10 08:48:43 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 10 08:49:26 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 10 09:00:16 [INF] RepEn AC: >EnyLog<  Group 2: running SU 1,  active power 24.113 kW,  specific energy 77280.89 Wh/kg  of last 30.0 minutes

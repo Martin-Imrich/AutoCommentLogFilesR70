@@ -1,0 +1,1 @@
+Dec 10 07:18:39 [INF] McCtrl BE: 62174F01 MC>SC50:  SpP 1200: Set WaitRB, reason 0x01

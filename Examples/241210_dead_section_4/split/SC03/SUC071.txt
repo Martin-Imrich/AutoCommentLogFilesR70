@@ -1,0 +1,244 @@
+Dec 09 07:46:45 [INF] NuuX BE: 78330000 CND>MC:   SC3 Boot message
+Dec 09 07:46:45 [INF] NuuX BE: 7833F000 MC>CND:   Start guarding node SC3
+Dec 09 07:46:46 [INF] NuuX BE: 78337F00 CND>MC:   SC3 Pre-Operational
+Dec 09 07:46:48 [INF] NuuX BE: 78330100 MC>CND:   Start Remote Node SC3
+Dec 09 07:46:48 [INF] NuuX BE: 78330500 CND>MC:   SC3 Operational
+Dec 09 07:46:49 [INF] NuuX BE: 33310402 MC>SC3:   Machine type code 02
+Dec 09 07:46:49 [INF] NuuX BE: 33310316 MC>SC3:   YC type code 16
+Dec 09 07:46:49 [INF] NuuX BE: 333F0200 MC>SC3:   Configuration done
+Dec 09 07:49:09 [INF] McCtrl BE: 78330000 CND>MC:   SC3 Boot message
+Dec 09 07:49:09 [INF] McCtrl BE: 78337F00 CND>MC:   SC3 Pre-Operational
+Dec 09 07:49:09 [INF] McCtrl BE: 7833F000 MC>CND:   Start guarding node SC3
+Dec 09 07:49:09 [INF] McCtrl BE: 78330100 MC>CND:   Start Remote Node SC3
+Dec 09 07:49:10 [INF] McCtrl BE: 78330500 CND>MC:   SC3 Operational
+Dec 09 07:49:11 [INF] McCtrl BE: 33333724 SC3>MC:   Release 241203
+Dec 09 07:49:27 [INF] McCtrl BE: 330B1000 MC>SC3:   SpP  71: Add to PG 0
+Dec 09 07:49:27 [INF] McCtrl BE: 33F08080 SC3>MC:   Emergency event! Code 0x80 0x80
+Dec 09 07:52:34 [INF] Q10CCU 2: TA set on spp 71 type 101, PGrp 1
+Dec 09 07:52:34 [INF] Q10CCU 6: SPPINFO update spp 71 index 2, YSpeed 169.00, PGrp 1
+Dec 09 07:52:34 [INF] Q10CCU 2: SPPINFO update spp 71 index 1, YCount 41.70, PGrp 1
+Dec 09 07:52:34 [INF] Q10CCU 6: SPPINFO update spp 71 index 3, Rotor 104, PGrp 1
+Dec 09 07:52:34 [INF] Q10CCU 6: QInit event spp 71, PGrp 1, Protocol 3
+Dec 09 07:52:43 [INF] McCtrl BE: 330B1701 SC3>MC:   SpP  71: TA state left + SP-Lock
+Dec 09 07:52:45 [INF] Q10CCU 6: TA reset on spp 71, PGpr 1
+Dec 09 07:52:51 [INF] McCtrl BE: 330B1100 SC3>MC:   SpP  71: New SpP state: RDY
+Dec 09 08:01:30 [INF] McCtrl BE: 330B4C00 MC>SC3:   SpP  71: Set Length Signal
+Dec 09 08:01:30 [INF] McCtrl BE: 330B4F01 MC>SC3:   SpP  71: Set WaitRB, reason 0x01
+Dec 09 08:01:31 [INF] Q10CCU 6: SPPINFO update spp 71 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:01:31 [INF] Q10CCU 6: SPPINFO update spp 71 index 1, YCount 35.70, PGrp 1
+Dec 09 08:02:01 [INF] McCtrl BE: 330B4D00 MC>SC3:   SpP  71: Clear Length Signal
+Dec 09 08:02:01 [INF] McCtrl BE: 330B4F00 MC>SC3:   SpP  71: Clear WaitRB
+Dec 09 08:02:03 [INF] Q10CCU 2: SPPINFO update spp 71 index 2, YSpeed 169.00, PGrp 1
+Dec 09 08:02:03 [INF] Q10CCU 6: SPPINFO update spp 71 index 1, YCount 41.70, PGrp 1
+Dec 09 08:02:59 [INF] McCtrl BE: 330B4C00 MC>SC3:   SpP  71: Set Length Signal
+Dec 09 08:02:59 [INF] McCtrl BE: 330B4F01 MC>SC3:   SpP  71: Set WaitRB, reason 0x01
+Dec 09 08:03:00 [INF] Q10CCU 2: SPPINFO update spp 71 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:03:00 [INF] Q10CCU 6: SPPINFO update spp 71 index 1, YCount 35.70, PGrp 1
+Dec 09 08:03:14 [INF] McCtrl BE: 330B4D00 MC>SC3:   SpP  71: Clear Length Signal
+Dec 09 08:03:14 [INF] McCtrl BE: 330B4F00 MC>SC3:   SpP  71: Clear WaitRB
+Dec 09 08:03:16 [INF] Q10CCU 6: SPPINFO update spp 71 index 2, YSpeed 169.00, PGrp 1
+Dec 09 08:03:16 [INF] Q10CCU 2: SPPINFO update spp 71 index 1, YCount 41.70, PGrp 1
+Dec 09 08:03:37 [INF] McCtrl BE: 330B4C00 MC>SC3:   SpP  71: Set Length Signal
+Dec 09 08:03:37 [INF] McCtrl BE: 330B4F01 MC>SC3:   SpP  71: Set WaitRB, reason 0x01
+Dec 09 08:03:37 [INF] Q10CCU 6: SPPINFO update spp 71 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:03:37 [INF] Q10CCU 2: SPPINFO update spp 71 index 1, YCount 35.70, PGrp 1
+Dec 09 08:04:29 [INF] McCtrl BE: 330B4D00 MC>SC3:   SpP  71: Clear Length Signal
+Dec 09 08:04:29 [INF] McCtrl BE: 330B4F00 MC>SC3:   SpP  71: Clear WaitRB
+Dec 09 08:05:01 [INF] McCtrl BE: 330B4C00 MC>SC3:   SpP  71: Set Length Signal
+Dec 09 08:05:01 [INF] McCtrl BE: 330B4F01 MC>SC3:   SpP  71: Set WaitRB, reason 0x01
+Dec 09 08:05:23 [INF] McCtrl BE: 330B4D00 MC>SC3:   SpP  71: Clear Length Signal
+Dec 09 08:05:23 [INF] McCtrl BE: 330B4F00 MC>SC3:   SpP  71: Clear WaitRB
+Dec 09 08:05:24 [INF] Q10CCU 6: SPPINFO update spp 71 index 2, YSpeed 169.00, PGrp 1
+Dec 09 08:05:24 [INF] Q10CCU 2: SPPINFO update spp 71 index 1, YCount 41.70, PGrp 1
+Dec 09 08:05:32 [INF] McCtrl BE: 330B4C00 MC>SC3:   SpP  71: Set Length Signal
+Dec 09 08:05:32 [INF] McCtrl BE: 330B4F01 MC>SC3:   SpP  71: Set WaitRB, reason 0x01
+Dec 09 08:05:33 [INF] Q10CCU 2: SPPINFO update spp 71 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:05:33 [INF] Q10CCU 2: SPPINFO update spp 71 index 1, YCount 35.70, PGrp 1
+Dec 09 08:10:04 [INF] McCtrl BE: 330B1702 SC3>MC:   SpP  71: TA state entered
+Dec 09 08:10:11 [INF] McCtrl BE: 330B1701 SC3>MC:   SpP  71: TA state left + SP-Lock
+Dec 09 08:10:12 [INF] McCtrl BE: 330B1702 SC3>MC:   SpP  71: TA state entered
+Dec 09 08:10:16 [INF] McCtrl BE: 330B1701 SC3>MC:   SpP  71: TA state left + SP-Lock
+Dec 09 08:10:41 [INF] McCtrl BE: 330B1100 SC3>MC:   SpP  71: New SpP state: RDY
+Dec 09 08:22:21 [INF] McCtrl BE: 330B4D00 MC>SC3:   SpP  71: Clear Length Signal
+Dec 09 08:26:20 [INF] McCtrl BE: 210A4600 MC>RB1:   SpP  71: SpP requires service 61
+Dec 09 08:26:23 [INF] McCtrl RS: SpP  71  OState 1  Trans 1  NState 1  OAcc 3  NAcc 2
+Dec 09 08:26:23 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x31 0x01 0x00 0x00 
+Dec 09 08:26:23 [INF] McCtrl BE: 210A4608 RB1>MC:   SpP  71: Request registration
+Dec 09 08:26:23 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 08:26:23 [INF] McCtrl BE: 330B8161 MC>SC3:   SpP  71: RB1 registration request 61h
+Dec 09 08:26:23 [INF] McCtrl BE: 330B8100 SC3>MC:   SpP  71: RB1 registration accepted
+Dec 09 08:26:23 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:26:23 [INF] McCtrl BE: 210B4608 MC>RB1:   SpP  71: Registration accepted
+Dec 09 08:26:23 [INF] McCtrl BE: 330B1280 SC3>MC:   SpP  71: AS: Start SY piecing cycle
+Dec 09 08:26:23 [INF] McCtrl BE: 330B4E00 MC>SC3:   SpP  71: Package diameter 0
+Dec 09 08:26:24 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 09 08:26:27 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x31 0x02 0x00 0x00 
+Dec 09 08:26:35 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x31 0x03 0x00 0x00 
+Dec 09 08:26:35 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 08:26:45 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 09 08:26:45 [INF] MEH LP: MEvt Info 18000(68) SU.71 Debug 0x00  0x04 0x00 0x00 0x00 
+Dec 09 08:26:48 [INF] MEH LP: MEvt Info 20100(69) SUC.71 Debug 0x04  0x91 0x04 0x00 0x00 
+Dec 09 08:26:53 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 09 08:27:03 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 09 08:27:06 [INF] MEH LP: MEvt Info 18000(68) SU.71 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 09 08:27:06 [INF] MEH LP: MEvt Info 20150(141) SU.71  0x00 0x00 0x00 0x00 
+Dec 09 08:27:06 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x03  0x00 0x01 0x01 0x27 
+Dec 09 08:27:06 [INF] McCtrl BE: 330B1282 SC3>MC:   SpP  71: AS: SY piecing failed
+Dec 09 08:27:06 [INF] MEH LP: MEvt Info 18000(68) SU.71 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 09 08:27:08 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 09 08:27:08 [INF] MEH LP: MEvt Info 20100(69) SUC.71 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 08:27:12 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x2C 0x01 0x00 0x00 
+Dec 09 08:27:12 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 09 08:27:20 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 09 08:27:20 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 08:27:26 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x2C 0x02 0x00 0x00 
+Dec 09 08:27:28 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 08:27:28 [INF] McCtrl BE: 330B1100 SC3>MC:   SpP  71: New SpP state: RDY
+Dec 09 08:27:28 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 08:27:28 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:27:28 [INF] McCtrl BE: 330B1280 SC3>MC:   SpP  71: AS: Start SY piecing cycle
+Dec 09 08:27:28 [INF] McCtrl BE: 330B4E00 MC>SC3:   SpP  71: Package diameter 0
+Dec 09 08:27:29 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 09 08:27:33 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 09 08:27:37 [INF] MEH LP: MEvt Info 20100(69) SUC.71 Debug 0x04  0x8E 0x04 0x00 0x00 
+Dec 09 08:27:42 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 09 08:27:52 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 09 08:27:54 [INF] MEH LP: MEvt Info 18000(68) SU.71 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 09 08:27:55 [INF] MEH LP: MEvt Info 20150(141) SU.71  0x00 0x00 0x00 0x00 
+Dec 09 08:27:55 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 09 08:27:57 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x03  0x00 0x01 0x02 0x28 
+Dec 09 08:27:57 [INF] MEH LP: MEvt Info 18000(68) SU.71 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 09 08:27:57 [INF] McCtrl BE: 330B1282 SC3>MC:   SpP  71: AS: SY piecing failed
+Dec 09 08:27:57 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x0B  0x00 0x00 0x00 0x00 
+Dec 09 08:27:58 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 09 08:27:58 [INF] MEH LP: MEvt Info 20100(69) SUC.71 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 08:28:02 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x2C 0x01 0x00 0x00 
+Dec 09 08:28:02 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 09 08:28:10 [INF] McCtrl BE: 330B8A00 MC>SC3:   SpP  71: RB releases registration
+Dec 09 08:28:10 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 09 08:28:10 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 08:28:14 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x2C 0x02 0x00 0x00 
+Dec 09 08:28:16 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 08:28:16 [INF] McCtrl BE: 330B1100 SC3>MC:   SpP  71: New SpP state: RDY
+Dec 09 08:28:34 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:29:28 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:30:22 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:31:15 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:31:28 [INF] McCtrl BE: 330B1702 SC3>MC:   SpP  71: TA state entered
+Dec 09 08:31:31 [INF] McCtrl BE: 330B1701 SC3>MC:   SpP  71: TA state left + SP-Lock
+Dec 09 08:31:31 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 08:31:32 [INF] MEH LP: MEvt Info 20100(69) SUC.71 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 08:31:36 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 08:31:36 [INF] McCtrl BE: 330B1100 SC3>MC:   SpP  71: New SpP state: RDY
+Dec 09 08:32:24 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:33:14 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:33:51 [INF] McCtrl BE: 210A4600 MC>RB1:   SpP  71: SpP requires service 01
+Dec 09 08:35:17 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:35:18 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:35:20 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:35:45 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:52:06 [INF] McCtrl BE: 210A4600 MC>RB1:   SpP  71: SpP requires service 01
+Dec 09 08:53:16 [INF] McCtrl BE: 210A4600 MC>RB1:   SpP  71: SpP requires service 01
+Dec 09 09:04:11 [INF] McCtrl BE: 210A4600 MC>RB1:   SpP  71: SpP requires service 01
+Dec 09 09:24:00 [INF] McCtrl BE: 210A4600 MC>RB1:   SpP  71: SpP requires service 61
+Dec 09 09:24:03 [INF] McCtrl BE: 210A4608 RB1>MC:   SpP  71: Request registration
+Dec 09 09:24:03 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x31 0x01 0x00 0x00 
+Dec 09 09:24:03 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 09:24:03 [INF] McCtrl BE: 330B8161 MC>SC3:   SpP  71: RB1 registration request 61h
+Dec 09 09:24:03 [INF] McCtrl BE: 330B8100 SC3>MC:   SpP  71: RB1 registration accepted
+Dec 09 09:24:03 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 09:24:03 [INF] McCtrl BE: 210B4608 MC>RB1:   SpP  71: Registration accepted
+Dec 09 09:24:03 [INF] McCtrl BE: 330B1280 SC3>MC:   SpP  71: AS: Start SY piecing cycle
+Dec 09 09:24:04 [INF] McCtrl BE: 330B4E00 MC>SC3:   SpP  71: Package diameter 0
+Dec 09 09:24:05 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 09 09:24:07 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x31 0x02 0x00 0x00 
+Dec 09 09:24:15 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x31 0x03 0x00 0x00 
+Dec 09 09:24:15 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 09:24:25 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 09 09:24:25 [INF] MEH LP: MEvt Info 18000(68) SU.71 Debug 0x00  0x04 0x00 0x00 0x00 
+Dec 09 09:24:28 [INF] MEH LP: MEvt Info 20100(69) SUC.71 Debug 0x04  0x8E 0x04 0x00 0x00 
+Dec 09 09:24:34 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 09 09:24:43 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 09 09:24:46 [INF] MEH LP: MEvt Info 18000(68) SU.71 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 09 09:24:46 [INF] MEH LP: MEvt Info 20150(141) SU.71  0x00 0x00 0x00 0x00 
+Dec 09 09:24:47 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 09 09:24:47 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x03  0x00 0x01 0xFE 0x28 
+Dec 09 09:24:47 [INF] McCtrl BE: 330B1282 SC3>MC:   SpP  71: AS: SY piecing failed
+Dec 09 09:24:47 [INF] MEH LP: MEvt Info 18000(68) SU.71 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 09 09:24:48 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 09 09:24:48 [INF] MEH LP: MEvt Info 20100(69) SUC.71 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 09:24:52 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x2C 0x01 0x00 0x00 
+Dec 09 09:24:53 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 09 09:25:00 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 09 09:25:00 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 09:25:06 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x2C 0x02 0x00 0x00 
+Dec 09 09:25:08 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 09:25:08 [INF] McCtrl BE: 330B1100 SC3>MC:   SpP  71: New SpP state: RDY
+Dec 09 09:25:08 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 09:25:08 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 09:25:08 [INF] McCtrl BE: 330B1280 SC3>MC:   SpP  71: AS: Start SY piecing cycle
+Dec 09 09:25:08 [INF] McCtrl BE: 330B4E00 MC>SC3:   SpP  71: Package diameter 0
+Dec 09 09:25:10 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 09 09:25:14 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 09 09:25:17 [INF] MEH LP: MEvt Info 20100(69) SUC.71 Debug 0x04  0x8E 0x04 0x00 0x00 
+Dec 09 09:25:22 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 09 09:25:33 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 09 09:25:35 [INF] MEH LP: MEvt Info 18000(68) SU.71 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 09 09:25:36 [INF] MEH LP: MEvt Info 20150(141) SU.71  0x00 0x00 0x00 0x00 
+Dec 09 09:25:36 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 09 09:25:37 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x03  0x00 0x01 0xFF 0x28 
+Dec 09 09:25:37 [INF] McCtrl BE: 330B1282 SC3>MC:   SpP  71: AS: SY piecing failed
+Dec 09 09:25:37 [INF] MEH LP: MEvt Info 18000(68) SU.71 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 09 09:25:38 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 09 09:25:38 [INF] MEH LP: MEvt Info 20100(69) SUC.71 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 09:25:41 [INF] MEH LP: MEvt Info 20100(69) SUC.71 Debug 0x00  0x03 0x00 0x00 0x00 
+Dec 09 09:25:41 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x2C 0x01 0x00 0x00 
+Dec 09 09:25:42 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 09 09:25:49 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 09 09:25:49 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 09:25:55 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x2C 0x02 0x00 0x00 
+Dec 09 09:25:58 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 09:25:58 [INF] McCtrl BE: 330B1100 SC3>MC:   SpP  71: New SpP state: RDY
+Dec 09 09:25:58 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 09:25:58 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 09:25:58 [INF] McCtrl BE: 330B1280 SC3>MC:   SpP  71: AS: Start SY piecing cycle
+Dec 09 09:25:58 [INF] McCtrl BE: 330B4E00 MC>SC3:   SpP  71: Package diameter 0
+Dec 09 09:25:59 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 09 09:26:03 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 09 09:26:06 [INF] MEH LP: MEvt Info 20100(69) SUC.71 Debug 0x04  0x88 0x04 0x00 0x00 
+Dec 09 09:26:11 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 09 09:26:22 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 09 09:26:24 [INF] MEH LP: MEvt Info 18000(68) SU.71 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 09 09:26:25 [INF] MEH LP: MEvt Info 20150(141) SU.71  0x00 0x00 0x00 0x00 
+Dec 09 09:26:25 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 09 09:26:28 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x29 0x00 0x00 0x00 
+Dec 09 09:26:30 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x03  0x00 0x01 0x00 0x29 
+Dec 09 09:26:30 [INF] McCtrl BE: 330B1306 SC3>MC:   SpP  71: Request operator BA 6
+Dec 09 09:26:30 [INF] MEH LP: MEvt Info 18000(68) SU.71 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 09 09:26:30 [INF] McCtrl BE: 330B1285 SC3>MC:   SpP  71: AS: SY piecing failed with BA
+Dec 09 09:26:31 [INF] McCtrl BE: 330B8A00 MC>SC3:   SpP  71: RB releases registration
+Dec 09 09:26:31 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 09 09:26:31 [INF] MEH LP: MEvt Info 20100(69) SUC.71 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 09:26:35 [INF] MEH LP: MEvt Info 20100(69) SUC.71 Debug 0x00  0x03 0x00 0x00 0x00 
+Dec 09 09:26:35 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x2C 0x01 0x00 0x00 
+Dec 09 09:26:36 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 09 09:26:40 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x2C 0x02 0x00 0x00 
+Dec 09 09:26:43 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 09:26:43 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 09 09:26:43 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 17:06:59 [INF] McCtrl BE: 330B1100 SC3>MC:   SpP  71: New SpP state: RDY
+Dec 09 17:06:59 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 17:07:00 [INF] MEH LP: MEvt Info 20100(69) SUC.71 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 17:07:05 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.71 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 22:39:42 [INF] McCtrl BE: 210A4600 MC>RB1:   SpP  71: SpP requires service 01
+Dec 10 07:17:39 [INF] McCtrl RS: GrpChg SpP  71: OldGrp 0 Cnt 11, NewGrp 80 Cnt 11
+Dec 10 07:17:39 [INF] McCtrl RS: GrpChg SpP  71: OldGrp 80 Cnt 9, NewGrp 2 Cnt 34
+Dec 10 07:17:40 [INF] McCtrl BE: 330B4F01 MC>SC3:   SpP  71: Set WaitRB, reason 0x01
+Dec 10 07:17:40 [INF] Q10CCU 6: TA set on spp 71 type 101, PGrp 1
+Dec 10 07:17:40 [INF] Q10CCU 6: QInit event spp 71, PGrp 3, Protocol 3
+Dec 10 07:17:40 [INF] Q10CCU 6: Clear_Yarn_ParmsCCU change PGrpAss spp 71 sensor, previous grp 1, new grp 3
+Dec 10 07:17:41 [INF] McCtrl BE: 330B1002 MC>SC3:   SpP  71: Add to PG 2
+Dec 10 07:17:41 [INF] McCtrl BE: 330B4F01 MC>SC3:   SpP  71: Set WaitRB, reason 0x01
+Dec 10 07:17:53 [INF] McCtrl BE: 330B1700 SC3>MC:   SpP  71: TA state left
+Dec 10 07:17:53 [INF] McCtrl BE: 330B4308 MC>SC3:   SpP  71: Set operator request 8
+Dec 10 07:17:54 [INF] Q10CCU 2: TA reset on spp 71, PGpr 3

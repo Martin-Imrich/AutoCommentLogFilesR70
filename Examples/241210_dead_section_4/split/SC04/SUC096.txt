@@ -1,0 +1,127 @@
+Dec 09 07:49:09 [INF] McCtrl BE: 34174F01 MC>SC4:   SpP  96: Set WaitRB, reason 0x01
+Dec 09 07:49:28 [INF] McCtrl BE: 34174F01 MC>SC4:   SpP  96: Set WaitRB, reason 0x01
+Dec 09 07:49:28 [INF] McCtrl BE: 34171001 MC>SC4:   SpP  96: Add to PG 1
+Dec 09 07:52:58 [INF] Q10CCU 2: TA set on spp 96 type 101, PGrp 2
+Dec 09 07:52:58 [INF] Q10CCU 7: SPPINFO update spp 96 index 2, YSpeed 169.00, PGrp 2
+Dec 09 07:52:58 [INF] Q10CCU 7: SPPINFO update spp 96 index 1, YCount 41.70, PGrp 2
+Dec 09 07:52:58 [INF] Q10CCU 7: SPPINFO update spp 96 index 3, Rotor 104, PGrp 2
+Dec 09 07:52:58 [INF] Q10CCU 7: QInit event spp 96, PGrp 2, Protocol 3
+Dec 09 07:53:06 [INF] McCtrl BE: 34171701 SC4>MC:   SpP  96: TA state left + SP-Lock
+Dec 09 07:53:07 [INF] Q10CCU 2: TA reset on spp 96, PGpr 2
+Dec 09 07:53:14 [INF] McCtrl BE: 34171100 SC4>MC:   SpP  96: New SpP state: RDY
+Dec 09 08:05:40 [INF] Q10CCU 2: SPPINFO update spp 96 index 2, YSpeed 167.00, PGrp 2
+Dec 09 08:05:40 [INF] Q10CCU 6: SPPINFO update spp 96 index 1, YCount 35.70, PGrp 2
+Dec 09 09:56:07 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x2F 0x01 0x00 0x00 
+Dec 09 09:56:16 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x2F 0x02 0x00 0x00 
+Dec 09 09:56:16 [INF] MEH LP: MEvt Info 18000(68) SU.96 Debug 0x00  0x04 0x00 0x00 0x00 
+Dec 09 09:56:20 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x2F 0x03 0x00 0x00 
+Dec 09 09:56:24 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 09:56:48 [INF] McCtrl BE: 220A5F00 MC>RB2:   SpP  96: SpP requires service 61
+Dec 09 09:56:51 [INF] McCtrl BE: 22085F00 RB2>MC:   SpP  96: Tube transport reservation request
+Dec 09 09:56:51 [INF] McCtrl BE: 22065F80 MC>RB2:   SpP  96: Tube transport reserved. Tubes 0x10
+Dec 09 09:56:52 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x31 0x01 0x00 0x00 
+Dec 09 09:56:52 [INF] McCtrl BE: 220A5F08 RB2>MC:   SpP  96: Request registration
+Dec 09 09:56:52 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 09:56:52 [INF] McCtrl BE: 34178261 MC>SC4:   SpP  96: RB2 registration request 61h
+Dec 09 09:56:52 [INF] McCtrl BE: 34178200 SC4>MC:   SpP  96: RB2 registration accepted
+Dec 09 09:56:52 [INF] McCtrl BE: 220B5F08 MC>RB2:   SpP  96: Registration accepted
+Dec 09 09:56:52 [INF] McCtrl BE: 34171280 SC4>MC:   SpP  96: AS: Start SY piecing cycle
+Dec 09 09:56:52 [INF] McCtrl BE: 34174E00 MC>SC4:   SpP  96: Package diameter 0
+Dec 09 09:56:53 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 09 09:56:55 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x31 0x02 0x00 0x00 
+Dec 09 09:57:03 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x31 0x03 0x00 0x00 
+Dec 09 09:57:03 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 09:57:12 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 09 09:57:12 [INF] MEH LP: MEvt Info 18000(68) SU.96 Debug 0x00  0x04 0x00 0x00 0x00 
+Dec 09 09:57:15 [INF] MEH LP: MEvt Info 20100(69) SUC.96 Debug 0x04  0x8A 0x04 0x00 0x00 
+Dec 09 09:57:20 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 09 09:57:30 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 09 09:57:33 [INF] MEH LP: MEvt Info 18000(68) SU.96 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 09 09:57:33 [INF] MEH LP: MEvt Info 20150(141) SU.96  0x00 0x00 0x00 0x00 
+Dec 09 09:57:34 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 09 09:57:34 [INF] MEH LP: MEvt Info 18000(68) SU.96 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 09 09:57:34 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x03  0x01 0x02 0x01 0x28 
+Dec 09 09:57:34 [INF] McCtrl BE: 34171282 SC4>MC:   SpP  96: AS: SY piecing failed
+Dec 09 09:57:35 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 09 09:57:35 [INF] MEH LP: MEvt Info 20100(69) SUC.96 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 09:57:40 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x2C 0x01 0x00 0x00 
+Dec 09 09:57:40 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 09 09:57:48 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 09 09:57:48 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 09:57:54 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x2C 0x02 0x00 0x00 
+Dec 09 09:57:56 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 09:57:56 [INF] McCtrl BE: 34171100 SC4>MC:   SpP  96: New SpP state: RDY
+Dec 09 09:57:56 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 09:57:56 [INF] McCtrl BE: 34171280 SC4>MC:   SpP  96: AS: Start SY piecing cycle
+Dec 09 09:57:56 [INF] McCtrl BE: 34174E00 MC>SC4:   SpP  96: Package diameter 0
+Dec 09 09:57:57 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 09 09:58:01 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 09 09:58:04 [INF] MEH LP: MEvt Info 20100(69) SUC.96 Debug 0x04  0x84 0x04 0x00 0x00 
+Dec 09 09:58:09 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 09 09:58:20 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 09 09:58:23 [INF] MEH LP: MEvt Info 18000(68) SU.96 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 09 09:58:23 [INF] MEH LP: MEvt Info 20150(141) SU.96  0x00 0x00 0x00 0x00 
+Dec 09 09:58:23 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 09 09:58:24 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x03  0x01 0x02 0x02 0x28 
+Dec 09 09:58:24 [INF] MEH LP: MEvt Info 18000(68) SU.96 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 09 09:58:24 [INF] McCtrl BE: 34171282 SC4>MC:   SpP  96: AS: SY piecing failed
+Dec 09 09:58:25 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 09 09:58:25 [INF] MEH LP: MEvt Info 20100(69) SUC.96 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 09:58:28 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x2C 0x01 0x00 0x00 
+Dec 09 09:58:29 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 09 09:58:36 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 09 09:58:36 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 09:58:42 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x2C 0x02 0x00 0x00 
+Dec 09 09:58:45 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 09:58:45 [INF] McCtrl BE: 34171100 SC4>MC:   SpP  96: New SpP state: RDY
+Dec 09 09:58:45 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 09:58:45 [INF] McCtrl BE: 34171280 SC4>MC:   SpP  96: AS: Start SY piecing cycle
+Dec 09 09:58:45 [INF] McCtrl BE: 34174E00 MC>SC4:   SpP  96: Package diameter 0
+Dec 09 09:58:46 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 09 09:58:50 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 09 09:58:53 [INF] MEH LP: MEvt Info 20100(69) SUC.96 Debug 0x04  0x8A 0x04 0x00 0x00 
+Dec 09 09:58:58 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 09 09:59:09 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 09 09:59:11 [INF] MEH LP: MEvt Info 18000(68) SU.96 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 09 09:59:12 [INF] MEH LP: MEvt Info 20150(141) SU.96  0x00 0x00 0x00 0x00 
+Dec 09 09:59:12 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 09 09:59:15 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x29 0x00 0x00 0x00 
+Dec 09 09:59:17 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x2A 0x00 0x00 0x00 
+Dec 09 09:59:17 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x03  0x01 0x02 0x03 0x2A 
+Dec 09 09:59:17 [INF] McCtrl BE: 34171283 SC4>MC:   SpP  96: AS: SY piecing succeeded
+Dec 09 09:59:18 [INF] McCtrl BE: 34178A00 MC>SC4:   SpP  96: RB releases registration
+Dec 09 10:23:15 [INF] McCtrl BE: 34174F01 MC>SC4:   SpP  96: Set WaitRB, reason 0x01
+Dec 09 10:23:15 [INF] MEH LP: MEvt Info 18000(68) SU.96 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 09 10:23:15 [INF] McCtrl BE: 34174C00 MC>SC4:   SpP  96: Set Length Signal
+Dec 09 10:23:15 [INF] McCtrl BE: 34174000 MC>SC4:   SpP  96: Fadenbruch erzeugen
+Dec 09 10:23:15 [INF] McCtrl BE: 34171000 SC4>MC:   SpP  96: Yarn break (reason not specified)
+Dec 09 10:23:17 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 09 10:23:17 [INF] MEH LP: MEvt Info 20100(69) SUC.96 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 10:23:22 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 10:23:22 [INF] McCtrl BE: 34171100 SC4>MC:   SpP  96: New SpP state: RDY
+Dec 09 10:23:24 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 09 10:23:31 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 09 10:23:31 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.96 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 10:26:29 [INF] McCtrl BE: 34171102 SC4>MC:   SpP  96: New SpP state: OFF
+Dec 09 10:26:34 [INF] McCtrl BE: 34171800 SC4>MC:   SpP  96: MPR Start
+Dec 09 10:26:36 [INF] McCtrl BE: 34171900 SC4>MC:   SpP  96: MPR Done
+Dec 09 10:30:12 [INF] McCtrl BE: 34174D00 MC>SC4:   SpP  96: Clear Length Signal
+Dec 09 10:30:12 [INF] McCtrl BE: 34174F00 MC>SC4:   SpP  96: Clear WaitRB
+Dec 09 11:01:28 [INF] McCtrl BE: 220A5F00 MC>RB2:   SpP  96: SpP requires service 01
+Dec 09 18:30:13 [INF] McCtrl BE: 220A5F00 MC>RB2:   SpP  96: SpP requires service 61
+Dec 09 18:33:41 [INF] McCtrl BE: 220A5F00 MC>RB2:   SpP  96: SpP requires service 01
+Dec 09 21:11:45 [ERR] MEH LP: MEvt Warning 20200(63) SUC.96 Communication error 0x0000007D
+Dec 09 21:11:45 [INF] McCtrl BE: 34171702 SC4>MC:   SpP  96: TA state entered
+Dec 09 21:11:46 [INF] Q10CCU 6: TA set on spp 96 type 301, PGrp 2
+Dec 09 21:11:46 [ERR] MEH LP: MEvt Warning 19100(64) YC.96 Communication error 0x0000007D
+Dec 09 21:15:11 [ERR] MEH LP: MEvt Warning 20200(63) SUC.96 Communication error 0x0000007D
+Dec 09 21:16:45 [ERR] MEH LP: MEvt Warning 19100(64) YC.96 Communication error 0x0000007D
+Dec 09 21:17:39 [ERR] MEH LP: MEvt Warning 20200(63) SUC.96 Communication error 0x0000007D
+Dec 09 21:19:14 [ERR] MEH LP: MEvt Warning 19100(64) YC.96 Communication error 0x0000007D
+Dec 10 05:22:10 [ERR] MEH LP: MEvt Warning 20200(63) SUC.96 Communication error 0x0000007D
+Dec 10 05:23:29 [ERR] MEH LP: MEvt Warning 19100(64) YC.96 Communication error 0x0000007D
+Dec 10 07:22:07 [ERR] MEH LP: MEvt Warning 20200(63) SUC.96 Communication error 0x0000007D
+Dec 10 07:23:12 [ERR] MEH LP: MEvt Warning 19100(64) YC.96 Communication error 0x0000007D
+Dec 10 09:01:07 [INF] McCtrl BE: 34174A00 MC>SC4:   SpP  96: Set MPR Mode
+Dec 10 09:01:07 [INF] McCtrl BE: 34171001 MC>SC4:   SpP  96: Add to PG 1
+Dec 10 09:02:59 [ERR] MEH LP: MEvt Warning 20200(63) SUC.96 Communication error 0x0000007D

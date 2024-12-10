@@ -1,0 +1,56 @@
+Dec 09 07:46:45 [INF] NuuX BE: 78320000 CND>MC:   SC2 Boot message
+Dec 09 07:46:45 [INF] NuuX BE: 7832F000 MC>CND:   Start guarding node SC2
+Dec 09 07:46:46 [INF] NuuX BE: 78327F00 CND>MC:   SC2 Pre-Operational
+Dec 09 07:46:48 [INF] NuuX BE: 78320100 MC>CND:   Start Remote Node SC2
+Dec 09 07:46:48 [INF] NuuX BE: 78320500 CND>MC:   SC2 Operational
+Dec 09 07:46:49 [INF] NuuX BE: 32310402 MC>SC2:   Machine type code 02
+Dec 09 07:46:49 [INF] NuuX BE: 32310316 MC>SC2:   YC type code 16
+Dec 09 07:46:49 [INF] NuuX BE: 323F0200 MC>SC2:   Configuration done
+Dec 09 07:49:08 [INF] McCtrl BE: 32074F01 MC>SC2:   SpP  39: Set WaitRB, reason 0x01
+Dec 09 07:49:09 [INF] McCtrl BE: 78320000 CND>MC:   SC2 Boot message
+Dec 09 07:49:10 [INF] McCtrl BE: 78327F00 CND>MC:   SC2 Pre-Operational
+Dec 09 07:49:10 [INF] McCtrl BE: 7832F000 MC>CND:   Start guarding node SC2
+Dec 09 07:49:10 [INF] McCtrl BE: 78320100 MC>CND:   Start Remote Node SC2
+Dec 09 07:49:10 [INF] McCtrl BE: 78320500 CND>MC:   SC2 Operational
+Dec 09 07:49:11 [INF] McCtrl BE: 32333724 SC2>MC:   Release 241203
+Dec 09 07:49:25 [INF] McCtrl BE: 32074F01 MC>SC2:   SpP  39: Set WaitRB, reason 0x01
+Dec 09 07:49:26 [INF] McCtrl BE: 32071000 MC>SC2:   SpP  39: Add to PG 0
+Dec 09 07:49:26 [INF] McCtrl BE: 32F08080 SC2>MC:   Emergency event! Code 0x80 0x80
+Dec 09 07:51:58 [INF] Q10CCU 2: TA set on spp 39 type 101, PGrp 1
+Dec 09 07:51:58 [INF] Q10CCU 6: SPPINFO update spp 39 index 2, YSpeed 169.00, PGrp 1
+Dec 09 07:51:58 [INF] Q10CCU 2: SPPINFO update spp 39 index 1, YCount 41.70, PGrp 1
+Dec 09 07:51:58 [INF] Q10CCU 6: SPPINFO update spp 39 index 3, Rotor 104, PGrp 1
+Dec 09 07:51:58 [INF] Q10CCU 2: QInit event spp 39, PGrp 1, Protocol 3
+Dec 09 07:52:20 [INF] McCtrl BE: 32071701 SC2>MC:   SpP  39: TA state left + SP-Lock
+Dec 09 07:52:21 [INF] Q10CCU 6: TA reset on spp 39, PGpr 1
+Dec 09 07:52:28 [INF] McCtrl BE: 32071100 SC2>MC:   SpP  39: New SpP state: RDY
+Dec 09 08:01:31 [INF] Q10CCU 6: SPPINFO update spp 39 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:01:31 [INF] Q10CCU 2: SPPINFO update spp 39 index 1, YCount 35.70, PGrp 1
+Dec 09 08:02:03 [INF] Q10CCU 2: SPPINFO update spp 39 index 2, YSpeed 169.00, PGrp 1
+Dec 09 08:02:03 [INF] Q10CCU 6: SPPINFO update spp 39 index 1, YCount 41.70, PGrp 1
+Dec 09 08:03:01 [INF] Q10CCU 2: SPPINFO update spp 39 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:03:01 [INF] Q10CCU 2: SPPINFO update spp 39 index 1, YCount 35.70, PGrp 1
+Dec 09 08:03:15 [INF] Q10CCU 2: SPPINFO update spp 39 index 2, YSpeed 169.00, PGrp 1
+Dec 09 08:03:15 [INF] Q10CCU 6: SPPINFO update spp 39 index 1, YCount 41.70, PGrp 1
+Dec 09 08:03:38 [INF] Q10CCU 2: SPPINFO update spp 39 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:03:38 [INF] Q10CCU 6: SPPINFO update spp 39 index 1, YCount 35.70, PGrp 1
+Dec 09 08:05:24 [INF] Q10CCU 6: SPPINFO update spp 39 index 2, YSpeed 169.00, PGrp 1
+Dec 09 08:05:24 [INF] Q10CCU 2: SPPINFO update spp 39 index 1, YCount 41.70, PGrp 1
+Dec 09 08:05:33 [INF] Q10CCU 6: SPPINFO update spp 39 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:05:33 [INF] Q10CCU 6: SPPINFO update spp 39 index 1, YCount 35.70, PGrp 1
+Dec 09 08:23:24 [INF] MEH LP: MEvt Info 17000(67) SI.2 SpP.39 Debug 0x00  0x2F 0x01 0x00 0x00 
+Dec 09 08:23:33 [INF] MEH LP: MEvt Info 17000(67) SI.2 SpP.39 Debug 0x00  0x2F 0x02 0x00 0x00 
+Dec 09 08:23:33 [INF] MEH LP: MEvt Info 18000(68) SU.39 Debug 0x00  0x04 0x00 0x00 0x00 
+Dec 09 08:23:37 [INF] MEH LP: MEvt Info 17000(67) SI.2 SpP.39 Debug 0x00  0x2F 0x03 0x00 0x00 
+Dec 09 08:23:41 [INF] MEH LP: MEvt Info 17000(67) SI.2 SpP.39 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 10 07:17:39 [INF] McCtrl RS: GrpChg SpP  39: OldGrp 0 Cnt 27, NewGrp 80 Cnt 27
+Dec 10 07:17:39 [INF] McCtrl RS: GrpChg SpP  39: OldGrp 80 Cnt 9, NewGrp 2 Cnt 18
+Dec 10 07:17:39 [INF] McCtrl BE: 32074F01 MC>SC2:   SpP  39: Set WaitRB, reason 0x01
+Dec 10 07:17:40 [INF] Q10CCU 2: TA set on spp 39 type 101, PGrp 1
+Dec 10 07:17:40 [INF] Q10CCU 6: QInit event spp 39, PGrp 3, Protocol 3
+Dec 10 07:17:40 [INF] Q10CCU 6: Clear_Yarn_ParmsCCU change PGrpAss spp 39 sensor, previous grp 1, new grp 3
+Dec 10 07:17:40 [INF] McCtrl BE: 32071002 MC>SC2:   SpP  39: Add to PG 2
+Dec 10 07:17:40 [INF] McCtrl BE: 32074F01 MC>SC2:   SpP  39: Set WaitRB, reason 0x01
+Dec 10 07:17:52 [INF] McCtrl BE: 32071700 SC2>MC:   SpP  39: TA state left
+Dec 10 07:17:52 [INF] McCtrl BE: 32074308 MC>SC2:   SpP  39: Set operator request 8
+Dec 10 07:17:54 [INF] Q10CCU 6: TA reset on spp 39, PGpr 3

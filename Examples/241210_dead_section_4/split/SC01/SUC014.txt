@@ -1,0 +1,102 @@
+Dec 09 07:46:45 [INF] NuuX BE: 78310000 CND>MC:   SC1 Boot message
+Dec 09 07:46:45 [INF] NuuX BE: 7831F000 MC>CND:   Start guarding node SC1
+Dec 09 07:46:46 [INF] NuuX BE: 78317F00 CND>MC:   SC1 Pre-Operational
+Dec 09 07:46:48 [INF] NuuX BE: 78310100 MC>CND:   Start Remote Node SC1
+Dec 09 07:46:48 [INF] NuuX BE: 78310500 CND>MC:   SC1 Operational
+Dec 09 07:46:49 [INF] NuuX BE: 31310402 MC>SC1:   Machine type code 02
+Dec 09 07:46:49 [INF] NuuX BE: 31310316 MC>SC1:   YC type code 16
+Dec 09 07:46:49 [INF] NuuX BE: 313F0200 MC>SC1:   Configuration done
+Dec 09 07:49:08 [INF] McCtrl BE: 31124C00 MC>SC1:   SpP  14: Set Length Signal
+Dec 09 07:49:08 [INF] McCtrl BE: 31124F01 MC>SC1:   SpP  14: Set WaitRB, reason 0x01
+Dec 09 07:49:09 [INF] McCtrl BE: 78310000 CND>MC:   SC1 Boot message
+Dec 09 07:49:10 [INF] McCtrl BE: 78317F00 CND>MC:   SC1 Pre-Operational
+Dec 09 07:49:10 [INF] McCtrl BE: 7831F000 MC>CND:   Start guarding node SC1
+Dec 09 07:49:10 [INF] McCtrl BE: 78310100 MC>CND:   Start Remote Node SC1
+Dec 09 07:49:10 [INF] McCtrl BE: 78310500 CND>MC:   SC1 Operational
+Dec 09 07:49:11 [INF] McCtrl BE: 31333724 SC1>MC:   Release 241203
+Dec 09 07:49:24 [INF] McCtrl BE: 31124C00 MC>SC1:   SpP  14: Set Length Signal
+Dec 09 07:49:24 [INF] McCtrl BE: 31124F01 MC>SC1:   SpP  14: Set WaitRB, reason 0x01
+Dec 09 07:49:24 [INF] McCtrl BE: 31121001 MC>SC1:   SpP  14: Add to PG 1
+Dec 09 07:49:25 [INF] McCtrl BE: 31F08080 SC1>MC:   Emergency event! Code 0x80 0x80
+Dec 09 07:52:19 [INF] Q10CCU 6: TA set on spp 14 type 101, PGrp 2
+Dec 09 07:52:19 [INF] Q10CCU 2: SPPINFO update spp 14 index 2, YSpeed 169.00, PGrp 2
+Dec 09 07:52:19 [INF] Q10CCU 6: SPPINFO update spp 14 index 1, YCount 41.70, PGrp 2
+Dec 09 07:52:19 [INF] Q10CCU 2: SPPINFO update spp 14 index 3, Rotor 104, PGrp 2
+Dec 09 07:52:19 [INF] Q10CCU 6: QInit event spp 14, PGrp 2, Protocol 3
+Dec 09 07:52:26 [INF] McCtrl BE: 31121702 SC1>MC:   SpP  14: TA state entered
+Dec 09 07:52:28 [INF] Q10CCU 2: TA reset on spp 14, PGpr 2
+Dec 09 07:52:32 [INF] McCtrl BE: 31121701 SC1>MC:   SpP  14: TA state left + SP-Lock
+Dec 09 08:05:41 [INF] Q10CCU 6: SPPINFO update spp 14 index 2, YSpeed 167.00, PGrp 2
+Dec 09 08:05:41 [INF] Q10CCU 2: SPPINFO update spp 14 index 1, YCount 35.70, PGrp 2
+Dec 09 08:22:28 [INF] McCtrl BE: 31124D00 MC>SC1:   SpP  14: Clear Length Signal
+Dec 09 18:29:21 [INF] McCtrl RS: SpP  14  OState 10  Trans 6  NState 1  OAcc 3  NAcc 2
+Dec 09 18:29:21 [INF] McCtrl BE: 31121100 SC1>MC:   SpP  14: New SpP state: RDY
+Dec 09 18:29:24 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.14 Debug 0x00  0x2F 0x01 0x00 0x00 
+Dec 09 18:29:33 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.14 Debug 0x00  0x2F 0x02 0x00 0x00 
+Dec 09 18:29:33 [INF] MEH LP: MEvt Info 18000(68) SU.14 Debug 0x00  0x04 0x00 0x00 0x00 
+Dec 09 18:29:37 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.14 Debug 0x00  0x2F 0x03 0x00 0x00 
+Dec 09 18:29:40 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.14 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 18:30:46 [INF] McCtrl BE: 220A0D00 MC>RB2:   SpP  14: SpP requires service 01
+Dec 09 18:31:11 [INF] McCtrl BE: 220A0D00 MC>RB2:   SpP  14: SpP requires service 61
+Dec 09 18:31:23 [INF] McCtrl BE: 220A0D00 MC>RB2:   SpP  14: SpP requires service 61
+Dec 09 18:31:25 [INF] McCtrl BE: 22080D00 RB2>MC:   SpP  14: Tube transport reservation request
+Dec 09 18:31:25 [INF] McCtrl BE: 22060D80 MC>RB2:   SpP  14: Tube transport reserved. Tubes 0x10
+Dec 09 18:31:25 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.14 Debug 0x00  0x31 0x01 0x00 0x00 
+Dec 09 18:31:25 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.14 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 18:31:25 [INF] McCtrl BE: 220A0D08 RB2>MC:   SpP  14: Request registration
+Dec 09 18:31:25 [INF] McCtrl BE: 31128261 MC>SC1:   SpP  14: RB2 registration request 61h
+Dec 09 18:31:25 [INF] McCtrl BE: 31128200 SC1>MC:   SpP  14: RB2 registration accepted
+Dec 09 18:31:25 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 09 18:31:25 [INF] McCtrl BE: 220B0D08 MC>RB2:   SpP  14: Registration accepted
+Dec 09 18:31:25 [INF] McCtrl BE: 31121280 SC1>MC:   SpP  14: AS: Start SY piecing cycle
+Dec 09 18:31:25 [INF] McCtrl BE: 31124E00 MC>SC1:   SpP  14: Package diameter 0
+Dec 09 18:31:26 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.14 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 09 18:31:29 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.14 Debug 0x00  0x31 0x02 0x00 0x00 
+Dec 09 18:31:37 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.14 Debug 0x00  0x31 0x03 0x00 0x00 
+Dec 09 18:31:37 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.14 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 18:31:46 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.14 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 09 18:31:46 [INF] MEH LP: MEvt Info 18000(68) SU.14 Debug 0x00  0x04 0x00 0x00 0x00 
+Dec 09 18:31:49 [INF] MEH LP: MEvt Info 20100(69) SUC.14 Debug 0x04  0x8D 0x04 0x00 0x00 
+Dec 09 18:31:54 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.14 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 09 18:32:05 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.14 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 09 18:32:07 [INF] MEH LP: MEvt Info 18000(68) SU.14 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 09 18:32:07 [INF] MEH LP: MEvt Info 20150(141) SU.14  0x00 0x00 0x00 0x00 
+Dec 09 18:32:08 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.14 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 09 18:32:11 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.14 Debug 0x00  0x29 0x00 0x00 0x00 
+Dec 09 18:32:13 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.14 Debug 0x00  0x2A 0x00 0x00 0x00 
+Dec 09 18:32:13 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.14 Debug 0x03  0x01 0x02 0x01 0x2A 
+Dec 09 18:32:13 [INF] McCtrl BE: 31121283 SC1>MC:   SpP  14: AS: SY piecing succeeded
+Dec 09 18:32:14 [INF] McCtrl BE: 31128A00 MC>SC1:   SpP  14: RB releases registration
+Dec 09 18:32:17 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 09 18:35:03 [INF] McCtrl BE: View open  : Handle  197   Id 4  RepID 65535  Grp 3  SpP 14  Rb 1  Misc 4294967295
+Dec 09 18:35:09 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 3  SpP 14  Rb 1  Misc 4294967295
+Dec 09 18:38:13 [INF] McCtrl BE: 31124F01 MC>SC1:   SpP  14: Set WaitRB, reason 0x01
+Dec 09 18:38:13 [INF] MEH LP: MEvt Info 18000(68) SU.14 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 09 18:38:13 [INF] McCtrl BE: 31124C00 MC>SC1:   SpP  14: Set Length Signal
+Dec 09 18:38:13 [INF] McCtrl BE: 31124000 MC>SC1:   SpP  14: Fadenbruch erzeugen
+Dec 09 18:38:13 [INF] McCtrl BE: 31121000 SC1>MC:   SpP  14: Yarn break (reason not specified)
+Dec 09 18:38:15 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.14 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 09 18:38:15 [INF] MEH LP: MEvt Info 20100(69) SUC.14 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 18:38:20 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.14 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 18:38:20 [INF] McCtrl BE: 31121100 SC1>MC:   SpP  14: New SpP state: RDY
+Dec 09 18:38:21 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.14 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 09 18:38:29 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.14 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 09 18:38:29 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.14 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 18:52:53 [INF] McCtrl BE: View open  : Handle  209   Id 4  RepID 65535  Grp 2  SpP 14  Rb 1  Misc 4294967295
+Dec 09 21:14:21 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 09 21:14:57 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 09 22:31:31 [INF] McCtrl BE: View open  : Handle  249   Id 4  RepID 65535  Grp 1  SpP 14  Rb 1  Misc 4294967295
+Dec 10 06:52:55 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 10 07:21:28 [INF] McCtrl BE: 31320000 MC>SC1:   Assign resources for MSR
+Dec 10 07:22:22 [INF] McCtrl BE: 31320000 MC>SC1:   Assign resources for MSR
+Dec 10 07:36:07 [INF] McCtrl BE: 31121702 SC1>MC:   SpP  14: TA state entered
+Dec 10 07:37:04 [INF] McCtrl BE: 31121701 SC1>MC:   SpP  14: TA state left + SP-Lock
+Dec 10 07:37:04 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.14 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 10 07:37:05 [INF] MEH LP: MEvt Info 20100(69) SUC.14 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 10 07:37:10 [INF] McCtrl BE: 31121100 SC1>MC:   SpP  14: New SpP state: RDY
+Dec 10 07:37:10 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.14 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 10 08:33:21 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 10 08:47:16 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 10 08:48:04 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 10 08:48:43 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 10 08:49:26 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL

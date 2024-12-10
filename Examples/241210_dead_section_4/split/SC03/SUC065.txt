@@ -1,0 +1,129 @@
+Dec 09 07:46:45 [INF] NuuX BE: 78330000 CND>MC:   SC3 Boot message
+Dec 09 07:46:45 [INF] NuuX BE: 7833F000 MC>CND:   Start guarding node SC3
+Dec 09 07:46:46 [INF] NuuX BE: 78337F00 CND>MC:   SC3 Pre-Operational
+Dec 09 07:46:48 [INF] NuuX BE: 78330100 MC>CND:   Start Remote Node SC3
+Dec 09 07:46:48 [INF] NuuX BE: 78330500 CND>MC:   SC3 Operational
+Dec 09 07:46:49 [INF] NuuX BE: 33310402 MC>SC3:   Machine type code 02
+Dec 09 07:46:49 [INF] NuuX BE: 33310316 MC>SC3:   YC type code 16
+Dec 09 07:46:49 [INF] NuuX BE: 333F0200 MC>SC3:   Configuration done
+Dec 09 07:49:08 [INF] McCtrl BE: 33084F01 MC>SC3:   SpP  65: Set WaitRB, reason 0x01
+Dec 09 07:49:09 [INF] McCtrl BE: 78330000 CND>MC:   SC3 Boot message
+Dec 09 07:49:09 [INF] McCtrl BE: 78337F00 CND>MC:   SC3 Pre-Operational
+Dec 09 07:49:09 [INF] McCtrl BE: 7833F000 MC>CND:   Start guarding node SC3
+Dec 09 07:49:09 [INF] McCtrl BE: 78330100 MC>CND:   Start Remote Node SC3
+Dec 09 07:49:10 [INF] McCtrl BE: 78330500 CND>MC:   SC3 Operational
+Dec 09 07:49:11 [INF] McCtrl BE: 33333724 SC3>MC:   Release 241203
+Dec 09 07:49:27 [INF] McCtrl BE: 33084F01 MC>SC3:   SpP  65: Set WaitRB, reason 0x01
+Dec 09 07:49:27 [INF] McCtrl BE: 33081000 MC>SC3:   SpP  65: Add to PG 0
+Dec 09 07:49:27 [INF] McCtrl BE: 33F08080 SC3>MC:   Emergency event! Code 0x80 0x80
+Dec 09 07:52:28 [INF] Q10CCU 2: TA set on spp 65 type 101, PGrp 1
+Dec 09 07:52:28 [INF] Q10CCU 6: SPPINFO update spp 65 index 2, YSpeed 169.00, PGrp 1
+Dec 09 07:52:28 [INF] Q10CCU 2: SPPINFO update spp 65 index 1, YCount 41.70, PGrp 1
+Dec 09 07:52:28 [INF] Q10CCU 6: SPPINFO update spp 65 index 3, Rotor 104, PGrp 1
+Dec 09 07:52:28 [INF] Q10CCU 2: QInit event spp 65, PGrp 1, Protocol 3
+Dec 09 07:52:43 [INF] McCtrl BE: 33081701 SC3>MC:   SpP  65: TA state left + SP-Lock
+Dec 09 07:52:44 [INF] Q10CCU 6: TA reset on spp 65, PGpr 1
+Dec 09 07:52:51 [INF] McCtrl BE: 33081100 SC3>MC:   SpP  65: New SpP state: RDY
+Dec 09 08:01:30 [INF] Q10CCU 2: SPPINFO update spp 65 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:01:30 [INF] Q10CCU 6: SPPINFO update spp 65 index 1, YCount 35.70, PGrp 1
+Dec 09 08:02:02 [INF] Q10CCU 2: SPPINFO update spp 65 index 2, YSpeed 169.00, PGrp 1
+Dec 09 08:02:02 [INF] Q10CCU 6: SPPINFO update spp 65 index 1, YCount 41.70, PGrp 1
+Dec 09 08:03:00 [INF] Q10CCU 2: SPPINFO update spp 65 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:03:00 [INF] Q10CCU 6: SPPINFO update spp 65 index 1, YCount 35.70, PGrp 1
+Dec 09 08:03:16 [INF] Q10CCU 6: SPPINFO update spp 65 index 2, YSpeed 169.00, PGrp 1
+Dec 09 08:03:16 [INF] Q10CCU 6: SPPINFO update spp 65 index 1, YCount 41.70, PGrp 1
+Dec 09 08:03:39 [INF] Q10CCU 2: SPPINFO update spp 65 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:03:39 [INF] Q10CCU 6: SPPINFO update spp 65 index 1, YCount 35.70, PGrp 1
+Dec 09 08:05:24 [INF] Q10CCU 6: SPPINFO update spp 65 index 2, YSpeed 169.00, PGrp 1
+Dec 09 08:05:24 [INF] Q10CCU 2: SPPINFO update spp 65 index 1, YCount 41.70, PGrp 1
+Dec 09 08:05:33 [INF] Q10CCU 6: SPPINFO update spp 65 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:05:33 [INF] Q10CCU 6: SPPINFO update spp 65 index 1, YCount 35.70, PGrp 1
+Dec 09 08:26:23 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:27:28 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:28:34 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:29:28 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:30:19 [INF] McCtrl BE: 210A4000 MC>RB1:   SpP  65: SpP requires service 61
+Dec 09 08:30:22 [INF] McCtrl BE: 210A4008 RB1>MC:   SpP  65: Request registration
+Dec 09 08:30:22 [INF] McCtrl BE: 33088161 MC>SC3:   SpP  65: RB1 registration request 61h
+Dec 09 08:30:22 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.65 Debug 0x00  0x31 0x01 0x00 0x00 
+Dec 09 08:30:22 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.65 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 08:30:22 [INF] McCtrl BE: 33088100 SC3>MC:   SpP  65: RB1 registration accepted
+Dec 09 08:30:22 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:30:22 [INF] McCtrl BE: 210B4008 MC>RB1:   SpP  65: Registration accepted
+Dec 09 08:30:22 [INF] McCtrl BE: 33081280 SC3>MC:   SpP  65: AS: Start SY piecing cycle
+Dec 09 08:30:22 [INF] McCtrl BE: 33084E00 MC>SC3:   SpP  65: Package diameter 0
+Dec 09 08:30:23 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.65 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 09 08:30:25 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.65 Debug 0x00  0x31 0x02 0x00 0x00 
+Dec 09 08:30:34 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.65 Debug 0x00  0x31 0x03 0x00 0x00 
+Dec 09 08:30:34 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.65 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 08:30:44 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.65 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 09 08:30:44 [INF] MEH LP: MEvt Info 18000(68) SU.65 Debug 0x00  0x04 0x00 0x00 0x00 
+Dec 09 08:30:47 [INF] MEH LP: MEvt Info 20100(69) SUC.65 Debug 0x04  0x9E 0x04 0x00 0x00 
+Dec 09 08:30:52 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.65 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 09 08:31:02 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.65 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 09 08:31:05 [INF] MEH LP: MEvt Info 18000(68) SU.65 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 09 08:31:05 [INF] MEH LP: MEvt Info 20150(141) SU.65  0x00 0x00 0x00 0x00 
+Dec 09 08:31:05 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.65 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 09 08:31:08 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.65 Debug 0x00  0x29 0x00 0x00 0x00 
+Dec 09 08:31:11 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.65 Debug 0x00  0x2A 0x00 0x00 0x00 
+Dec 09 08:31:11 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.65 Debug 0x03  0x00 0x01 0x01 0x2A 
+Dec 09 08:31:11 [INF] McCtrl BE: 33081283 SC3>MC:   SpP  65: AS: SY piecing succeeded
+Dec 09 08:31:12 [INF] McCtrl BE: 33088A00 MC>SC3:   SpP  65: RB releases registration
+Dec 09 08:31:15 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:31:47 [INF] McCtrl BE: 33084F01 MC>SC3:   SpP  65: Set WaitRB, reason 0x01
+Dec 09 08:31:47 [INF] McCtrl BE: 33084C00 MC>SC3:   SpP  65: Set Length Signal
+Dec 09 08:31:47 [INF] MEH LP: MEvt Info 18000(68) SU.65 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 09 08:31:47 [INF] McCtrl BE: 33084000 MC>SC3:   SpP  65: Fadenbruch erzeugen
+Dec 09 08:31:47 [INF] McCtrl BE: 33081000 SC3>MC:   SpP  65: Yarn break (reason not specified)
+Dec 09 08:31:49 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.65 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 09 08:31:49 [INF] MEH LP: MEvt Info 20100(69) SUC.65 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 08:31:52 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.65 Debug 0x00  0x2E 0x01 0x00 0x00 
+Dec 09 08:31:55 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.65 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 09 08:32:03 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.65 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 09 08:32:03 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.65 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 08:32:13 [INF] MEH LP: MEvt Info 20100(69) SUC.65 Debug 0x04  0x9B 0x04 0x00 0x00 
+Dec 09 08:32:24 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:32:29 [INF] MEH LP: MEvt Info 20100(69) SUC.65 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 08:32:33 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.65 Debug 0x00  0x2E 0x02 0x00 0x00 
+Dec 09 08:32:34 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.65 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 08:32:34 [INF] McCtrl BE: 33081100 SC3>MC:   SpP  65: New SpP state: RDY
+Dec 09 08:33:14 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:33:49 [INF] McCtrl BE: 210A4000 MC>RB1:   SpP  65: SpP requires service 11
+Dec 09 08:33:54 [INF] McCtrl BE: 33081702 SC3>MC:   SpP  65: TA state entered
+Dec 09 08:34:20 [INF] McCtrl BE: 33081701 SC3>MC:   SpP  65: TA state left + SP-Lock
+Dec 09 08:34:20 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.65 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 08:34:20 [INF] MEH LP: MEvt Info 20100(69) SUC.65 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 08:34:25 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.65 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 08:34:25 [INF] McCtrl BE: 33081100 SC3>MC:   SpP  65: New SpP state: RDY
+Dec 09 08:35:17 [INF] McCtrl RS: SpP  65  OState 1  Trans 31  NState 2  OAcc 3  NAcc 2
+Dec 09 08:35:17 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.65 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 08:35:17 [INF] McCtrl BE: 33084D00 MC>SC3:   SpP  65: Clear Length Signal
+Dec 09 08:35:17 [INF] McCtrl BE: 33084F00 MC>SC3:   SpP  65: Clear WaitRB
+Dec 09 08:35:17 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:35:17 [INF] McCtrl BE: 33081200 SC3>MC:   SpP  65: AS: Start PY piecing cycle
+Dec 09 08:35:17 [INF] McCtrl BE: 33084E01 MC>SC3:   SpP  65: Package diameter 1
+Dec 09 08:35:18 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:35:18 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.65 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 09 08:35:20 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:35:40 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.65 Debug 0x03  0x00 0x00 0x03 0x24 
+Dec 09 08:35:40 [INF] McCtrl BE: 33081202 SC3>MC:   SpP  65: AS: PY piecing failed
+Dec 09 08:35:44 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.65 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 08:35:45 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:35:55 [INF] McCtrl BE: 33084F01 MC>SC3:   SpP  65: Set WaitRB, reason 0x01
+Dec 09 08:36:03 [INF] McCtrl BE: 33081100 SC3>MC:   SpP  65: New SpP state: RDY
+Dec 09 08:52:19 [INF] McCtrl BE: 210A4000 MC>RB1:   SpP  65: SpP requires service 01
+Dec 09 08:53:14 [INF] McCtrl BE: 210A4000 MC>RB1:   SpP  65: SpP requires service 01
+Dec 09 09:24:03 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 09:25:08 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 09:25:58 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 10 07:17:39 [INF] McCtrl RS: GrpChg SpP  65: OldGrp 0 Cnt 14, NewGrp 80 Cnt 14
+Dec 10 07:17:39 [INF] McCtrl RS: GrpChg SpP  65: OldGrp 80 Cnt 9, NewGrp 2 Cnt 31
+Dec 10 07:17:39 [INF] Q10CCU 2: TA set on spp 65 type 101, PGrp 1
+Dec 10 07:17:39 [INF] Q10CCU 6: QInit event spp 65, PGrp 3, Protocol 3
+Dec 10 07:17:39 [INF] Q10CCU 6: Clear_Yarn_ParmsCCU change PGrpAss spp 65 sensor, previous grp 1, new grp 3
+Dec 10 07:17:40 [INF] McCtrl BE: 33084F01 MC>SC3:   SpP  65: Set WaitRB, reason 0x01
+Dec 10 07:17:41 [INF] McCtrl BE: 33081002 MC>SC3:   SpP  65: Add to PG 2
+Dec 10 07:17:41 [INF] McCtrl BE: 33084F01 MC>SC3:   SpP  65: Set WaitRB, reason 0x01
+Dec 10 07:17:52 [INF] McCtrl BE: 33081700 SC3>MC:   SpP  65: TA state left
+Dec 10 07:17:52 [INF] McCtrl BE: 33084308 MC>SC3:   SpP  65: Set operator request 8
+Dec 10 07:17:54 [INF] Q10CCU 6: TA reset on spp 65, PGpr 3

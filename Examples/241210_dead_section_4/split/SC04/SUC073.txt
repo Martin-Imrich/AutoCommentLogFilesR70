@@ -1,0 +1,650 @@
+Dec 09 07:46:45 [INF] NuuX BE: 78340000 CND>MC:   SC4 Boot message
+Dec 09 07:46:45 [INF] NuuX BE: 7834F000 MC>CND:   Start guarding node SC4
+Dec 09 07:46:46 [INF] NuuX BE: 78347F00 CND>MC:   SC4 Pre-Operational
+Dec 09 07:46:48 [INF] NuuX BE: 78340100 MC>CND:   Start Remote Node SC4
+Dec 09 07:46:48 [INF] NuuX BE: 78340500 CND>MC:   SC4 Operational
+Dec 09 07:46:49 [INF] NuuX BE: 34310402 MC>SC4:   Machine type code 02
+Dec 09 07:46:49 [INF] NuuX BE: 34310316 MC>SC4:   YC type code 16
+Dec 09 07:46:49 [INF] NuuX BE: 343F0200 MC>SC4:   Configuration done
+Dec 09 07:49:09 [INF] McCtrl BE: 78340000 CND>MC:   SC4 Boot message
+Dec 09 07:49:10 [INF] McCtrl BE: 78347F00 CND>MC:   SC4 Pre-Operational
+Dec 09 07:49:10 [INF] McCtrl BE: 7834F000 MC>CND:   Start guarding node SC4
+Dec 09 07:49:10 [INF] McCtrl BE: 78340100 MC>CND:   Start Remote Node SC4
+Dec 09 07:49:10 [INF] McCtrl BE: 78340500 CND>MC:   SC4 Operational
+Dec 09 07:49:11 [INF] McCtrl BE: 34333724 SC4>MC:   Release 241203
+Dec 09 07:49:27 [INF] McCtrl BE: 34001002 MC>SC4:   SpP  73: Add to PG 2
+Dec 09 07:49:28 [INF] McCtrl BE: 34F08080 SC4>MC:   Emergency event! Code 0x80 0x80
+Dec 09 07:52:11 [INF] Q10CCU 6: TA set on spp 73 type 101, PGrp 3
+Dec 09 07:52:12 [INF] Q10CCU 2: SPPINFO update spp 73 index 2, YSpeed 208.00, PGrp 3
+Dec 09 07:52:12 [INF] Q10CCU 6: SPPINFO update spp 73 index 1, YCount 41.70, PGrp 3
+Dec 09 07:52:12 [INF] Q10CCU 2: SPPINFO update spp 73 index 3, Rotor 97, PGrp 3
+Dec 09 07:52:12 [INF] Q10CCU 6: QInit event spp 73, PGrp 3, Protocol 3
+Dec 09 07:52:31 [INF] McCtrl BE: 34001701 SC4>MC:   SpP  73: TA state left + SP-Lock
+Dec 09 07:52:31 [INF] Q10CCU 6: TA reset on spp 73, PGpr 3
+Dec 09 07:52:37 [INF] McCtrl BE: 34001100 SC4>MC:   SpP  73: New SpP state: RDY
+Dec 09 08:10:42 [INF] McCtrl BE: 34001102 SC4>MC:   SpP  73: New SpP state: OFF
+Dec 09 08:12:23 [INF] McCtrl BE: 34001100 SC4>MC:   SpP  73: New SpP state: RDY
+Dec 09 08:12:42 [INF] McCtrl BE: 34001102 SC4>MC:   SpP  73: New SpP state: OFF
+Dec 09 08:12:45 [INF] McCtrl BE: 34001101 SC4>MC:   SpP  73: New SpP state: RDY + SP-Lock
+Dec 09 08:12:45 [INF] McCtrl BE: 34001100 SC4>MC:   SpP  73: New SpP state: RDY
+Dec 09 08:30:10 [INF] McCtrl RS: GrpChg SpP  73: OldGrp 2 Cnt 10, NewGrp 0 Cnt 38
+Dec 09 08:30:10 [ERR] McCtrl RS: rs-sc.c Z:2441    SpP  73: WaitRB not set at PgChg
+Dec 09 08:30:10 [INF] McCtrl BE: 34001000 MC>SC4:   SpP  73: Add to PG 0
+Dec 09 08:30:10 [INF] McCtrl BE: 34004F01 MC>SC4:   SpP  73: Set WaitRB, reason 0x01
+Dec 09 08:30:12 [INF] Q10CCU 2: SPPINFO update spp 73 index 2, YSpeed 167.00, PGrp 3
+Dec 09 08:30:12 [INF] Q10CCU 6: TA set on spp 73 type 101, PGrp 3
+Dec 09 08:30:12 [INF] Q10CCU 2: QInit event spp 73, PGrp 1, Protocol 3
+Dec 09 08:30:12 [INF] Q10CCU 2: Clear_Yarn_ParmsCCU change PGrpAss spp 73 sensor, previous grp 3, new grp 1
+Dec 09 08:30:12 [INF] Q10CCU 6: SPPINFO update spp 73 index 1, YCount 35.70, PGrp 1
+Dec 09 08:30:12 [INF] Q10CCU 2: SPPINFO update spp 73 index 3, Rotor 104, PGrp 1
+Dec 09 08:30:19 [INF] McCtrl BE: 34001700 SC4>MC:   SpP  73: TA state left
+Dec 09 08:30:19 [INF] McCtrl BE: 34004308 MC>SC4:   SpP  73: Set operator request 8
+Dec 09 08:30:20 [INF] Q10CCU 6: TA reset on spp 73, PGpr 1
+Dec 09 08:30:39 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 08:30:39 [INF] McCtrl BE: 34001100 SC4>MC:   SpP  73: New SpP state: RDY
+Dec 09 08:30:39 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 08:30:44 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 08:33:52 [INF] McCtrl BE: 210A4800 MC>RB1:   SpP  73: SpP requires service 01
+Dec 09 08:36:27 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:37:35 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:38:24 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:39:10 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 08:39:12 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:39:52 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x0B  0x04 0x00 0x00 0x00 
+Dec 09 08:40:07 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:41:00 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:41:53 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:42:59 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:43:47 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:44:34 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 08:44:38 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:45:43 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:46:32 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:47:18 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 08:47:32 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:48:38 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:49:27 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:50:13 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 08:50:15 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:51:21 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:52:02 [INF] McCtrl BE: 210A4800 MC>RB1:   SpP  73: SpP requires service 01
+Dec 09 08:53:16 [INF] McCtrl BE: 210A4800 MC>RB1:   SpP  73: SpP requires service 01
+Dec 09 08:54:18 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:55:53 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:56:46 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:57:50 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:58:39 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:59:13 [INF] McCtrl BE: 210A4800 MC>RB1:   SpP  73: SpP requires service 61
+Dec 09 08:59:20 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:00:25 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:01:15 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:02:01 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 09:02:15 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:03:08 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:04:11 [INF] McCtrl BE: 210A4800 MC>RB1:   SpP  73: SpP requires service 01
+Dec 09 09:26:32 [INF] McCtrl BE: 210A4800 MC>RB1:   SpP  73: SpP requires service 61
+Dec 09 09:26:37 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x31 0x01 0x00 0x00 
+Dec 09 09:26:37 [INF] McCtrl BE: 210A4808 RB1>MC:   SpP  73: Request registration
+Dec 09 09:26:37 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 09:26:37 [INF] McCtrl BE: 34008161 MC>SC4:   SpP  73: RB1 registration request 61h
+Dec 09 09:26:37 [INF] McCtrl BE: 34008100 SC4>MC:   SpP  73: RB1 registration accepted
+Dec 09 09:26:37 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:26:37 [INF] McCtrl BE: 210B4808 MC>RB1:   SpP  73: Registration accepted
+Dec 09 09:26:37 [INF] McCtrl BE: 34001280 SC4>MC:   SpP  73: AS: Start SY piecing cycle
+Dec 09 09:26:37 [INF] McCtrl BE: 34004E00 MC>SC4:   SpP  73: Package diameter 0
+Dec 09 09:26:38 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 09 09:26:40 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x31 0x02 0x00 0x00 
+Dec 09 09:26:49 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x31 0x03 0x00 0x00 
+Dec 09 09:26:49 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 09:26:59 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 09 09:26:59 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x04 0x00 0x00 0x00 
+Dec 09 09:27:02 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x91 0x04 0x00 0x00 
+Dec 09 09:27:07 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 09 09:27:17 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 09 09:27:20 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 09 09:27:20 [INF] MEH LP: MEvt Info 20150(141) SU.73  0x00 0x00 0x00 0x00 
+Dec 09 09:27:20 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 09 09:27:21 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x03  0x00 0x01 0x01 0x28 
+Dec 09 09:27:21 [INF] McCtrl BE: 34001282 SC4>MC:   SpP  73: AS: SY piecing failed
+Dec 09 09:27:21 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 09 09:27:22 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 09:27:22 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 09 09:27:26 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2C 0x01 0x00 0x00 
+Dec 09 09:27:26 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 09 09:27:34 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 09 09:27:34 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 09:27:40 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2C 0x02 0x00 0x00 
+Dec 09 09:27:42 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 09:27:42 [INF] McCtrl BE: 34001100 SC4>MC:   SpP  73: New SpP state: RDY
+Dec 09 09:27:42 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:27:42 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 09:27:42 [INF] McCtrl BE: 34001280 SC4>MC:   SpP  73: AS: Start SY piecing cycle
+Dec 09 09:27:42 [INF] McCtrl BE: 34004E00 MC>SC4:   SpP  73: Package diameter 0
+Dec 09 09:27:43 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 09 09:27:47 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 09 09:27:51 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x91 0x04 0x00 0x00 
+Dec 09 09:27:56 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 09 09:28:06 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 09 09:28:09 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 09 09:28:09 [INF] MEH LP: MEvt Info 20150(141) SU.73  0x00 0x00 0x00 0x00 
+Dec 09 09:28:09 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 09 09:28:10 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x03  0x00 0x01 0x02 0x28 
+Dec 09 09:28:10 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 09 09:28:10 [INF] McCtrl BE: 34001282 SC4>MC:   SpP  73: AS: SY piecing failed
+Dec 09 09:28:11 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 09 09:28:11 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 09:28:15 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2C 0x01 0x00 0x00 
+Dec 09 09:28:15 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 09 09:28:23 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 09 09:28:23 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 09:28:29 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2C 0x02 0x00 0x00 
+Dec 09 09:28:31 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 09:28:31 [INF] McCtrl BE: 34001100 SC4>MC:   SpP  73: New SpP state: RDY
+Dec 09 09:28:31 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 09:28:31 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:28:31 [INF] McCtrl BE: 34001280 SC4>MC:   SpP  73: AS: Start SY piecing cycle
+Dec 09 09:28:31 [INF] McCtrl BE: 34004E00 MC>SC4:   SpP  73: Package diameter 0
+Dec 09 09:28:32 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 09 09:28:37 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 09 09:28:40 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x8C 0x04 0x00 0x00 
+Dec 09 09:28:45 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 09 09:28:55 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 09 09:28:58 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 09 09:28:58 [INF] MEH LP: MEvt Info 20150(141) SU.73  0x00 0x00 0x00 0x00 
+Dec 09 09:28:59 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 09 09:28:59 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x03  0x00 0x01 0x03 0x28 
+Dec 09 09:28:59 [INF] McCtrl BE: 34001301 SC4>MC:   SpP  73: Request operator BA 1
+Dec 09 09:28:59 [INF] McCtrl BE: 34001285 SC4>MC:   SpP  73: AS: SY piecing failed with BA
+Dec 09 09:28:59 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 09 09:29:00 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 09:29:00 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 09 09:29:04 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2C 0x01 0x00 0x00 
+Dec 09 09:29:04 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 09 09:29:12 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 09 09:29:12 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 09:29:16 [INF] McCtrl BE: 34008A00 MC>SC4:   SpP  73: RB releases registration
+Dec 09 09:29:17 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 09:29:22 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:30:27 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:30:51 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x0B  0x04 0x00 0x00 0x00 
+Dec 09 09:31:09 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:32:02 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:33:10 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:33:59 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:34:45 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 09:34:47 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:35:52 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:36:30 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:37:34 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:38:23 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:39:02 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:40:07 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:40:29 [INF] McCtrl BE: 34001100 SC4>MC:   SpP  73: New SpP state: RDY
+Dec 09 09:40:29 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 09:40:30 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 09:40:35 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 09:40:40 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2F 0x01 0x00 0x00 
+Dec 09 09:40:49 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2F 0x02 0x00 0x00 
+Dec 09 09:40:49 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x04 0x00 0x00 0x00 
+Dec 09 09:40:53 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2F 0x03 0x00 0x00 
+Dec 09 09:40:56 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:40:56 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 09:41:26 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:41:44 [INF] McCtrl BE: 210A4800 MC>RB1:   SpP  73: SpP requires service 61
+Dec 09 09:42:06 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:43:11 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:44:02 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:44:39 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:45:44 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:46:23 [INF] McCtrl BE: 210A4800 MC>RB1:   SpP  73: SpP requires service 01
+Dec 09 09:56:52 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 09:57:36 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:57:47 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:57:56 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 09:58:12 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:58:26 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:58:45 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 09:58:49 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:58:58 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:59:03 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:59:17 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:59:22 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 09:59:40 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 10:00:14 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 10:00:19 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 10:00:59 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 10:01:08 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 10:01:41 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 10:02:01 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 10:03:07 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 10:03:56 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 10:04:42 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 10:04:44 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 10:05:52 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 10:06:29 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 10:07:37 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 10:08:26 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 10:09:03 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 10:10:18 [INF] McCtrl BE: View open  : Handle  122   Id 4  RepID 65535  Grp 1  SpP 73  Rb 1  Misc 4294967295
+Dec 09 10:22:23 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 10:22:25 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 10:23:10 [INF] McCtrl BE: 210A4800 MC>RB1:   SpP  73: SpP requires service 61
+Dec 09 10:23:13 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x31 0x01 0x00 0x00 
+Dec 09 10:23:13 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 10:23:13 [INF] McCtrl BE: 210A4808 RB1>MC:   SpP  73: Request registration
+Dec 09 10:23:13 [INF] McCtrl BE: 34008161 MC>SC4:   SpP  73: RB1 registration request 61h
+Dec 09 10:23:13 [INF] McCtrl BE: 34008100 SC4>MC:   SpP  73: RB1 registration accepted
+Dec 09 10:23:13 [INF] McCtrl BE: 210B4808 MC>RB1:   SpP  73: Registration accepted
+Dec 09 10:23:13 [INF] McCtrl BE: 34001280 SC4>MC:   SpP  73: AS: Start SY piecing cycle
+Dec 09 10:23:13 [INF] McCtrl BE: 34004E00 MC>SC4:   SpP  73: Package diameter 0
+Dec 09 10:23:14 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 09 10:23:16 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x31 0x02 0x00 0x00 
+Dec 09 10:23:25 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x31 0x03 0x00 0x00 
+Dec 09 10:23:25 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 10:23:35 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 09 10:23:35 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x04 0x00 0x00 0x00 
+Dec 09 10:23:38 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x94 0x04 0x00 0x00 
+Dec 09 10:23:43 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 09 10:23:53 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 09 10:23:59 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 09 10:23:59 [INF] MEH LP: MEvt Info 20150(141) SU.73  0x00 0x00 0x00 0x00 
+Dec 09 10:23:59 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 09 10:24:02 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x29 0x00 0x00 0x00 
+Dec 09 10:24:05 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2A 0x00 0x00 0x00 
+Dec 09 10:24:05 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x03  0x00 0x01 0x00 0x2A 
+Dec 09 10:24:05 [INF] McCtrl BE: 34001283 SC4>MC:   SpP  73: AS: SY piecing succeeded
+Dec 09 10:24:05 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 10:24:06 [INF] McCtrl BE: 34008A00 MC>SC4:   SpP  73: RB releases registration
+Dec 09 10:24:53 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 10:30:12 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 10:30:13 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 10:30:14 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 11:00:21 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 11:01:16 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 11:52:54 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 11:53:32 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 11:54:00 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 12:30:46 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 14:22:51 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 14:23:35 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 16:53:03 [INF] McCtrl BE: 3400A100 SC4>MC:   SpP  73: YC cut done, fault code 0x00
+Dec 09 16:53:03 [INF] McCtrl BE: 3400B001 MC>SC4:   SpP  73: YC cut confirm code 01
+Dec 09 16:53:03 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 09 16:53:03 [INF] McCtrl BE: 34001002 SC4>MC:   SpP  73: Yarn break (reason not specified)
+Dec 09 16:53:05 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 09 16:53:05 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 16:53:11 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 16:53:11 [INF] McCtrl BE: 34001100 SC4>MC:   SpP  73: New SpP state: RDY
+Dec 09 16:53:11 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 16:53:11 [INF] McCtrl BE: 34001200 SC4>MC:   SpP  73: AS: Start PY piecing cycle
+Dec 09 16:53:11 [INF] McCtrl BE: 34004EA9 MC>SC4:   SpP  73: Package diameter 169
+Dec 09 16:53:12 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 09 16:53:19 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 09 16:53:19 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 16:53:19 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 09 16:53:31 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 09 16:53:31 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x04 0x00 0x00 0x00 
+Dec 09 16:53:34 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x91 0x04 0x00 0x00 
+Dec 09 16:53:39 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 09 16:53:49 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 09 16:53:51 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 09 16:53:52 [INF] MEH LP: MEvt Info 20150(141) SU.73  0x00 0x00 0x00 0x00 
+Dec 09 16:53:52 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 09 16:53:56 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2A 0x00 0x00 0x00 
+Dec 09 16:53:56 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x03  0x00 0x00 0x03 0x2A 
+Dec 09 16:53:56 [INF] McCtrl BE: 34001203 SC4>MC:   SpP  73: AS: PY piecing succeeded
+Dec 09 16:53:56 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 16:53:59 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 09 16:53:59 [INF] McCtrl BE: 3400A100 SC4>MC:   SpP  73: YC cut done, fault code 0x00
+Dec 09 16:53:59 [INF] McCtrl BE: 3400B001 MC>SC4:   SpP  73: YC cut confirm code 01
+Dec 09 16:53:59 [INF] McCtrl BE: 34001002 SC4>MC:   SpP  73: Yarn break (reason not specified)
+Dec 09 16:54:02 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 16:54:02 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 09 16:54:07 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 16:54:07 [INF] McCtrl BE: 34001100 SC4>MC:   SpP  73: New SpP state: RDY
+Dec 09 16:54:08 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 16:54:08 [INF] McCtrl BE: 34001200 SC4>MC:   SpP  73: AS: Start PY piecing cycle
+Dec 09 16:54:08 [INF] McCtrl BE: 34004EA9 MC>SC4:   SpP  73: Package diameter 169
+Dec 09 16:54:08 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 09 16:54:16 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 09 16:54:16 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 16:54:16 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 09 16:54:27 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 09 16:54:27 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x04 0x00 0x00 0x00 
+Dec 09 16:54:31 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x94 0x04 0x00 0x00 
+Dec 09 16:54:36 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 09 16:54:45 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 09 16:54:48 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 09 16:54:48 [INF] MEH LP: MEvt Info 20150(141) SU.73  0x00 0x00 0x00 0x00 
+Dec 09 16:54:48 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 09 16:54:49 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x03  0x00 0x00 0x01 0x28 
+Dec 09 16:54:49 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 09 16:54:49 [INF] McCtrl BE: 34001202 SC4>MC:   SpP  73: AS: PY piecing failed
+Dec 09 16:54:49 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 16:54:50 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 09 16:54:50 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 16:54:55 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 16:54:55 [INF] McCtrl BE: 34001100 SC4>MC:   SpP  73: New SpP state: RDY
+Dec 09 16:54:56 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 16:54:56 [INF] McCtrl BE: 34001200 SC4>MC:   SpP  73: AS: Start PY piecing cycle
+Dec 09 16:54:56 [INF] McCtrl BE: 34004EA9 MC>SC4:   SpP  73: Package diameter 169
+Dec 09 16:54:57 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 09 16:54:57 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 09 16:55:04 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 09 16:55:04 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 16:55:07 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 09 16:55:10 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x94 0x04 0x00 0x00 
+Dec 09 16:55:16 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 09 16:55:26 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 09 16:55:28 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 09 16:55:28 [INF] MEH LP: MEvt Info 20150(141) SU.73  0x00 0x00 0x00 0x00 
+Dec 09 16:55:29 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 09 16:55:33 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2A 0x00 0x00 0x00 
+Dec 09 16:55:33 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x03  0x00 0x00 0x02 0x2A 
+Dec 09 16:55:33 [INF] McCtrl BE: 34001203 SC4>MC:   SpP  73: AS: PY piecing succeeded
+Dec 09 16:55:33 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 18:10:26 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 18:11:04 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 18:11:49 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 18:27:44 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 18:53:05 [INF] McCtrl BE: View open  : Handle  216   Id 4  RepID 65535  Grp 2  SpP 73  Rb 1  Misc 4294967295
+Dec 09 18:53:12 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 2  SpP 73  Rb 1  Misc 4294967295
+Dec 09 19:12:30 [INF] McCtrl BE: 3400A100 SC4>MC:   SpP  73: YC cut done, fault code 0x00
+Dec 09 19:12:30 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 09 19:12:30 [INF] McCtrl BE: 3400B001 MC>SC4:   SpP  73: YC cut confirm code 01
+Dec 09 19:12:30 [INF] McCtrl BE: 34001002 SC4>MC:   SpP  73: Yarn break (reason not specified)
+Dec 09 19:12:32 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 19:12:32 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 09 19:12:38 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 19:12:38 [INF] McCtrl BE: 34001100 SC4>MC:   SpP  73: New SpP state: RDY
+Dec 09 19:12:38 [INF] McCtrl BE: 34001200 SC4>MC:   SpP  73: AS: Start PY piecing cycle
+Dec 09 19:12:38 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 19:12:38 [INF] McCtrl BE: 34004EBB MC>SC4:   SpP  73: Package diameter 187
+Dec 09 19:12:39 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 09 19:12:46 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 09 19:12:46 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 19:12:46 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 09 19:12:53 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 09 19:12:53 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x04 0x00 0x00 0x00 
+Dec 09 19:12:57 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x91 0x04 0x00 0x00 
+Dec 09 19:13:02 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 09 19:13:12 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 09 19:13:14 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 09 19:13:14 [INF] MEH LP: MEvt Info 20150(141) SU.73  0x00 0x00 0x00 0x00 
+Dec 09 19:13:15 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 09 19:13:15 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x03  0x00 0x00 0x01 0x28 
+Dec 09 19:13:15 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 09 19:13:15 [INF] McCtrl BE: 34001202 SC4>MC:   SpP  73: AS: PY piecing failed
+Dec 09 19:13:15 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 19:13:16 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 19:13:16 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 09 19:13:21 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 19:13:21 [INF] McCtrl BE: 34001100 SC4>MC:   SpP  73: New SpP state: RDY
+Dec 09 19:13:21 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 19:13:21 [INF] McCtrl BE: 34001200 SC4>MC:   SpP  73: AS: Start PY piecing cycle
+Dec 09 19:13:21 [INF] McCtrl BE: 34004EBB MC>SC4:   SpP  73: Package diameter 187
+Dec 09 19:13:23 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 09 19:13:23 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 09 19:13:30 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 09 19:13:30 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 19:13:33 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 09 19:13:37 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x8C 0x04 0x00 0x00 
+Dec 09 19:13:42 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 09 19:13:52 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 09 19:13:54 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 09 19:13:55 [INF] MEH LP: MEvt Info 20150(141) SU.73  0x00 0x00 0x00 0x00 
+Dec 09 19:13:55 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 09 19:13:55 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x03  0x00 0x00 0x02 0x28 
+Dec 09 19:13:55 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 09 19:13:55 [INF] McCtrl BE: 34001202 SC4>MC:   SpP  73: AS: PY piecing failed
+Dec 09 19:13:55 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 19:13:56 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 19:13:56 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 09 19:14:01 [INF] McCtrl BE: 34001100 SC4>MC:   SpP  73: New SpP state: RDY
+Dec 09 19:14:01 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 19:14:02 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 19:14:02 [INF] McCtrl BE: 34001200 SC4>MC:   SpP  73: AS: Start PY piecing cycle
+Dec 09 19:14:02 [INF] McCtrl BE: 34004EBB MC>SC4:   SpP  73: Package diameter 187
+Dec 09 19:14:03 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 09 19:14:03 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 09 19:14:11 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 09 19:14:11 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 19:14:14 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 09 19:14:17 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x91 0x04 0x00 0x00 
+Dec 09 19:14:23 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 09 19:14:33 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 09 19:14:35 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 09 19:14:36 [INF] MEH LP: MEvt Info 20150(141) SU.73  0x00 0x00 0x00 0x00 
+Dec 09 19:14:36 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 09 19:14:40 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2A 0x00 0x00 0x00 
+Dec 09 19:14:40 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x03  0x00 0x00 0x03 0x2A 
+Dec 09 19:14:40 [INF] McCtrl BE: 34001203 SC4>MC:   SpP  73: AS: PY piecing succeeded
+Dec 09 19:14:40 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 19:32:23 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 19:33:04 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 19:33:47 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 21:11:45 [INF] McCtrl BE: 34300001 SC4>MC:   Return resources for MSL
+Dec 09 21:11:45 [INF] McCtrl BE: 34300001 SC4>MC:   Return resources for MSL
+Dec 09 21:11:45 [INF] McCtrl BE: 34300001 SC4>MC:   Return resources for MSL
+Dec 09 21:13:53 [INF] McCtrl BE: View open  : Handle  224   Id 4  RepID 65535  Grp 2  SpP 73  Rb 1  Misc 4294967295
+Dec 09 21:39:25 [INF] McCtrl BE: 34004F01 MC>SC4:   SpP  73: Set WaitRB, reason 0x01
+Dec 09 21:39:25 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 09 21:39:25 [INF] McCtrl BE: 34004C00 MC>SC4:   SpP  73: Set Length Signal
+Dec 09 21:39:25 [INF] McCtrl BE: 34004000 MC>SC4:   SpP  73: Fadenbruch erzeugen
+Dec 09 21:39:25 [INF] McCtrl BE: 34001000 SC4>MC:   SpP  73: Yarn break (reason not specified)
+Dec 09 21:39:28 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 09 21:39:28 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 21:39:32 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 21:39:32 [INF] McCtrl BE: 34001100 SC4>MC:   SpP  73: New SpP state: RDY
+Dec 09 21:39:34 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 09 21:39:42 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 09 21:39:42 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 21:47:59 [INF] McCtrl BE: 34004D00 MC>SC4:   SpP  73: Clear Length Signal
+Dec 09 21:47:59 [INF] McCtrl BE: 34004F00 MC>SC4:   SpP  73: Clear WaitRB
+Dec 09 21:48:00 [INF] McCtrl RS: SpP  73  OState 1  Trans 31  NState 2  OAcc 3  NAcc 2
+Dec 09 21:48:00 [INF] McCtrl BE: 34001200 SC4>MC:   SpP  73: AS: Start PY piecing cycle
+Dec 09 21:48:00 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 21:48:00 [INF] McCtrl BE: 34004ECB MC>SC4:   SpP  73: Package diameter 203
+Dec 09 21:48:01 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 09 21:48:13 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 09 21:48:13 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x04 0x00 0x00 0x00 
+Dec 09 21:48:17 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x8C 0x04 0x00 0x00 
+Dec 09 21:48:22 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 09 21:48:31 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 09 21:48:34 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 09 21:48:34 [INF] MEH LP: MEvt Info 20150(141) SU.73  0x00 0x00 0x00 0x00 
+Dec 09 21:48:34 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 09 21:48:39 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2A 0x00 0x00 0x00 
+Dec 09 21:48:39 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x03  0x00 0x00 0x01 0x2A 
+Dec 09 21:48:39 [INF] McCtrl BE: 34001203 SC4>MC:   SpP  73: AS: PY piecing succeeded
+Dec 09 21:48:39 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 22:02:48 [INF] McCtrl BE: View open  : Handle  247   Id 4  RepID 65535  Grp 1  SpP 73  Rb 1  Misc 4294967295
+Dec 09 22:35:37 [INF] McCtrl BE: View open  : Handle  263   Id 4  RepID 65535  Grp 1  SpP 73  Rb 1  Misc 4294967295
+Dec 09 22:38:21 [INF] McCtrl BE: 34004F01 MC>SC4:   SpP  73: Set WaitRB, reason 0x01
+Dec 09 22:38:21 [INF] McCtrl BE: 34004C00 MC>SC4:   SpP  73: Set Length Signal
+Dec 09 22:38:21 [INF] McCtrl BE: 34004000 MC>SC4:   SpP  73: Fadenbruch erzeugen
+Dec 09 22:38:21 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 09 22:38:21 [INF] McCtrl BE: 34001000 SC4>MC:   SpP  73: Yarn break (reason not specified)
+Dec 09 22:38:24 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 22:38:24 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 09 22:38:29 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 22:38:29 [INF] McCtrl BE: 34001100 SC4>MC:   SpP  73: New SpP state: RDY
+Dec 09 22:38:30 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 09 22:38:38 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 09 22:38:38 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 22:39:41 [INF] McCtrl BE: 210A4800 MC>RB1:   SpP  73: SpP requires service 11
+Dec 09 22:39:46 [INF] McCtrl BE: 210A4800 MC>RB1:   SpP  73: SpP requires service 71
+Dec 09 22:39:46 [INF] McCtrl BE: 21084800 RB1>MC:   SpP  73: Tube transport reservation request
+Dec 09 22:39:46 [INF] McCtrl BE: 21064880 MC>RB1:   SpP  73: Tube transport reserved. Tubes 0x10
+Dec 09 22:39:50 [INF] McCtrl BE: 210A4808 RB1>MC:   SpP  73: Request registration
+Dec 09 22:39:50 [INF] McCtrl BE: 34008171 MC>SC4:   SpP  73: RB1 registration request 71h
+Dec 09 22:39:50 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x31 0x01 0x00 0x00 
+Dec 09 22:39:50 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 22:39:50 [INF] McCtrl BE: 34008100 SC4>MC:   SpP  73: RB1 registration accepted
+Dec 09 22:39:50 [INF] McCtrl BE: 210B4808 MC>RB1:   SpP  73: Registration accepted
+Dec 09 22:39:50 [INF] McCtrl BE: 34001280 SC4>MC:   SpP  73: AS: Start SY piecing cycle
+Dec 09 22:39:50 [INF] McCtrl BE: 34004ED0 MC>SC4:   SpP  73: Package diameter 208
+Dec 09 22:39:52 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 09 22:39:54 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x31 0x02 0x00 0x00 
+Dec 09 22:39:59 [INF] McCtrl BE: 34004D00 MC>SC4:   SpP  73: Clear Length Signal
+Dec 09 22:40:02 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x31 0x03 0x00 0x00 
+Dec 09 22:40:02 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 22:40:12 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 09 22:40:12 [INF] MEH LP: MEvt Info 18000(68) SU.73 Debug 0x00  0x04 0x00 0x00 0x00 
+Dec 09 22:40:15 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x91 0x04 0x00 0x00 
+Dec 09 22:40:17 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x01  0x34 0x00 0x00 0x00 
+Dec 09 22:40:17 [INF] McCtrl BE: 34008A00 MC>SC4:   SpP  73: RB releases registration
+Dec 09 22:40:17 [INF] McCtrl BE: 34001282 SC4>MC:   SpP  73: AS: SY piecing failed
+Dec 09 22:40:17 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 22:40:18 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 09 22:40:18 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 22:40:19 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 09 22:40:22 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2C 0x01 0x00 0x00 
+Dec 09 22:40:27 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 09 22:40:27 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 22:40:42 [ERR] MEH LP: MEvt Warning 20300(82) SUC.73 TA 0x00000090 0x00000010 0x00000000
+Dec 09 22:40:42 [INF] McCtrl BE: 34001702 SC4>MC:   SpP  73: TA state entered
+Dec 09 22:40:42 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x09  0x41 0x09 0x00 0x00 
+Dec 09 22:40:42 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x0B  0x04 0x00 0x00 0x00 
+Dec 09 22:40:52 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 73  Rb 1  Misc 4294967295
+Dec 09 22:56:24 [INF] McCtrl BE: View open  : Handle  267   Id 4  RepID 65535  Grp 1  SpP 73  Rb 1  Misc 4294967295
+Dec 09 22:59:00 [INF] McCtrl BE: View open  : Handle  269   Id 4  RepID 65535  Grp 1  SpP 73  Rb 1  Misc 4294967295
+Dec 10 05:21:17 [INF] McCtrl BE: 34001701 SC4>MC:   SpP  73: TA state left + SP-Lock
+Dec 10 05:21:17 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 10 05:21:17 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 10 05:21:18 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 10 05:21:23 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 10 05:21:23 [INF] McCtrl BE: 34001100 SC4>MC:   SpP  73: New SpP state: RDY
+Dec 10 07:17:39 [INF] McCtrl RS: GrpChg SpP  73: OldGrp 0 Cnt 10, NewGrp 80 Cnt 10
+Dec 10 07:17:39 [INF] McCtrl RS: GrpChg SpP  73: OldGrp 80 Cnt 9, NewGrp 2 Cnt 35
+Dec 10 07:17:39 [INF] Q10CCU 2: TA set on spp 73 type 101, PGrp 1
+Dec 10 07:17:39 [INF] Q10CCU 6: QInit event spp 73, PGrp 3, Protocol 3
+Dec 10 07:17:39 [INF] Q10CCU 6: Clear_Yarn_ParmsCCU change PGrpAss spp 73 sensor, previous grp 1, new grp 3
+Dec 10 07:17:40 [INF] McCtrl BE: 34004F01 MC>SC4:   SpP  73: Set WaitRB, reason 0x01
+Dec 10 07:17:41 [INF] McCtrl BE: 34001002 MC>SC4:   SpP  73: Add to PG 2
+Dec 10 07:17:41 [INF] McCtrl BE: 34004F01 MC>SC4:   SpP  73: Set WaitRB, reason 0x01
+Dec 10 07:17:41 [ERR] MEH LP: MEvt Warning 20200(63) SUC.73 Communication error 0x0000007D
+Dec 10 07:17:42 [INF] Q10CCU 6: TA set on spp 73 type 301, PGrp 3
+Dec 10 07:17:42 [ERR] MEH LP: MEvt Warning 19100(64) YC.73 Communication error 0x0000007D
+Dec 10 07:17:44 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:17:50 [ERR] MEH LP: MEvt Warning 19600(60) RRD.73 Communication error 0x0000007D
+Dec 10 07:17:56 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:18:09 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:18:21 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:18:34 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:18:39 [INF] McCtrl BE: 34300000 SC4>MC:   Return resources for MSR
+Dec 10 07:18:39 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 10 07:18:47 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:19:01 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:19:16 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:19:19 [INF] McCtrl BE: 34300000 SC4>MC:   Return resources for MSR
+Dec 10 07:19:19 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 10 07:19:30 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:19:45 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:19:59 [INF] McCtrl BE: 34300000 SC4>MC:   Return resources for MSR
+Dec 10 07:19:59 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 10 07:19:59 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:20:14 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:20:29 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:20:39 [INF] McCtrl BE: 34300000 SC4>MC:   Return resources for MSR
+Dec 10 07:20:43 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:20:49 [INF] McCtrl BE: 34300000 SC4>MC:   Return resources for MSR
+Dec 10 07:20:57 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:20:59 [INF] McCtrl BE: 34300000 SC4>MC:   Return resources for MSR
+Dec 10 07:21:38 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:22:11 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:22:38 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:23:05 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:23:16 [ERR] MEH LP: MEvt Warning 19100(64) YC.73 Communication error 0x0000007D
+Dec 10 07:23:16 [ERR] MEH LP: MEvt Warning 20200(63) SUC.73 Communication error 0x0000007D
+Dec 10 07:23:16 [ERR] MEH LP: MEvt Warning 19600(60) RRD.73 Communication error 0x0000007D
+Dec 10 07:23:32 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:23:59 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:24:26 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:24:53 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:25:20 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:25:47 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:26:14 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:26:41 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:27:08 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:27:35 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:28:03 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:28:30 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:28:57 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:29:25 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:29:52 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:30:19 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:30:46 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:31:13 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:31:40 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:32:07 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:32:34 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:33:01 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:33:29 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:33:56 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:34:23 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:34:50 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:35:17 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:35:44 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:36:11 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:36:39 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:37:06 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:37:33 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:38:00 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:38:28 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:38:55 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:39:22 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:39:49 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:40:16 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:40:44 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:41:11 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:41:38 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:42:05 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:42:32 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:42:59 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:43:26 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:43:53 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:44:20 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:44:47 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:45:14 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:45:41 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:46:09 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:46:36 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:47:03 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:47:30 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:47:57 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 07:48:24 [ERR] MEH LP: MEvt Warning 18100(62) SU.73 Communication error 0x0000007D
+Dec 10 08:59:47 [INF] McCtrl BE: 78340000 CND>MC:   SC4 Boot message
+Dec 10 08:59:47 [INF] McCtrl BE: 78348000 CND>MC:   SC4 NMT Error
+Dec 10 08:59:48 [INF] McCtrl BE: 78347F00 CND>MC:   SC4 Pre-Operational
+Dec 10 08:59:48 [INF] McCtrl BE: 78340200 MC>CND:   Stop Remote Node SC4
+Dec 10 08:59:48 [INF] McCtrl BE: 78340400 CND>MC:   SC4 Stopped
+Dec 10 09:00:49 [INF] McCtrl BE: 78348100 MC>CND:   Reset Node SC4
+Dec 10 09:00:49 [INF] McCtrl BE: 78340000 CND>MC:   SC4 Boot message
+Dec 10 09:00:50 [INF] McCtrl BE: 78347F00 CND>MC:   SC4 Pre-Operational
+Dec 10 09:00:50 [INF] McCtrl BE: 7834F000 MC>CND:   Start guarding node SC4
+Dec 10 09:00:50 [INF] McCtrl BE: 78340100 MC>CND:   Start Remote Node SC4
+Dec 10 09:00:50 [INF] McCtrl BE: 78340500 CND>MC:   SC4 Operational
+Dec 10 09:00:52 [INF] McCtrl BE: 34333724 SC4>MC:   Release 241203
+Dec 10 09:00:52 [INF] McCtrl BE: 34310104 MC>SC4:   Production group count 4
+Dec 10 09:00:52 [INF] McCtrl BE: 34310316 MC>SC4:   YC type code 16
+Dec 10 09:00:53 [INF] McCtrl BE: 34310402 MC>SC4:   Machine Type OSV2
+Dec 10 09:00:53 [INF] McCtrl BE: 34310501 MC>SC4:   Drive group count 1
+Dec 10 09:00:53 [INF] McCtrl BE: 343C180C MC>SC4:   Year   24, Month  12
+Dec 10 09:00:53 [INF] McCtrl BE: 343D0A09 MC>SC4:   Day    10, Hour   09
+Dec 10 09:00:53 [INF] McCtrl BE: 343E0034 MC>SC4:   Minute 00, Second 52
+Dec 10 09:00:53 [INF] McCtrl BE: 343F0000 MC>SC4:   Configuration done
+Dec 10 09:00:53 [INF] McCtrl BE: 34330002 MC>SC4:   Drives DG0 are running
+Dec 10 09:00:53 [INF] McCtrl BE: 34350001 MC>SC4:   AVAC DG0: Vacuum OK
+Dec 10 09:00:53 [INF] McCtrl BE: 34340002 MC>SC4:   Units PG0: Start production
+Dec 10 09:00:53 [INF] McCtrl BE: 34340102 MC>SC4:   Units PG1: Start production
+Dec 10 09:01:06 [INF] McCtrl BE: 34004F01 MC>SC4:   SpP  73: Set WaitRB, reason 0x01
+Dec 10 09:01:06 [INF] McCtrl BE: 34001002 MC>SC4:   SpP  73: Add to PG 2
+Dec 10 09:01:55 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 10 09:01:57 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x00 0x00 0x00 0x00 
+Dec 10 09:03:30 [ERR] MEH LP: MEvt Warning 19100(64) YC.73 Communication error 0x0000007D
+Dec 10 09:03:30 [INF] McCtrl BE: 34001000 SC4>MC:   SpP  73: Yarn break (reason not specified)
+Dec 10 09:03:41 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 10 09:03:43 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x01  0x01 0x02 0x00 0x00 
+Dec 10 09:03:43 [INF] MEH LP: MEvt Info 20100(69) SUC.73 Debug 0x02  0x07 0x12 0x00 0x00 
+Dec 10 09:03:47 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.73 Debug 0x00  0x00 0x00 0x00 0x00 

@@ -1,0 +1,429 @@
+Dec 09 07:46:45 [INF] NuuX BE: 78340000 CND>MC:   SC4 Boot message
+Dec 09 07:46:45 [INF] NuuX BE: 7834F000 MC>CND:   Start guarding node SC4
+Dec 09 07:46:46 [INF] NuuX BE: 78347F00 CND>MC:   SC4 Pre-Operational
+Dec 09 07:46:48 [INF] NuuX BE: 78340100 MC>CND:   Start Remote Node SC4
+Dec 09 07:46:48 [INF] NuuX BE: 78340500 CND>MC:   SC4 Operational
+Dec 09 07:46:49 [INF] NuuX BE: 34310402 MC>SC4:   Machine type code 02
+Dec 09 07:46:49 [INF] NuuX BE: 34310316 MC>SC4:   YC type code 16
+Dec 09 07:46:49 [INF] NuuX BE: 343F0200 MC>SC4:   Configuration done
+Dec 09 07:49:09 [INF] McCtrl BE: 340F4F01 MC>SC4:   SpP  80: Set WaitRB, reason 0x01
+Dec 09 07:49:09 [INF] McCtrl BE: 78340000 CND>MC:   SC4 Boot message
+Dec 09 07:49:10 [INF] McCtrl BE: 78347F00 CND>MC:   SC4 Pre-Operational
+Dec 09 07:49:10 [INF] McCtrl BE: 7834F000 MC>CND:   Start guarding node SC4
+Dec 09 07:49:10 [INF] McCtrl BE: 78340100 MC>CND:   Start Remote Node SC4
+Dec 09 07:49:10 [INF] McCtrl BE: 78340500 CND>MC:   SC4 Operational
+Dec 09 07:49:11 [INF] McCtrl BE: 34333724 SC4>MC:   Release 241203
+Dec 09 07:49:27 [INF] McCtrl BE: 340F4F01 MC>SC4:   SpP  80: Set WaitRB, reason 0x01
+Dec 09 07:49:27 [INF] McCtrl BE: 340F1001 MC>SC4:   SpP  80: Add to PG 1
+Dec 09 07:49:28 [INF] McCtrl BE: 34F08080 SC4>MC:   Emergency event! Code 0x80 0x80
+Dec 09 07:52:41 [INF] Q10CCU 7: TA set on spp 80 type 101, PGrp 2
+Dec 09 07:52:41 [INF] Q10CCU 6: SPPINFO update spp 80 index 2, YSpeed 169.00, PGrp 2
+Dec 09 07:52:41 [INF] Q10CCU 7: SPPINFO update spp 80 index 1, YCount 41.70, PGrp 2
+Dec 09 07:52:41 [INF] Q10CCU 6: SPPINFO update spp 80 index 3, Rotor 104, PGrp 2
+Dec 09 07:52:41 [INF] Q10CCU 7: QInit event spp 80, PGrp 2, Protocol 3
+Dec 09 07:52:50 [INF] McCtrl BE: 340F1701 SC4>MC:   SpP  80: TA state left + SP-Lock
+Dec 09 07:52:51 [INF] Q10CCU 6: TA reset on spp 80, PGpr 2
+Dec 09 07:52:57 [INF] McCtrl BE: 340F1100 SC4>MC:   SpP  80: New SpP state: RDY
+Dec 09 08:05:41 [INF] Q10CCU 2: SPPINFO update spp 80 index 2, YSpeed 167.00, PGrp 2
+Dec 09 08:05:41 [INF] Q10CCU 6: SPPINFO update spp 80 index 1, YCount 35.70, PGrp 2
+Dec 09 08:36:27 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:37:35 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:38:24 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:39:12 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:40:07 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:41:00 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:41:53 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:42:59 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:43:47 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:44:38 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:45:43 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:46:32 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:47:32 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:48:38 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:49:27 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:50:15 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:51:21 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:54:18 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:55:53 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:56:46 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:57:50 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:58:39 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 08:59:20 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:00:25 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:01:15 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:02:15 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:03:08 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:26:37 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:27:42 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:28:31 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:29:22 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:30:27 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:31:09 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:32:02 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:33:10 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:33:59 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:34:47 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:35:52 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:36:30 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:37:34 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:38:23 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:39:02 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:40:07 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:40:56 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:41:26 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:42:06 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:43:11 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:44:02 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:44:39 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:45:44 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:56:52 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 09:57:01 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.80 Debug 0x00  0x2F 0x01 0x00 0x00 
+Dec 09 09:57:09 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.80 Debug 0x00  0x2F 0x02 0x00 0x00 
+Dec 09 09:57:09 [INF] MEH LP: MEvt Info 18000(68) SU.80 Debug 0x00  0x04 0x00 0x00 0x00 
+Dec 09 09:57:14 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.80 Debug 0x00  0x2F 0x03 0x00 0x00 
+Dec 09 09:57:17 [INF] MEH LP: MEvt Info 17000(67) SI.4 SpP.80 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 09:57:36 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:57:47 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:57:56 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 09:58:12 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:58:26 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:58:45 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 09:58:49 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:58:58 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:59:03 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:59:17 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 09:59:22 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 09:59:40 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 10:00:14 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 10:00:19 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 10:00:59 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 10:01:08 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 10:01:41 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 10:02:01 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 10:03:07 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 10:03:56 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 10:04:44 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 10:05:52 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 10:06:29 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 10:07:37 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 10:08:26 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 10:09:03 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 10:09:11 [INF] McCtrl BE: 220A4F00 MC>RB2:   SpP  80: SpP requires service 01
+Dec 09 10:22:23 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 10:22:25 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 10:24:05 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 10:24:53 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 10:30:12 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 10:30:13 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 10:30:14 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 11:00:21 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 11:01:16 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 11:01:23 [INF] McCtrl BE: 220A4F00 MC>RB2:   SpP  80: SpP requires service 01
+Dec 09 11:52:54 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 11:53:32 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 11:54:00 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 12:30:46 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 14:22:51 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 14:23:35 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 16:53:56 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 16:54:49 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 16:55:33 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 18:10:26 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 18:11:04 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 18:11:49 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 18:27:44 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 18:30:24 [INF] McCtrl BE: 220A4F00 MC>RB2:   SpP  80: SpP requires service 01
+Dec 09 18:33:35 [INF] McCtrl BE: 220A4F00 MC>RB2:   SpP  80: SpP requires service 01
+Dec 09 19:13:15 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 19:13:55 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 19:14:40 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 19:32:23 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 19:33:04 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 19:33:47 [INF] McCtrl BE: 34320001 MC>SC4:   Assign resources for MSL
+Dec 09 21:11:44 [ERR] MEH LP: MEvt Warning 20200(63) SUC.80 Communication error 0x0000007D
+Dec 09 21:11:44 [INF] McCtrl BE: 340F1702 SC4>MC:   SpP  80: TA state entered
+Dec 09 21:11:45 [INF] McCtrl BE: 34300001 SC4>MC:   Return resources for MSL
+Dec 09 21:11:45 [INF] McCtrl BE: 34300001 SC4>MC:   Return resources for MSL
+Dec 09 21:11:45 [INF] McCtrl BE: 34300001 SC4>MC:   Return resources for MSL
+Dec 09 21:11:45 [INF] Q10CCU 6: TA set on spp 80 type 301, PGrp 2
+Dec 09 21:11:45 [ERR] MEH LP: MEvt Warning 19100(64) YC.80 Communication error 0x0000007D
+Dec 09 21:14:56 [ERR] MEH LP: MEvt Warning 20200(63) SUC.80 Communication error 0x0000007D
+Dec 09 21:16:45 [ERR] MEH LP: MEvt Warning 19100(64) YC.80 Communication error 0x0000007D
+Dec 09 21:19:14 [ERR] MEH LP: MEvt Warning 19100(64) YC.80 Communication error 0x0000007D
+Dec 09 21:19:14 [ERR] MEH LP: MEvt Warning 20200(63) SUC.80 Communication error 0x0000007D
+Dec 09 21:48:39 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 09 22:40:17 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 10 05:23:29 [ERR] MEH LP: MEvt Warning 19100(64) YC.80 Communication error 0x0000007D
+Dec 10 05:23:29 [ERR] MEH LP: MEvt Warning 20200(63) SUC.80 Communication error 0x0000007D
+Dec 10 07:18:39 [INF] McCtrl BE: 34300000 SC4>MC:   Return resources for MSR
+Dec 10 07:18:39 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 10 07:18:40 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:18:47 [ERR] MEH LP: MEvt Warning 19600(60) RRD.80 Communication error 0x0000007D
+Dec 10 07:18:54 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:19:08 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:19:19 [INF] McCtrl BE: 34300000 SC4>MC:   Return resources for MSR
+Dec 10 07:19:19 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 10 07:19:23 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:19:38 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:19:52 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:19:59 [INF] McCtrl BE: 34300000 SC4>MC:   Return resources for MSR
+Dec 10 07:19:59 [INF] McCtrl BE: 34320000 MC>SC4:   Assign resources for MSR
+Dec 10 07:20:07 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:20:21 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:20:36 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:20:39 [INF] McCtrl BE: 34300000 SC4>MC:   Return resources for MSR
+Dec 10 07:20:49 [INF] McCtrl BE: 34300000 SC4>MC:   Return resources for MSR
+Dec 10 07:20:51 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:20:59 [INF] McCtrl BE: 34300000 SC4>MC:   Return resources for MSR
+Dec 10 07:21:39 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:22:11 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:22:38 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:23:05 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:23:16 [ERR] MEH LP: MEvt Warning 19100(64) YC.80 Communication error 0x0000007D
+Dec 10 07:23:16 [ERR] MEH LP: MEvt Warning 20200(63) SUC.80 Communication error 0x0000007D
+Dec 10 07:23:16 [ERR] MEH LP: MEvt Warning 19600(60) RRD.80 Communication error 0x0000007D
+Dec 10 07:23:32 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:24:00 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:24:27 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:24:54 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:25:21 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:25:48 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:26:15 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:26:42 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:27:09 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:27:36 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:28:03 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:28:30 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:28:58 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:29:26 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:29:53 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:30:20 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:30:47 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:31:14 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:31:41 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:32:08 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:32:35 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:33:02 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:33:29 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:33:56 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:34:23 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:34:50 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:35:17 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:35:45 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:36:12 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:36:39 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:37:06 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:37:33 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:38:01 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:38:28 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:38:55 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:39:23 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:39:50 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:40:17 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:40:44 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:41:11 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:41:38 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:42:05 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:42:33 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:43:00 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:43:27 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:43:54 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:44:21 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:44:48 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:45:15 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:45:42 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:46:09 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:46:36 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:47:03 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:47:30 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:47:57 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:48:24 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:48:53 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:49:19 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:49:46 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:50:12 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:50:39 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:51:06 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:51:32 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:51:59 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:52:25 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:52:51 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:53:18 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:53:45 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:54:11 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:54:38 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:55:05 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:55:32 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:55:59 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:56:25 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:56:52 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:57:18 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:57:45 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:58:12 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:58:38 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:59:05 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:59:32 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 07:59:58 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:00:25 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:00:51 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:01:18 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:01:45 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:02:11 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:02:38 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:03:04 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:03:30 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:03:57 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:04:24 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:04:50 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:05:17 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:05:43 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:06:10 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:06:37 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:07:03 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:07:30 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:07:57 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:08:23 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:08:50 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:09:16 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:09:43 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:10:10 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:10:36 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:11:03 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:11:29 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:11:56 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:12:22 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:12:49 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:13:16 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:13:42 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:14:09 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:14:36 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:15:02 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:15:29 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:15:56 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:16:22 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:16:49 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:17:16 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:17:42 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:18:09 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:18:36 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:19:02 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:19:29 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:19:55 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:20:22 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:20:49 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:21:15 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:21:42 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:22:09 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:22:35 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:23:02 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:23:29 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:23:56 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:24:22 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:24:49 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:25:15 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:25:42 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:26:09 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:26:36 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:27:02 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:27:29 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:27:56 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:28:22 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:28:49 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:29:16 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:29:42 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:30:09 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:30:35 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:31:02 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:31:29 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:31:55 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:32:21 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:32:47 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:33:13 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:33:39 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:34:05 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:34:32 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:34:58 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:35:24 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:35:50 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:36:16 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:36:42 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:37:08 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:37:34 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:38:00 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:38:26 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:38:52 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:39:18 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:39:44 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:40:10 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:40:36 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:41:03 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:41:29 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:41:54 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:42:20 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:42:46 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:43:13 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:43:39 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:44:05 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:44:31 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:44:56 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:45:23 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:45:49 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:46:15 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:46:41 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:47:07 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:47:33 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:47:59 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:48:25 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:48:51 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:49:17 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:49:43 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:50:09 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:50:35 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:51:01 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:51:27 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:51:53 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:52:19 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:52:45 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:53:11 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:53:37 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:54:03 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:54:29 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:54:56 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:55:22 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:55:48 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:56:14 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:56:40 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:57:06 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:57:32 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:57:58 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:58:24 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:58:50 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:59:16 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:59:42 [ERR] MEH LP: MEvt Warning 18100(62) SU.80 Communication error 0x0000007D
+Dec 10 08:59:47 [INF] McCtrl BE: 78340000 CND>MC:   SC4 Boot message
+Dec 10 08:59:47 [INF] McCtrl BE: 78348000 CND>MC:   SC4 NMT Error
+Dec 10 08:59:48 [INF] McCtrl BE: 78347F00 CND>MC:   SC4 Pre-Operational
+Dec 10 08:59:48 [INF] McCtrl BE: 78340200 MC>CND:   Stop Remote Node SC4
+Dec 10 08:59:48 [INF] McCtrl BE: 78340400 CND>MC:   SC4 Stopped
+Dec 10 09:00:49 [INF] McCtrl BE: 78348100 MC>CND:   Reset Node SC4
+Dec 10 09:00:49 [INF] McCtrl BE: 78340000 CND>MC:   SC4 Boot message
+Dec 10 09:00:50 [INF] McCtrl BE: 78347F00 CND>MC:   SC4 Pre-Operational
+Dec 10 09:00:50 [INF] McCtrl BE: 7834F000 MC>CND:   Start guarding node SC4
+Dec 10 09:00:50 [INF] McCtrl BE: 78340100 MC>CND:   Start Remote Node SC4
+Dec 10 09:00:50 [INF] McCtrl BE: 78340500 CND>MC:   SC4 Operational
+Dec 10 09:00:52 [INF] McCtrl BE: 34333724 SC4>MC:   Release 241203
+Dec 10 09:00:52 [INF] McCtrl BE: 34310104 MC>SC4:   Production group count 4
+Dec 10 09:00:52 [INF] McCtrl BE: 34310316 MC>SC4:   YC type code 16
+Dec 10 09:00:53 [INF] McCtrl BE: 34310402 MC>SC4:   Machine Type OSV2
+Dec 10 09:00:53 [INF] McCtrl BE: 34310501 MC>SC4:   Drive group count 1
+Dec 10 09:00:53 [INF] McCtrl BE: 343C180C MC>SC4:   Year   24, Month  12
+Dec 10 09:00:53 [INF] McCtrl BE: 343D0A09 MC>SC4:   Day    10, Hour   09
+Dec 10 09:00:53 [INF] McCtrl BE: 343E0034 MC>SC4:   Minute 00, Second 52
+Dec 10 09:00:53 [INF] McCtrl BE: 343F0000 MC>SC4:   Configuration done
+Dec 10 09:00:53 [INF] McCtrl BE: 34330002 MC>SC4:   Drives DG0 are running
+Dec 10 09:00:53 [INF] McCtrl BE: 34350001 MC>SC4:   AVAC DG0: Vacuum OK
+Dec 10 09:00:53 [INF] McCtrl BE: 34340002 MC>SC4:   Units PG0: Start production
+Dec 10 09:00:53 [INF] McCtrl BE: 34340102 MC>SC4:   Units PG1: Start production
+Dec 10 09:01:06 [INF] McCtrl BE: 340F4F01 MC>SC4:   SpP  80: Set WaitRB, reason 0x01
+Dec 10 09:01:06 [INF] McCtrl BE: 340F1001 MC>SC4:   SpP  80: Add to PG 1
+Dec 10 09:02:45 [ERR] MEH LP: MEvt Warning 20200(63) SUC.80 Communication error 0x0000007D

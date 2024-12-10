@@ -1,0 +1,321 @@
+Dec 09 07:46:45 [INF] NuuX BE: 78310000 CND>MC:   SC1 Boot message
+Dec 09 07:46:45 [INF] NuuX BE: 7831F000 MC>CND:   Start guarding node SC1
+Dec 09 07:46:46 [INF] NuuX BE: 78317F00 CND>MC:   SC1 Pre-Operational
+Dec 09 07:46:48 [INF] NuuX BE: 78310100 MC>CND:   Start Remote Node SC1
+Dec 09 07:46:48 [INF] NuuX BE: 78310500 CND>MC:   SC1 Operational
+Dec 09 07:46:49 [INF] NuuX BE: 31310402 MC>SC1:   Machine type code 02
+Dec 09 07:46:49 [INF] NuuX BE: 31310316 MC>SC1:   YC type code 16
+Dec 09 07:46:49 [INF] NuuX BE: 313F0200 MC>SC1:   Configuration done
+Dec 09 07:49:08 [INF] McCtrl BE: 31114F01 MC>SC1:   SpP  12: Set WaitRB, reason 0x01
+Dec 09 07:49:09 [INF] McCtrl BE: 78310000 CND>MC:   SC1 Boot message
+Dec 09 07:49:10 [INF] McCtrl BE: 78317F00 CND>MC:   SC1 Pre-Operational
+Dec 09 07:49:10 [INF] McCtrl BE: 7831F000 MC>CND:   Start guarding node SC1
+Dec 09 07:49:10 [INF] McCtrl BE: 78310100 MC>CND:   Start Remote Node SC1
+Dec 09 07:49:10 [INF] McCtrl BE: 78310500 CND>MC:   SC1 Operational
+Dec 09 07:49:11 [INF] McCtrl BE: 31333724 SC1>MC:   Release 241203
+Dec 09 07:49:24 [INF] McCtrl BE: 31114F01 MC>SC1:   SpP  12: Set WaitRB, reason 0x01
+Dec 09 07:49:24 [INF] McCtrl BE: 31111001 MC>SC1:   SpP  12: Add to PG 1
+Dec 09 07:49:25 [INF] McCtrl BE: 31F08080 SC1>MC:   Emergency event! Code 0x80 0x80
+Dec 09 07:52:17 [INF] Q10CCU 6: TA set on spp 12 type 101, PGrp 2
+Dec 09 07:52:17 [INF] Q10CCU 2: SPPINFO update spp 12 index 2, YSpeed 169.00, PGrp 2
+Dec 09 07:52:17 [INF] Q10CCU 6: SPPINFO update spp 12 index 1, YCount 41.70, PGrp 2
+Dec 09 07:52:17 [INF] Q10CCU 2: SPPINFO update spp 12 index 3, Rotor 104, PGrp 2
+Dec 09 07:52:17 [INF] Q10CCU 6: QInit event spp 12, PGrp 2, Protocol 3
+Dec 09 07:52:26 [INF] McCtrl BE: 31111701 SC1>MC:   SpP  12: TA state left + SP-Lock
+Dec 09 07:52:28 [INF] Q10CCU 2: TA reset on spp 12, PGpr 2
+Dec 09 07:52:34 [INF] McCtrl BE: 31111100 SC1>MC:   SpP  12: New SpP state: RDY
+Dec 09 08:05:41 [INF] Q10CCU 6: SPPINFO update spp 12 index 2, YSpeed 167.00, PGrp 2
+Dec 09 08:05:41 [INF] Q10CCU 2: SPPINFO update spp 12 index 1, YCount 35.70, PGrp 2
+Dec 09 18:25:23 [INF] McCtrl BE: 31111702 SC1>MC:   SpP  12: TA state entered
+Dec 09 18:29:03 [INF] McCtrl BE: 31111701 SC1>MC:   SpP  12: TA state left + SP-Lock
+Dec 09 18:29:03 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 18:29:03 [INF] MEH LP: MEvt Info 20100(69) SUC.12 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 18:29:08 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 18:29:08 [INF] McCtrl BE: 31111100 SC1>MC:   SpP  12: New SpP state: RDY
+Dec 09 18:30:53 [INF] McCtrl BE: 31111102 SC1>MC:   SpP  12: New SpP state: OFF
+Dec 09 18:31:17 [INF] McCtrl BE: 31111100 SC1>MC:   SpP  12: New SpP state: RDY
+Dec 09 18:31:25 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 09 18:32:14 [INF] McCtrl BE: 220A0B00 MC>RB2:   SpP  12: SpP requires service 61
+Dec 09 18:32:17 [INF] McCtrl BE: 22080B00 RB2>MC:   SpP  12: Tube transport reservation request
+Dec 09 18:32:17 [INF] McCtrl BE: 22060B80 MC>RB2:   SpP  12: Tube transport reserved. Tubes 0x10
+Dec 09 18:32:17 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x31 0x01 0x00 0x00 
+Dec 09 18:32:17 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 18:32:17 [INF] McCtrl BE: 220A0B08 RB2>MC:   SpP  12: Request registration
+Dec 09 18:32:17 [INF] McCtrl BE: 31118261 MC>SC1:   SpP  12: RB2 registration request 61h
+Dec 09 18:32:17 [INF] McCtrl BE: 31118200 SC1>MC:   SpP  12: RB2 registration accepted
+Dec 09 18:32:17 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 09 18:32:17 [INF] McCtrl BE: 220B0B08 MC>RB2:   SpP  12: Registration accepted
+Dec 09 18:32:17 [INF] McCtrl BE: 31111280 SC1>MC:   SpP  12: AS: Start SY piecing cycle
+Dec 09 18:32:17 [INF] McCtrl BE: 31114E00 MC>SC1:   SpP  12: Package diameter 0
+Dec 09 18:32:19 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 09 18:32:21 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x31 0x02 0x00 0x00 
+Dec 09 18:32:29 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x31 0x03 0x00 0x00 
+Dec 09 18:32:29 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 18:32:39 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 09 18:32:39 [INF] MEH LP: MEvt Info 18000(68) SU.12 Debug 0x00  0x04 0x00 0x00 0x00 
+Dec 09 18:32:42 [INF] MEH LP: MEvt Info 20100(69) SUC.12 Debug 0x04  0x86 0x04 0x00 0x00 
+Dec 09 18:32:47 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 09 18:32:58 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 09 18:33:00 [INF] MEH LP: MEvt Info 18000(68) SU.12 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 09 18:33:01 [INF] MEH LP: MEvt Info 20150(141) SU.12  0x00 0x00 0x00 0x00 
+Dec 09 18:33:01 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 09 18:33:04 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x29 0x00 0x00 0x00 
+Dec 09 18:33:06 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x2A 0x00 0x00 0x00 
+Dec 09 18:33:06 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x03  0x01 0x02 0x01 0x2A 
+Dec 09 18:33:06 [INF] McCtrl BE: 31111283 SC1>MC:   SpP  12: AS: SY piecing succeeded
+Dec 09 18:33:07 [INF] McCtrl BE: 31118A00 MC>SC1:   SpP  12: RB releases registration
+Dec 09 18:34:48 [INF] McCtrl BE: View open  : Handle  196   Id 4  RepID 65535  Grp 3  SpP 12  Rb 1  Misc 4294967295
+Dec 09 18:39:06 [INF] McCtrl BE: 31114F01 MC>SC1:   SpP  12: Set WaitRB, reason 0x01
+Dec 09 18:39:06 [INF] McCtrl BE: 31114C00 MC>SC1:   SpP  12: Set Length Signal
+Dec 09 18:39:06 [INF] McCtrl BE: 31114000 MC>SC1:   SpP  12: Fadenbruch erzeugen
+Dec 09 18:39:06 [INF] MEH LP: MEvt Info 18000(68) SU.12 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 09 18:39:06 [INF] McCtrl BE: 31111000 SC1>MC:   SpP  12: Yarn break (reason not specified)
+Dec 09 18:39:08 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 09 18:39:08 [INF] MEH LP: MEvt Info 20100(69) SUC.12 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 18:39:13 [INF] McCtrl BE: 31111100 SC1>MC:   SpP  12: New SpP state: RDY
+Dec 09 18:39:13 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 18:39:14 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 09 18:39:22 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 09 18:39:22 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 21:13:56 [INF] McCtrl BE: View open  : Handle  226   Id 4  RepID 65535  Grp 2  SpP 12  Rb 1  Misc 4294967295
+Dec 09 21:14:21 [INF] McCtrl BE: 31114D00 MC>SC1:   SpP  12: Clear Length Signal
+Dec 09 21:14:21 [INF] McCtrl RS: SpP  12  OState 1  Trans 31  NState 2  OAcc 3  NAcc 2
+Dec 09 21:14:21 [INF] McCtrl BE: 31114F00 MC>SC1:   SpP  12: Clear WaitRB
+Dec 09 21:14:21 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 09 21:14:21 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 21:14:21 [INF] McCtrl BE: 31111200 SC1>MC:   SpP  12: AS: Start PY piecing cycle
+Dec 09 21:14:21 [INF] McCtrl BE: 31114E00 MC>SC1:   SpP  12: Package diameter 0
+Dec 09 21:14:22 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 09 21:14:29 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 2  SpP 12  Rb 1  Misc 4294967295
+Dec 09 21:14:29 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 09 21:14:29 [INF] MEH LP: MEvt Info 18000(68) SU.12 Debug 0x00  0x04 0x00 0x00 0x00 
+Dec 09 21:14:33 [INF] MEH LP: MEvt Info 20100(69) SUC.12 Debug 0x04  0x8C 0x04 0x00 0x00 
+Dec 09 21:14:38 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 09 21:14:48 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 09 21:14:50 [INF] MEH LP: MEvt Info 18000(68) SU.12 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 09 21:14:51 [INF] MEH LP: MEvt Info 20150(141) SU.12  0x00 0x00 0x00 0x00 
+Dec 09 21:14:51 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 09 21:14:51 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x03  0x01 0x00 0x03 0x28 
+Dec 09 21:14:51 [INF] McCtrl BE: 31111202 SC1>MC:   SpP  12: AS: PY piecing failed
+Dec 09 21:14:51 [INF] MEH LP: MEvt Info 18000(68) SU.12 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 09 21:14:52 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 09 21:14:52 [INF] MEH LP: MEvt Info 20100(69) SUC.12 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 09 21:14:57 [INF] McCtrl BE: 31111100 SC1>MC:   SpP  12: New SpP state: RDY
+Dec 09 21:14:57 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 09 21:14:57 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 09 21:14:58 [INF] McCtrl BE: 31111200 SC1>MC:   SpP  12: AS: Start PY piecing cycle
+Dec 09 21:14:58 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 09 21:14:58 [INF] McCtrl BE: 31114E00 MC>SC1:   SpP  12: Package diameter 0
+Dec 09 21:14:59 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 09 21:14:59 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 09 21:15:06 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 09 21:15:06 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 21:15:09 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 09 21:15:12 [INF] MEH LP: MEvt Info 20100(69) SUC.12 Debug 0x04  0x89 0x04 0x00 0x00 
+Dec 09 21:15:17 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 09 21:15:28 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 09 21:15:30 [INF] MEH LP: MEvt Info 18000(68) SU.12 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 09 21:15:30 [INF] MEH LP: MEvt Info 20150(141) SU.12  0x00 0x00 0x00 0x00 
+Dec 09 21:15:30 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 09 21:15:35 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x2A 0x00 0x00 0x00 
+Dec 09 21:15:35 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x03  0x01 0x00 0x04 0x2A 
+Dec 09 21:15:35 [INF] McCtrl BE: 31111203 SC1>MC:   SpP  12: AS: PY piecing succeeded
+Dec 09 21:18:34 [INF] McCtrl BE: View open  : Handle  236   Id 27  RepID 65535  Grp 2  SpP 12  Rb 1  Misc 4294967295
+Dec 09 21:18:41 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 2  SpP 12  Rb 1  Misc 4294967295
+Dec 09 22:02:39 [INF] McCtrl BE: View open  : Handle  243   Id 4  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295
+Dec 09 22:31:32 [INF] McCtrl BE: View open  : Handle  250   Id 4  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295
+Dec 09 22:31:37 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295
+Dec 09 22:34:53 [INF] McCtrl BE: View open  : Handle  254   Id 4  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295
+Dec 10 06:31:16 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 2  SpP 12  Rb 1  Misc 4294967295
+Dec 10 06:31:16 [INF] McCtrl BE: View open  : Handle  298   Id 4  RepID 65535  Grp 2  SpP 12  Rb 1  Misc 4294967295
+Dec 10 06:31:22 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 2  SpP 12  Rb 1  Misc 4294967295
+Dec 10 06:52:48 [INF] McCtrl BE: 3111A100 SC1>MC:   SpP  12: YC cut done, fault code 0x00
+Dec 10 06:52:48 [INF] MEH LP: MEvt Info 18000(68) SU.12 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 10 06:52:48 [INF] McCtrl BE: 3111B001 MC>SC1:   SpP  12: YC cut confirm code 01
+Dec 10 06:52:48 [INF] McCtrl BE: 31111002 SC1>MC:   SpP  12: Yarn break (reason not specified)
+Dec 10 06:52:50 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 10 06:52:50 [INF] MEH LP: MEvt Info 20100(69) SUC.12 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 10 06:52:55 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 10 06:52:55 [INF] McCtrl BE: 31111100 SC1>MC:   SpP  12: New SpP state: RDY
+Dec 10 06:52:55 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 10 06:52:56 [INF] McCtrl BE: 31111200 SC1>MC:   SpP  12: AS: Start PY piecing cycle
+Dec 10 06:52:56 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 10 06:52:56 [INF] McCtrl BE: 31114EC1 MC>SC1:   SpP  12: Package diameter 193
+Dec 10 06:52:57 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 10 06:53:04 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 10 06:53:04 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 10 06:53:04 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 10 06:53:16 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 10 06:53:16 [INF] MEH LP: MEvt Info 18000(68) SU.12 Debug 0x00  0x04 0x00 0x00 0x00 
+Dec 10 06:53:19 [INF] MEH LP: MEvt Info 20100(69) SUC.12 Debug 0x04  0x89 0x04 0x00 0x00 
+Dec 10 06:53:24 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 10 06:53:35 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 10 06:53:37 [INF] MEH LP: MEvt Info 18000(68) SU.12 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 10 06:53:37 [INF] MEH LP: MEvt Info 20150(141) SU.12  0x00 0x00 0x00 0x00 
+Dec 10 06:53:37 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 10 06:53:42 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x2A 0x00 0x00 0x00 
+Dec 10 06:53:42 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x03  0x01 0x00 0x01 0x2A 
+Dec 10 06:53:42 [INF] McCtrl BE: 31111203 SC1>MC:   SpP  12: AS: PY piecing succeeded
+Dec 10 07:11:42 [INF] McCtrl BE: View open  : Handle  301   Id 29  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:11:45 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:11:49 [INF] McCtrl BE: View open  : Handle  303   Id 28  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:11:50 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:14:24 [INF] McCtrl BE: View open  : Handle  305   Id 7  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:14:27 [INF] McCtrl BE: View open  : Handle  306   Id 7  RepID 65535  Grp 2  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:14:29 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 2  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:14:29 [INF] McCtrl BE: View open  : Handle  308   Id 4  RepID 65535  Grp 2  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:15:35 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 2  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:15:35 [INF] McCtrl BE: View open  : Handle  310   Id 7  RepID 65535  Grp 2  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:15:36 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 2  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:15:48 [INF] McCtrl BE: View open  : Handle  314   Id 27  RepID 65535  Grp 2  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:16:04 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 2  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:16:13 [INF] McCtrl BE: View open  : Handle  316   Id 27  RepID 65535  Grp 2  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:16:32 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 2  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:16:42 [INF] McCtrl BE: View open  : Handle  319   Id 27  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:17:46 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:17:54 [INF] McCtrl BE: View open  : Handle  321   Id 26  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:17:56 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:17:56 [INF] McCtrl BE: View open  : Handle  323   Id 1  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:18:00 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:18:10 [INF] McCtrl BE: View open  : Handle  326   Id 29  RepID 65535  Grp 3  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:18:12 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 3  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:18:13 [INF] McCtrl BE: View open  : Handle  328   Id 1  RepID 65535  Grp 3  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:18:14 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 3  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:18:31 [INF] McCtrl BE: View open  : Handle  330   Id 27  RepID 65535  Grp 3  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:19:07 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 3  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:21:16 [INF] McCtrl BE: View open  : Handle  335   Id 27  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:21:28 [INF] McCtrl BE: 31320000 MC>SC1:   Assign resources for MSR
+Dec 10 07:22:22 [INF] McCtrl BE: 31320000 MC>SC1:   Assign resources for MSR
+Dec 10 07:23:51 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:24:03 [INF] McCtrl BE: View open  : Handle  337   Id 27  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:24:18 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:24:26 [INF] McCtrl BE: View open  : Handle  339   Id 29  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295
+Dec 10 07:24:29 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295
+Dec 10 08:21:30 [INF] McCtrl BE: View open  : Handle  345   Id 1  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295
+Dec 10 08:26:55 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295
+Dec 10 08:26:57 [INF] McCtrl BE: View open  : Handle  347   Id 4  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295
+Dec 10 08:33:14 [INF] McCtrl BE: 3111A100 SC1>MC:   SpP  12: YC cut done, fault code 0x00
+Dec 10 08:33:14 [INF] MEH LP: MEvt Info 18000(68) SU.12 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 10 08:33:14 [INF] McCtrl BE: 3111B001 MC>SC1:   SpP  12: YC cut confirm code 01
+Dec 10 08:33:14 [INF] McCtrl BE: 31111002 SC1>MC:   SpP  12: Yarn break (reason not specified)
+Dec 10 08:33:16 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 10 08:33:16 [INF] MEH LP: MEvt Info 20100(69) SUC.12 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 10 08:33:21 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 10 08:33:21 [INF] McCtrl BE: 31111100 SC1>MC:   SpP  12: New SpP state: RDY
+Dec 10 08:33:21 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 10 08:33:22 [INF] McCtrl BE: 31111200 SC1>MC:   SpP  12: AS: Start PY piecing cycle
+Dec 10 08:33:22 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 10 08:33:22 [INF] McCtrl BE: 31114ECC MC>SC1:   SpP  12: Package diameter 204
+Dec 10 08:33:23 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 10 08:33:31 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 10 08:33:31 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 10 08:33:31 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 10 08:33:42 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 10 08:33:42 [INF] MEH LP: MEvt Info 18000(68) SU.12 Debug 0x00  0x04 0x00 0x00 0x00 
+Dec 10 08:33:45 [INF] MEH LP: MEvt Info 20100(69) SUC.12 Debug 0x04  0x81 0x04 0x00 0x00 
+Dec 10 08:33:50 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 10 08:34:01 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 10 08:34:03 [INF] MEH LP: MEvt Info 18000(68) SU.12 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 10 08:34:03 [INF] MEH LP: MEvt Info 20150(141) SU.12  0x00 0x00 0x00 0x00 
+Dec 10 08:34:03 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 10 08:34:08 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x2A 0x00 0x00 0x00 
+Dec 10 08:34:08 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x03  0x01 0x00 0x01 0x2A 
+Dec 10 08:34:08 [INF] McCtrl BE: 31111203 SC1>MC:   SpP  12: AS: PY piecing succeeded
+Dec 10 08:47:08 [INF] McCtrl BE: 3111A100 SC1>MC:   SpP  12: YC cut done, fault code 0x00
+Dec 10 08:47:08 [INF] McCtrl BE: 3111B001 MC>SC1:   SpP  12: YC cut confirm code 01
+Dec 10 08:47:08 [INF] MEH LP: MEvt Info 18000(68) SU.12 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 10 08:47:08 [INF] McCtrl BE: 31111002 SC1>MC:   SpP  12: Yarn break (reason not specified)
+Dec 10 08:47:11 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 10 08:47:11 [INF] MEH LP: MEvt Info 20100(69) SUC.12 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 10 08:47:16 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 10 08:47:16 [INF] McCtrl BE: 31111100 SC1>MC:   SpP  12: New SpP state: RDY
+Dec 10 08:47:16 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 10 08:47:17 [INF] McCtrl BE: 31111200 SC1>MC:   SpP  12: AS: Start PY piecing cycle
+Dec 10 08:47:17 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 10 08:47:17 [INF] McCtrl BE: 31114ECD MC>SC1:   SpP  12: Package diameter 205
+Dec 10 08:47:17 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 10 08:47:25 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 10 08:47:25 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 10 08:47:25 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 10 08:47:36 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 10 08:47:36 [INF] MEH LP: MEvt Info 18000(68) SU.12 Debug 0x00  0x04 0x00 0x00 0x00 
+Dec 10 08:47:39 [INF] MEH LP: MEvt Info 20100(69) SUC.12 Debug 0x04  0x87 0x04 0x00 0x00 
+Dec 10 08:47:45 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 10 08:47:55 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 10 08:47:57 [INF] MEH LP: MEvt Info 18000(68) SU.12 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 10 08:47:57 [INF] MEH LP: MEvt Info 20150(141) SU.12  0x00 0x00 0x00 0x00 
+Dec 10 08:47:58 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 10 08:47:58 [INF] McCtrl BE: 3111A101 SC1>MC:   SpP  12: YC cut done, fault code 0x01
+Dec 10 08:47:58 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x03  0x01 0x00 0x01 0x28 
+Dec 10 08:47:58 [INF] McCtrl BE: 3111B001 MC>SC1:   SpP  12: YC cut confirm code 01
+Dec 10 08:47:58 [INF] MEH LP: MEvt Info 18000(68) SU.12 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 10 08:47:58 [INF] McCtrl BE: 31111202 SC1>MC:   SpP  12: AS: PY piecing failed
+Dec 10 08:47:59 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 10 08:47:59 [INF] MEH LP: MEvt Info 20100(69) SUC.12 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 10 08:48:04 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 10 08:48:04 [INF] McCtrl BE: 31111100 SC1>MC:   SpP  12: New SpP state: RDY
+Dec 10 08:48:04 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 10 08:48:05 [INF] McCtrl BE: 31111200 SC1>MC:   SpP  12: AS: Start PY piecing cycle
+Dec 10 08:48:05 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 10 08:48:05 [INF] McCtrl BE: 31114ECD MC>SC1:   SpP  12: Package diameter 205
+Dec 10 08:48:06 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 10 08:48:06 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 10 08:48:13 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 10 08:48:13 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 10 08:48:14 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 10 08:48:18 [INF] MEH LP: MEvt Info 20100(69) SUC.12 Debug 0x04  0x84 0x04 0x00 0x00 
+Dec 10 08:48:23 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 10 08:48:34 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 10 08:48:36 [INF] MEH LP: MEvt Info 18000(68) SU.12 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 10 08:48:37 [INF] MEH LP: MEvt Info 20150(141) SU.12  0x00 0x00 0x00 0x00 
+Dec 10 08:48:37 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 10 08:48:37 [INF] McCtrl BE: 3111A100 SC1>MC:   SpP  12: YC cut done, fault code 0x00
+Dec 10 08:48:37 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x03  0x01 0x00 0x02 0x28 
+Dec 10 08:48:37 [INF] McCtrl BE: 3111B001 MC>SC1:   SpP  12: YC cut confirm code 01
+Dec 10 08:48:37 [INF] McCtrl BE: 31111202 SC1>MC:   SpP  12: AS: PY piecing failed
+Dec 10 08:48:37 [INF] MEH LP: MEvt Info 18000(68) SU.12 Debug 0x00  0x06 0x00 0x00 0x00 
+Dec 10 08:48:38 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x2D 0x01 0x00 0x00 
+Dec 10 08:48:38 [INF] MEH LP: MEvt Info 20100(69) SUC.12 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 10 08:48:43 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 10 08:48:43 [INF] McCtrl BE: 31111100 SC1>MC:   SpP  12: New SpP state: RDY
+Dec 10 08:48:43 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 10 08:48:44 [INF] McCtrl BE: 31111200 SC1>MC:   SpP  12: AS: Start PY piecing cycle
+Dec 10 08:48:44 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 10 08:48:44 [INF] McCtrl BE: 31114ECD MC>SC1:   SpP  12: Package diameter 205
+Dec 10 08:48:45 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x2D 0x02 0x00 0x00 
+Dec 10 08:48:45 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 10 08:48:53 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x2D 0x03 0x00 0x00 
+Dec 10 08:48:53 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 10 08:48:53 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 10 08:48:56 [INF] MEH LP: MEvt Info 20100(69) SUC.12 Debug 0x04  0x81 0x04 0x00 0x00 
+Dec 10 08:49:06 [INF] MEH LP: MEvt Info 20100(69) SUC.12 Debug 0x01  0x01 0x26 0x00 0x00 
+Dec 10 08:49:06 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x03  0x01 0x00 0x03 0x7C 
+Dec 10 08:49:06 [INF] McCtrl BE: 31111202 SC1>MC:   SpP  12: AS: PY piecing failed
+Dec 10 08:49:06 [INF] MEH LP: MEvt Info 20100(69) SUC.12 Debug 0x09  0x26 0x09 0x00 0x00 
+Dec 10 08:49:06 [INF] McCtrl BE: 31111702 SC1>MC:   SpP  12: TA state entered
+Dec 10 08:49:06 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 10 08:49:16 [INF] MEH LP: MEvt Info 20100(69) SUC.12 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 10 08:49:20 [INF] McCtrl BE: 31111701 SC1>MC:   SpP  12: TA state left + SP-Lock
+Dec 10 08:49:20 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 10 08:49:20 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 10 08:49:21 [INF] MEH LP: MEvt Info 20100(69) SUC.12 Debug 0x04  0x02 0x04 0x00 0x00 
+Dec 10 08:49:26 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x33 0x00 0x00 0x00 
+Dec 10 08:49:26 [INF] McCtrl BE: 31111100 SC1>MC:   SpP  12: New SpP state: RDY
+Dec 10 08:49:26 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 10 08:49:26 [INF] McCtrl BE: 31111200 SC1>MC:   SpP  12: AS: Start PY piecing cycle
+Dec 10 08:49:27 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x23 0x00 0x00 0x00 
+Dec 10 08:49:27 [INF] McCtrl BE: 31114ECD MC>SC1:   SpP  12: Package diameter 205
+Dec 10 08:49:28 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x24 0x00 0x00 0x00 
+Dec 10 08:49:38 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x25 0x00 0x00 0x00 
+Dec 10 08:49:42 [INF] MEH LP: MEvt Info 20100(69) SUC.12 Debug 0x04  0x89 0x04 0x00 0x00 
+Dec 10 08:49:47 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x26 0x00 0x00 0x00 
+Dec 10 08:49:59 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x27 0x00 0x00 0x00 
+Dec 10 08:50:00 [INF] MEH LP: MEvt Info 18000(68) SU.12 Debug 0x00  0x05 0x00 0x00 0x00 
+Dec 10 08:50:01 [INF] MEH LP: MEvt Info 20150(141) SU.12  0x00 0x00 0x00 0x00 
+Dec 10 08:50:01 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x28 0x00 0x00 0x00 
+Dec 10 08:50:05 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x00  0x2A 0x00 0x00 0x00 
+Dec 10 08:50:05 [INF] MEH LP: MEvt Info 17000(67) SI.1 SpP.12 Debug 0x03  0x01 0x00 0x04 0x2A 
+Dec 10 08:50:05 [INF] McCtrl BE: 31111203 SC1>MC:   SpP  12: AS: PY piecing succeeded
+Dec 10 08:53:51 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295
+Dec 10 08:53:59 [INF] McCtrl BE: View open  : Handle  349   Id 27  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295
+Dec 10 08:54:38 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 12  Rb 1  Misc 4294967295

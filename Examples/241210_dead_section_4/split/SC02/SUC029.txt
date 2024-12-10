@@ -1,0 +1,51 @@
+Dec 09 07:46:45 [INF] NuuX BE: 78320000 CND>MC:   SC2 Boot message
+Dec 09 07:46:45 [INF] NuuX BE: 7832F000 MC>CND:   Start guarding node SC2
+Dec 09 07:46:46 [INF] NuuX BE: 78327F00 CND>MC:   SC2 Pre-Operational
+Dec 09 07:46:48 [INF] NuuX BE: 78320100 MC>CND:   Start Remote Node SC2
+Dec 09 07:46:48 [INF] NuuX BE: 78320500 CND>MC:   SC2 Operational
+Dec 09 07:46:49 [INF] NuuX BE: 32310402 MC>SC2:   Machine type code 02
+Dec 09 07:46:49 [INF] NuuX BE: 32310316 MC>SC2:   YC type code 16
+Dec 09 07:46:49 [INF] NuuX BE: 323F0200 MC>SC2:   Configuration done
+Dec 09 07:49:08 [INF] McCtrl BE: 32024F01 MC>SC2:   SpP  29: Set WaitRB, reason 0x01
+Dec 09 07:49:09 [INF] McCtrl BE: 78320000 CND>MC:   SC2 Boot message
+Dec 09 07:49:10 [INF] McCtrl BE: 78327F00 CND>MC:   SC2 Pre-Operational
+Dec 09 07:49:10 [INF] McCtrl BE: 7832F000 MC>CND:   Start guarding node SC2
+Dec 09 07:49:10 [INF] McCtrl BE: 78320100 MC>CND:   Start Remote Node SC2
+Dec 09 07:49:10 [INF] McCtrl BE: 78320500 CND>MC:   SC2 Operational
+Dec 09 07:49:11 [INF] McCtrl BE: 32333724 SC2>MC:   Release 241203
+Dec 09 07:49:25 [INF] McCtrl BE: 32024F01 MC>SC2:   SpP  29: Set WaitRB, reason 0x01
+Dec 09 07:49:25 [INF] McCtrl BE: 32021000 MC>SC2:   SpP  29: Add to PG 0
+Dec 09 07:49:26 [INF] McCtrl BE: 32F08080 SC2>MC:   Emergency event! Code 0x80 0x80
+Dec 09 07:51:47 [INF] Q10CCU 6: TA set on spp 29 type 101, PGrp 1
+Dec 09 07:51:48 [INF] Q10CCU 2: SPPINFO update spp 29 index 2, YSpeed 169.00, PGrp 1
+Dec 09 07:51:48 [INF] Q10CCU 6: SPPINFO update spp 29 index 1, YCount 41.70, PGrp 1
+Dec 09 07:51:48 [INF] Q10CCU 2: SPPINFO update spp 29 index 3, Rotor 104, PGrp 1
+Dec 09 07:51:48 [INF] Q10CCU 6: QInit event spp 29, PGrp 1, Protocol 3
+Dec 09 07:52:20 [INF] McCtrl BE: 32021701 SC2>MC:   SpP  29: TA state left + SP-Lock
+Dec 09 07:52:20 [INF] Q10CCU 6: TA reset on spp 29, PGpr 1
+Dec 09 07:52:28 [INF] McCtrl BE: 32021100 SC2>MC:   SpP  29: New SpP state: RDY
+Dec 09 08:01:30 [INF] Q10CCU 2: SPPINFO update spp 29 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:01:30 [INF] Q10CCU 6: SPPINFO update spp 29 index 1, YCount 35.70, PGrp 1
+Dec 09 08:02:03 [INF] Q10CCU 2: SPPINFO update spp 29 index 2, YSpeed 169.00, PGrp 1
+Dec 09 08:02:03 [INF] Q10CCU 6: SPPINFO update spp 29 index 1, YCount 41.70, PGrp 1
+Dec 09 08:03:00 [INF] Q10CCU 2: SPPINFO update spp 29 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:03:00 [INF] Q10CCU 6: SPPINFO update spp 29 index 1, YCount 35.70, PGrp 1
+Dec 09 08:03:16 [INF] Q10CCU 2: SPPINFO update spp 29 index 2, YSpeed 169.00, PGrp 1
+Dec 09 08:03:16 [INF] Q10CCU 6: SPPINFO update spp 29 index 1, YCount 41.70, PGrp 1
+Dec 09 08:03:37 [INF] Q10CCU 2: SPPINFO update spp 29 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:03:37 [INF] Q10CCU 6: SPPINFO update spp 29 index 1, YCount 35.70, PGrp 1
+Dec 09 08:05:23 [INF] Q10CCU 6: SPPINFO update spp 29 index 2, YSpeed 169.00, PGrp 1
+Dec 09 08:05:23 [INF] Q10CCU 6: SPPINFO update spp 29 index 1, YCount 41.70, PGrp 1
+Dec 09 08:05:32 [INF] Q10CCU 2: SPPINFO update spp 29 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:05:32 [INF] Q10CCU 2: SPPINFO update spp 29 index 1, YCount 35.70, PGrp 1
+Dec 10 07:17:39 [INF] McCtrl RS: GrpChg SpP  29: OldGrp 0 Cnt 32, NewGrp 80 Cnt 32
+Dec 10 07:17:39 [INF] McCtrl RS: GrpChg SpP  29: OldGrp 80 Cnt 9, NewGrp 2 Cnt 13
+Dec 10 07:17:39 [INF] McCtrl BE: 32024F01 MC>SC2:   SpP  29: Set WaitRB, reason 0x01
+Dec 10 07:17:39 [INF] Q10CCU 2: TA set on spp 29 type 101, PGrp 1
+Dec 10 07:17:39 [INF] Q10CCU 6: QInit event spp 29, PGrp 3, Protocol 3
+Dec 10 07:17:39 [INF] Q10CCU 6: Clear_Yarn_ParmsCCU change PGrpAss spp 29 sensor, previous grp 1, new grp 3
+Dec 10 07:17:40 [INF] McCtrl BE: 32021002 MC>SC2:   SpP  29: Add to PG 2
+Dec 10 07:17:40 [INF] McCtrl BE: 32024F01 MC>SC2:   SpP  29: Set WaitRB, reason 0x01
+Dec 10 07:17:52 [INF] McCtrl BE: 32021700 SC2>MC:   SpP  29: TA state left
+Dec 10 07:17:52 [INF] McCtrl BE: 32024308 MC>SC2:   SpP  29: Set operator request 8
+Dec 10 07:17:54 [INF] Q10CCU 6: TA reset on spp 29, PGpr 3

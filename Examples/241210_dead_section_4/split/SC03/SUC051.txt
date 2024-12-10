@@ -1,0 +1,82 @@
+Dec 09 07:46:45 [INF] NuuX BE: 78330000 CND>MC:   SC3 Boot message
+Dec 09 07:46:45 [INF] NuuX BE: 7833F000 MC>CND:   Start guarding node SC3
+Dec 09 07:46:46 [INF] NuuX BE: 78337F00 CND>MC:   SC3 Pre-Operational
+Dec 09 07:46:48 [INF] NuuX BE: 78330100 MC>CND:   Start Remote Node SC3
+Dec 09 07:46:48 [INF] NuuX BE: 78330500 CND>MC:   SC3 Operational
+Dec 09 07:46:49 [INF] NuuX BE: 33310402 MC>SC3:   Machine type code 02
+Dec 09 07:46:49 [INF] NuuX BE: 33310316 MC>SC3:   YC type code 16
+Dec 09 07:46:49 [INF] NuuX BE: 333F0200 MC>SC3:   Configuration done
+Dec 09 07:49:08 [INF] McCtrl BE: 33014F01 MC>SC3:   SpP  51: Set WaitRB, reason 0x01
+Dec 09 07:49:09 [INF] McCtrl BE: 78330000 CND>MC:   SC3 Boot message
+Dec 09 07:49:09 [INF] McCtrl BE: 78337F00 CND>MC:   SC3 Pre-Operational
+Dec 09 07:49:09 [INF] McCtrl BE: 7833F000 MC>CND:   Start guarding node SC3
+Dec 09 07:49:09 [INF] McCtrl BE: 78330100 MC>CND:   Start Remote Node SC3
+Dec 09 07:49:10 [INF] McCtrl BE: 78330500 CND>MC:   SC3 Operational
+Dec 09 07:49:11 [INF] McCtrl BE: 33333724 SC3>MC:   Release 241203
+Dec 09 07:49:26 [INF] McCtrl BE: 33014F01 MC>SC3:   SpP  51: Set WaitRB, reason 0x01
+Dec 09 07:49:26 [INF] McCtrl BE: 33011000 MC>SC3:   SpP  51: Add to PG 0
+Dec 09 07:49:27 [INF] McCtrl BE: 33F08080 SC3>MC:   Emergency event! Code 0x80 0x80
+Dec 09 07:52:14 [INF] Q10CCU 6: TA set on spp 51 type 101, PGrp 1
+Dec 09 07:52:14 [INF] Q10CCU 2: SPPINFO update spp 51 index 2, YSpeed 169.00, PGrp 1
+Dec 09 07:52:14 [INF] Q10CCU 2: SPPINFO update spp 51 index 1, YCount 41.70, PGrp 1
+Dec 09 07:52:14 [INF] Q10CCU 2: SPPINFO update spp 51 index 3, Rotor 104, PGrp 1
+Dec 09 07:52:14 [INF] Q10CCU 6: QInit event spp 51, PGrp 1, Protocol 3
+Dec 09 07:52:20 [INF] McCtrl BE: 33011701 SC3>MC:   SpP  51: TA state left + SP-Lock
+Dec 09 07:52:20 [INF] Q10CCU 2: TA reset on spp 51, PGpr 1
+Dec 09 07:52:28 [INF] McCtrl BE: 33011100 SC3>MC:   SpP  51: New SpP state: RDY
+Dec 09 08:01:32 [INF] Q10CCU 6: SPPINFO update spp 51 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:01:32 [INF] Q10CCU 2: SPPINFO update spp 51 index 1, YCount 35.70, PGrp 1
+Dec 09 08:02:02 [INF] Q10CCU 2: SPPINFO update spp 51 index 2, YSpeed 169.00, PGrp 1
+Dec 09 08:02:02 [INF] Q10CCU 6: SPPINFO update spp 51 index 1, YCount 41.70, PGrp 1
+Dec 09 08:02:59 [INF] Q10CCU 2: SPPINFO update spp 51 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:02:59 [INF] Q10CCU 6: SPPINFO update spp 51 index 1, YCount 35.70, PGrp 1
+Dec 09 08:03:15 [INF] Q10CCU 2: SPPINFO update spp 51 index 2, YSpeed 169.00, PGrp 1
+Dec 09 08:03:15 [INF] Q10CCU 6: SPPINFO update spp 51 index 1, YCount 41.70, PGrp 1
+Dec 09 08:03:38 [INF] Q10CCU 2: SPPINFO update spp 51 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:03:38 [INF] Q10CCU 6: SPPINFO update spp 51 index 1, YCount 35.70, PGrp 1
+Dec 09 08:05:23 [INF] Q10CCU 2: SPPINFO update spp 51 index 2, YSpeed 169.00, PGrp 1
+Dec 09 08:05:23 [INF] Q10CCU 6: SPPINFO update spp 51 index 1, YCount 41.70, PGrp 1
+Dec 09 08:05:35 [INF] Q10CCU 2: SPPINFO update spp 51 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:05:35 [INF] Q10CCU 6: SPPINFO update spp 51 index 1, YCount 35.70, PGrp 1
+Dec 09 08:10:04 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.51 Debug 0x0B  855638018
+Dec 09 08:10:12 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.51 Debug 0x0B  587202562
+Dec 09 08:24:22 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.51 Debug 0x00  0x2F 0x01 0x00 0x00 
+Dec 09 08:24:31 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.51 Debug 0x00  0x2F 0x02 0x00 0x00 
+Dec 09 08:24:31 [INF] MEH LP: MEvt Info 18000(68) SU.51 Debug 0x00  0x04 0x00 0x00 0x00 
+Dec 09 08:24:35 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.51 Debug 0x00  0x2F 0x03 0x00 0x00 
+Dec 09 08:24:39 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.51 Debug 0x00  0x34 0x00 0x00 0x00 
+Dec 09 08:26:23 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:27:28 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:28:34 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:29:28 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:30:22 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:31:15 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:31:28 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.51 Debug 0x0B  855638018
+Dec 09 08:31:38 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.51 Debug 0x0A  855638018
+Dec 09 08:32:24 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:33:14 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:33:54 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.51 Debug 0x08  855638018
+Dec 09 08:34:23 [INF] MEH LP: MEvt Info 17000(67) SI.3 SpP.51 Debug 0x09  855638018
+Dec 09 08:35:17 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:35:18 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:35:20 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:35:45 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:52:44 [INF] McCtrl BE: 210A3200 MC>RB1:   SpP  51: SpP requires service 01
+Dec 09 08:53:09 [INF] McCtrl BE: 210A3200 MC>RB1:   SpP  51: SpP requires service 01
+Dec 09 09:24:03 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 09:25:08 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 09:25:58 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 22:35:02 [INF] McCtrl BE: View open  : Handle  257   Id 4  RepID 65535  Grp 1  SpP 51  Rb 1  Misc 4294967295
+Dec 09 22:35:03 [INF] McCtrl BE: View open  : Handle   -1   Id -1  RepID 65535  Grp 1  SpP 51  Rb 1  Misc 4294967295
+Dec 09 22:35:34 [INF] McCtrl BE: View open  : Handle  261   Id 4  RepID 65535  Grp 1  SpP 51  Rb 1  Misc 4294967295
+Dec 10 07:17:39 [INF] McCtrl RS: GrpChg SpP  51: OldGrp 0 Cnt 21, NewGrp 80 Cnt 21
+Dec 10 07:17:39 [INF] McCtrl RS: GrpChg SpP  51: OldGrp 80 Cnt 9, NewGrp 2 Cnt 24
+Dec 10 07:17:39 [INF] McCtrl BE: 33014F01 MC>SC3:   SpP  51: Set WaitRB, reason 0x01
+Dec 10 07:17:41 [INF] McCtrl BE: 33011002 MC>SC3:   SpP  51: Add to PG 2
+Dec 10 07:17:41 [INF] McCtrl BE: 33014F01 MC>SC3:   SpP  51: Set WaitRB, reason 0x01
+Dec 10 07:17:41 [INF] Q10CCU 2: TA set on spp 51 type 101, PGrp 1
+Dec 10 07:17:41 [INF] Q10CCU 2: QInit event spp 51, PGrp 3, Protocol 3
+Dec 10 07:17:41 [INF] Q10CCU 2: Clear_Yarn_ParmsCCU change PGrpAss spp 51 sensor, previous grp 1, new grp 3
+Dec 10 07:17:52 [INF] McCtrl BE: 33011700 SC3>MC:   SpP  51: TA state left
+Dec 10 07:17:52 [INF] McCtrl BE: 33014308 MC>SC3:   SpP  51: Set operator request 8
+Dec 10 07:17:53 [INF] Q10CCU 2: TA reset on spp 51, PGpr 3

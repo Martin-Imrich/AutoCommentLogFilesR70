@@ -1,0 +1,31 @@
+Dec 09 07:46:45 [INF] NuuX BE: 78320000 CND>MC:   SC2 Boot message
+Dec 09 07:46:45 [INF] NuuX BE: 7832F000 MC>CND:   Start guarding node SC2
+Dec 09 07:46:46 [INF] NuuX BE: 78327F00 CND>MC:   SC2 Pre-Operational
+Dec 09 07:46:48 [INF] NuuX BE: 78320100 MC>CND:   Start Remote Node SC2
+Dec 09 07:46:48 [INF] NuuX BE: 78320500 CND>MC:   SC2 Operational
+Dec 09 07:46:49 [INF] NuuX BE: 32310402 MC>SC2:   Machine type code 02
+Dec 09 07:46:49 [INF] NuuX BE: 32310316 MC>SC2:   YC type code 16
+Dec 09 07:46:49 [INF] NuuX BE: 323F0200 MC>SC2:   Configuration done
+Dec 09 07:49:08 [INF] McCtrl BE: 32114F01 MC>SC2:   SpP  36: Set WaitRB, reason 0x01
+Dec 09 07:49:09 [INF] McCtrl BE: 78320000 CND>MC:   SC2 Boot message
+Dec 09 07:49:10 [INF] McCtrl BE: 78327F00 CND>MC:   SC2 Pre-Operational
+Dec 09 07:49:10 [INF] McCtrl BE: 7832F000 MC>CND:   Start guarding node SC2
+Dec 09 07:49:10 [INF] McCtrl BE: 78320100 MC>CND:   Start Remote Node SC2
+Dec 09 07:49:10 [INF] McCtrl BE: 78320500 CND>MC:   SC2 Operational
+Dec 09 07:49:11 [INF] McCtrl BE: 32333724 SC2>MC:   Release 241203
+Dec 09 07:49:25 [INF] McCtrl BE: 32114F01 MC>SC2:   SpP  36: Set WaitRB, reason 0x01
+Dec 09 07:49:25 [INF] McCtrl BE: 32111001 MC>SC2:   SpP  36: Add to PG 1
+Dec 09 07:49:26 [INF] McCtrl BE: 32F08080 SC2>MC:   Emergency event! Code 0x80 0x80
+Dec 09 07:52:17 [INF] Q10CCU 6: TA set on spp 36 type 101, PGrp 2
+Dec 09 07:52:17 [INF] Q10CCU 2: SPPINFO update spp 36 index 2, YSpeed 169.00, PGrp 2
+Dec 09 07:52:17 [INF] Q10CCU 6: SPPINFO update spp 36 index 1, YCount 41.70, PGrp 2
+Dec 09 07:52:18 [INF] Q10CCU 2: SPPINFO update spp 36 index 3, Rotor 104, PGrp 2
+Dec 09 07:52:18 [INF] Q10CCU 6: QInit event spp 36, PGrp 2, Protocol 3
+Dec 09 07:52:26 [INF] McCtrl BE: 32111701 SC2>MC:   SpP  36: TA state left + SP-Lock
+Dec 09 07:52:26 [INF] Q10CCU 6: TA reset on spp 36, PGpr 2
+Dec 09 07:52:34 [INF] McCtrl BE: 32111100 SC2>MC:   SpP  36: New SpP state: RDY
+Dec 09 08:05:41 [INF] Q10CCU 6: SPPINFO update spp 36 index 2, YSpeed 167.00, PGrp 2
+Dec 09 08:05:41 [INF] Q10CCU 2: SPPINFO update spp 36 index 1, YCount 35.70, PGrp 2
+Dec 09 18:30:39 [INF] McCtrl BE: 220A2300 MC>RB2:   SpP  36: SpP requires service 01
+Dec 09 18:33:21 [INF] McCtrl BE: 220A2300 MC>RB2:   SpP  36: SpP requires service 01
+Dec 09 22:02:44 [INF] McCtrl BE: View open  : Handle  244   Id 4  RepID 65535  Grp 1  SpP 36  Rb 1  Misc 4294967295

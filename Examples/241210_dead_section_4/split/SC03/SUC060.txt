@@ -1,0 +1,46 @@
+Dec 09 07:46:45 [INF] NuuX BE: 78330000 CND>MC:   SC3 Boot message
+Dec 09 07:46:45 [INF] NuuX BE: 7833F000 MC>CND:   Start guarding node SC3
+Dec 09 07:46:46 [INF] NuuX BE: 78337F00 CND>MC:   SC3 Pre-Operational
+Dec 09 07:46:48 [INF] NuuX BE: 78330100 MC>CND:   Start Remote Node SC3
+Dec 09 07:46:48 [INF] NuuX BE: 78330500 CND>MC:   SC3 Operational
+Dec 09 07:46:49 [INF] NuuX BE: 33310402 MC>SC3:   Machine type code 02
+Dec 09 07:46:49 [INF] NuuX BE: 33310316 MC>SC3:   YC type code 16
+Dec 09 07:46:49 [INF] NuuX BE: 333F0200 MC>SC3:   Configuration done
+Dec 09 07:49:09 [INF] McCtrl BE: 33114F01 MC>SC3:   SpP  60: Set WaitRB, reason 0x01
+Dec 09 07:49:09 [INF] McCtrl BE: 78330000 CND>MC:   SC3 Boot message
+Dec 09 07:49:09 [INF] McCtrl BE: 78337F00 CND>MC:   SC3 Pre-Operational
+Dec 09 07:49:09 [INF] McCtrl BE: 7833F000 MC>CND:   Start guarding node SC3
+Dec 09 07:49:09 [INF] McCtrl BE: 78330100 MC>CND:   Start Remote Node SC3
+Dec 09 07:49:10 [INF] McCtrl BE: 78330500 CND>MC:   SC3 Operational
+Dec 09 07:49:11 [INF] McCtrl BE: 33333724 SC3>MC:   Release 241203
+Dec 09 07:49:26 [INF] McCtrl BE: 33114F01 MC>SC3:   SpP  60: Set WaitRB, reason 0x01
+Dec 09 07:49:26 [INF] McCtrl BE: 33111001 MC>SC3:   SpP  60: Add to PG 1
+Dec 09 07:49:27 [INF] McCtrl BE: 33F08080 SC3>MC:   Emergency event! Code 0x80 0x80
+Dec 09 07:52:45 [INF] Q10CCU 6: TA set on spp 60 type 101, PGrp 2
+Dec 09 07:52:45 [INF] Q10CCU 7: SPPINFO update spp 60 index 2, YSpeed 169.00, PGrp 2
+Dec 09 07:52:45 [INF] Q10CCU 6: SPPINFO update spp 60 index 1, YCount 41.70, PGrp 2
+Dec 09 07:52:45 [INF] Q10CCU 7: SPPINFO update spp 60 index 3, Rotor 104, PGrp 2
+Dec 09 07:52:45 [INF] Q10CCU 6: QInit event spp 60, PGrp 2, Protocol 3
+Dec 09 07:52:50 [INF] McCtrl BE: 33111701 SC3>MC:   SpP  60: TA state left + SP-Lock
+Dec 09 07:52:52 [INF] Q10CCU 6: TA reset on spp 60, PGpr 2
+Dec 09 07:52:57 [INF] McCtrl BE: 33111100 SC3>MC:   SpP  60: New SpP state: RDY
+Dec 09 08:05:41 [INF] Q10CCU 6: SPPINFO update spp 60 index 2, YSpeed 167.00, PGrp 2
+Dec 09 08:05:41 [INF] Q10CCU 2: SPPINFO update spp 60 index 1, YCount 35.70, PGrp 2
+Dec 09 08:26:23 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:27:28 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:28:34 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:29:28 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:30:22 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:31:15 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:32:24 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:33:14 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:35:17 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:35:18 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:35:20 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 08:35:45 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 09:24:03 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 09:25:08 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 09:25:58 [INF] McCtrl BE: 33320000 MC>SC3:   Assign resources for MSR
+Dec 09 18:30:31 [INF] McCtrl BE: 220A3B00 MC>RB2:   SpP  60: SpP requires service 01
+Dec 09 18:33:29 [INF] McCtrl BE: 220A3B00 MC>RB2:   SpP  60: SpP requires service 01
+Dec 09 22:02:44 [INF] McCtrl BE: View open  : Handle  245   Id 4  RepID 65535  Grp 1  SpP 60  Rb 1  Misc 4294967295

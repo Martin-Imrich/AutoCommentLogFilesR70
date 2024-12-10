@@ -1,0 +1,15 @@
+Dec 09 07:49:08 [INF] McCtrl BE: 32174F01 MC>SC2:   SpP  48: Set WaitRB, reason 0x01
+Dec 09 07:49:26 [INF] McCtrl BE: 32174F01 MC>SC2:   SpP  48: Set WaitRB, reason 0x01
+Dec 09 07:49:26 [INF] McCtrl BE: 32171001 MC>SC2:   SpP  48: Add to PG 1
+Dec 09 07:52:30 [INF] Q10CCU 6: TA set on spp 48 type 101, PGrp 2
+Dec 09 07:52:30 [INF] Q10CCU 2: SPPINFO update spp 48 index 2, YSpeed 169.00, PGrp 2
+Dec 09 07:52:30 [INF] Q10CCU 6: SPPINFO update spp 48 index 1, YCount 41.70, PGrp 2
+Dec 09 07:52:30 [INF] Q10CCU 2: SPPINFO update spp 48 index 3, Rotor 104, PGrp 2
+Dec 09 07:52:30 [INF] Q10CCU 6: QInit event spp 48, PGrp 2, Protocol 3
+Dec 09 07:52:50 [INF] McCtrl BE: 32171701 SC2>MC:   SpP  48: TA state left + SP-Lock
+Dec 09 07:52:51 [INF] Q10CCU 7: TA reset on spp 48, PGpr 2
+Dec 09 07:52:57 [INF] McCtrl BE: 32171100 SC2>MC:   SpP  48: New SpP state: RDY
+Dec 09 08:05:42 [INF] Q10CCU 6: SPPINFO update spp 48 index 2, YSpeed 167.00, PGrp 2
+Dec 09 08:05:42 [INF] Q10CCU 2: SPPINFO update spp 48 index 1, YCount 35.70, PGrp 2
+Dec 09 18:30:35 [INF] McCtrl BE: 220A2F00 MC>RB2:   SpP  48: SpP requires service 01
+Dec 09 18:33:25 [INF] McCtrl BE: 220A2F00 MC>RB2:   SpP  48: SpP requires service 01

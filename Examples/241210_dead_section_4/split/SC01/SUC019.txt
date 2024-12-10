@@ -1,0 +1,63 @@
+Dec 09 07:46:45 [INF] NuuX BE: 78310000 CND>MC:   SC1 Boot message
+Dec 09 07:46:45 [INF] NuuX BE: 7831F000 MC>CND:   Start guarding node SC1
+Dec 09 07:46:46 [INF] NuuX BE: 78317F00 CND>MC:   SC1 Pre-Operational
+Dec 09 07:46:48 [INF] NuuX BE: 78310100 MC>CND:   Start Remote Node SC1
+Dec 09 07:46:48 [INF] NuuX BE: 78310500 CND>MC:   SC1 Operational
+Dec 09 07:46:49 [INF] NuuX BE: 31310402 MC>SC1:   Machine type code 02
+Dec 09 07:46:49 [INF] NuuX BE: 31310316 MC>SC1:   YC type code 16
+Dec 09 07:46:49 [INF] NuuX BE: 313F0200 MC>SC1:   Configuration done
+Dec 09 07:49:07 [INF] McCtrl BE: 31094F01 MC>SC1:   SpP  19: Set WaitRB, reason 0x01
+Dec 09 07:49:09 [INF] McCtrl BE: 78310000 CND>MC:   SC1 Boot message
+Dec 09 07:49:10 [INF] McCtrl BE: 78317F00 CND>MC:   SC1 Pre-Operational
+Dec 09 07:49:10 [INF] McCtrl BE: 7831F000 MC>CND:   Start guarding node SC1
+Dec 09 07:49:10 [INF] McCtrl BE: 78310100 MC>CND:   Start Remote Node SC1
+Dec 09 07:49:10 [INF] McCtrl BE: 78310500 CND>MC:   SC1 Operational
+Dec 09 07:49:11 [INF] McCtrl BE: 31333724 SC1>MC:   Release 241203
+Dec 09 07:49:25 [INF] McCtrl BE: 31094F01 MC>SC1:   SpP  19: Set WaitRB, reason 0x01
+Dec 09 07:49:25 [INF] McCtrl BE: 31091000 MC>SC1:   SpP  19: Add to PG 0
+Dec 09 07:49:25 [INF] McCtrl BE: 31F08080 SC1>MC:   Emergency event! Code 0x80 0x80
+Dec 09 07:52:01 [INF] Q10CCU 2: TA set on spp 19 type 101, PGrp 1
+Dec 09 07:52:01 [INF] Q10CCU 6: SPPINFO update spp 19 index 2, YSpeed 169.00, PGrp 1
+Dec 09 07:52:01 [INF] Q10CCU 2: SPPINFO update spp 19 index 1, YCount 41.70, PGrp 1
+Dec 09 07:52:01 [INF] Q10CCU 6: SPPINFO update spp 19 index 3, Rotor 104, PGrp 1
+Dec 09 07:52:01 [INF] Q10CCU 2: QInit event spp 19, PGrp 1, Protocol 3
+Dec 09 07:52:20 [INF] McCtrl BE: 31091701 SC1>MC:   SpP  19: TA state left + SP-Lock
+Dec 09 07:52:20 [INF] Q10CCU 6: TA reset on spp 19, PGpr 1
+Dec 09 07:52:28 [INF] McCtrl BE: 31091100 SC1>MC:   SpP  19: New SpP state: RDY
+Dec 09 08:01:32 [INF] Q10CCU 6: SPPINFO update spp 19 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:01:32 [INF] Q10CCU 2: SPPINFO update spp 19 index 1, YCount 35.70, PGrp 1
+Dec 09 08:02:02 [INF] Q10CCU 6: SPPINFO update spp 19 index 2, YSpeed 169.00, PGrp 1
+Dec 09 08:02:02 [INF] Q10CCU 2: SPPINFO update spp 19 index 1, YCount 41.70, PGrp 1
+Dec 09 08:02:59 [INF] Q10CCU 6: SPPINFO update spp 19 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:02:59 [INF] Q10CCU 2: SPPINFO update spp 19 index 1, YCount 35.70, PGrp 1
+Dec 09 08:03:15 [INF] Q10CCU 6: SPPINFO update spp 19 index 2, YSpeed 169.00, PGrp 1
+Dec 09 08:03:15 [INF] Q10CCU 2: SPPINFO update spp 19 index 1, YCount 41.70, PGrp 1
+Dec 09 08:03:38 [INF] Q10CCU 2: SPPINFO update spp 19 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:03:38 [INF] Q10CCU 6: SPPINFO update spp 19 index 1, YCount 35.70, PGrp 1
+Dec 09 08:05:24 [INF] Q10CCU 2: SPPINFO update spp 19 index 2, YSpeed 169.00, PGrp 1
+Dec 09 08:05:24 [INF] Q10CCU 2: SPPINFO update spp 19 index 1, YCount 41.70, PGrp 1
+Dec 09 08:05:33 [INF] Q10CCU 6: SPPINFO update spp 19 index 2, YSpeed 167.00, PGrp 1
+Dec 09 08:05:33 [INF] Q10CCU 2: SPPINFO update spp 19 index 1, YCount 35.70, PGrp 1
+Dec 09 18:31:25 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 09 18:32:17 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 09 21:14:21 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 09 21:14:57 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 10 06:52:55 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 10 07:17:39 [INF] McCtrl RS: GrpChg SpP  19: OldGrp 0 Cnt 37, NewGrp 80 Cnt 37
+Dec 10 07:17:39 [INF] McCtrl RS: GrpChg SpP  19: OldGrp 80 Cnt 9, NewGrp 2 Cnt 8
+Dec 10 07:17:39 [INF] McCtrl BE: 31094F01 MC>SC1:   SpP  19: Set WaitRB, reason 0x01
+Dec 10 07:17:40 [INF] McCtrl BE: 31091002 MC>SC1:   SpP  19: Add to PG 2
+Dec 10 07:17:40 [INF] McCtrl BE: 31094F01 MC>SC1:   SpP  19: Set WaitRB, reason 0x01
+Dec 10 07:17:40 [INF] Q10CCU 2: TA set on spp 19 type 101, PGrp 1
+Dec 10 07:17:40 [INF] Q10CCU 6: QInit event spp 19, PGrp 3, Protocol 3
+Dec 10 07:17:40 [INF] Q10CCU 6: Clear_Yarn_ParmsCCU change PGrpAss spp 19 sensor, previous grp 1, new grp 3
+Dec 10 07:17:52 [INF] McCtrl BE: 31091700 SC1>MC:   SpP  19: TA state left
+Dec 10 07:17:52 [INF] McCtrl BE: 31094308 MC>SC1:   SpP  19: Set operator request 8
+Dec 10 07:17:55 [INF] Q10CCU 6: TA reset on spp 19, PGpr 3
+Dec 10 07:21:28 [INF] McCtrl BE: 31320000 MC>SC1:   Assign resources for MSR
+Dec 10 07:22:22 [INF] McCtrl BE: 31320000 MC>SC1:   Assign resources for MSR
+Dec 10 08:33:21 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 10 08:47:16 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 10 08:48:04 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 10 08:48:43 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
+Dec 10 08:49:26 [INF] McCtrl BE: 31320001 MC>SC1:   Assign resources for MSL
