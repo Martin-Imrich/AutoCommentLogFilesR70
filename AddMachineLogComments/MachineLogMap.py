@@ -85,7 +85,67 @@ Debug_0x00 = {
             # 03: MEC_ROTOR_CLEAN_READY
             # SUSI_SUMA_STATE__WUF_CLEAN_SEQ
             {'code': 0x32, 'text': "WUF_CLEAN_SEQ"},
-            {'code': 0x33, 'text': "MomMa Ready"},
+            {'code': 0x33, 'text': "MomMa Ready - MM_fct_INIT_SUCCESS"},
+            {'code': 0x34, 'text': "SuMa Ready"},  # SuMa ready
+            {'code': 0x93, 'text': "STARTUP_PREPARED"},
+            {'code': 0x94, 'text': "STARTED_UP"},
+            {'code': 0x95, 'text': "OD_SWITCHED"},
+    ]
+}
+
+Debug_0x00_pomocne_kolecka = {
+    "Debug_id": 0x00,
+    "description": "None",
+    "const": "MEH___SI_STATE_CHG",
+    "text": "SUSI_STATE",  # SUSI_SUMA_STATE__
+    "substates": [
+            {'code': 0x00, 'text': "OK"},
+            {'code': 0x01, 'text': "UNIT_OPEN"},
+            {'code': 0x02, 'text': "YR"},
+            {'code': 0x03, 'text': "CUT_CONFIRM"},
+            {'code': 0x04, 'text': "REF_STARTPIECING - MM_fct_TAKE_OFF_YARN"},
+            {'code': 0x05, 'text': "Unknown"},
+            #
+            {'code': 0x06, 'text': "Unknown"},
+            #
+            {'code': 0x20, 'text': "OFFS"},
+            {'code': 0x23, 'text': "HOMING"},
+            {'code': 0x24, 'text': "YARN_SEARCH - MM_fct_PACKAGE_KISS"},
+            {'code': 0x25, 'text': "YARN_TRANSFER - MM_fct_MOVE_YHD_DOWN"},
+            {'code': 0x26, 'text': "YARN_PREPARATION - MM_fct_OPEN_SPIN_UNIT"},
+            {'code': 0x27, 'text': "PIECING - MM_fct_PREPARE_PIECING"},
+            {'code': 0x28, 'text': "SYNC - MM_fct_PREPARE_SYNC_ACC"},
+            {'code': 0x29, 'text': "HANDOVER"},
+            {'code': 0x2A, 'text': "SPINNING"},
+            {'code': 0x2B, 'text': "ROBOFEED"},  # SUSI_SUMA_STATE__ROBOFEED
+            #
+            {'code': 0x2D, 'text': "CLEANING",
+              # SUSI_SUMA_STATE__CLEANING
+            'subtexts': [
+                {'code': 0x01, 'text': "CLEANING_STARTED"},
+                {'code': 0x02, 'text': "CLEANING_ALMOST_FINISHED"},
+                {'code': 0x03, 'text': "CLEANING_READY"},]
+            },
+            {'code': 0x2C, 'text': "DRAG_YARN_SEQ"},
+            {'code': 0x2E, 'text': "REDIpac"},
+            {'code': 0x2F, 'text': "MAN_SLIV_PREP",
+            # SUSI_SUMA_STATE__MAN_SLIV_PREP
+            'subtexts': [
+                {'code': 0x01, 'text': "MAN_SLIV_PREP_STARTED"},
+                {'code': 0x02, 'text': "MAN_SLIV_PREP_ALMOST_FINISHED"},
+                {'code': 0x03, 'text': "MAN_SLIV_PREP_READY"},]
+            },
+            {'code': 0x30, 'text': "SERVICE"},
+            {'code': 0x31, 'text': "Rotor cleaning - Without Robot",
+            # SUSI_SUMA_STATE__MEC_ROTOR_CLEAN -  Mechanical Rotor cleaning
+            'subtexts': [
+                {'code': 0x01, 'text': "MEC_ROTOR_CLEAN_STARTED"},
+                {'code': 0x02, 'text': "MEC_ROTOR_CLEAN_ALMOST_FINISHED"},
+                {'code': 0x03, 'text': "MEC_ROTOR_CLEAN_READY"},]
+            },
+            # SUSI_SUMA_STATE__WUF_CLEAN_SEQ
+            {'code': 0x32, 'text': "WUF_CLEAN_SEQ"},
+            {'code': 0x33, 'text': "MomMa Ready - MM_fct_INIT_SUCCESS"},
             {'code': 0x34, 'text': "SuMa Ready"},  # SuMa ready
             {'code': 0x93, 'text': "STARTUP_PREPARED"},
             {'code': 0x94, 'text': "STARTED_UP"},

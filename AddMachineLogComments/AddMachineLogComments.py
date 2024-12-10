@@ -22,8 +22,14 @@ import os
 import re
 import sys
 
-from MachineLogMap import Debug_0x00, Debug_0x01, Debug_0x02, Debug_0x03, Debug_0x04
-
+from MachineLogMap import (
+    Debug_0x00,
+    Debug_0x00_pomocne_kolecka,
+    Debug_0x01,
+    Debug_0x02,
+    Debug_0x03,
+    Debug_0x04,
+)
 
 def get_debug_0_comment(substate: int) -> str:
     """
@@ -31,12 +37,44 @@ def get_debug_0_comment(substate: int) -> str:
     #comment = f" <<< {Debug_0x00['substates']}, {sub['text']} >>>"
     """
     comment: str = ""
+    debug = Debug_0x00
 
-    for sub in Debug_0x00['substates']:
+    for sub in debug['substates']:
         if sub['code'] == substate:
+            if 'subtexts' in sub:
+                comment = (
+                    f" <<< {debug['text']},"
+                    f"- {sub['text']} >>>"
+                )
+                break
+
+    return comment
+
+
+def get_debug_0_comment_ext(substate: int, dbg_ex_1: int) -> str:
+    """
+    Search for comment in Debug_0x00_pomocna_kolecka dictionary.
+    # Adds additional subtext to the comment string.
+    Which is state from SUC -
+    e.g. "PIECING happened on SUC in MM_fct_PREPARE_PIECING"
+    """
+    comment: str = ""
+    debug = Debug_0x00_pomocne_kolecka
+
+    for sub in debug['substates']:
+        if sub['code'] == substate:
+            if 'subtexts' in sub:
+                for subtext in sub['subtexts']:
+                    if subtext['code'] == dbg_ex_1:
+                        comment = (
+                            f" <<< {debug['text']},"
+                            f"- {sub['text']},"
+                            f"- {subtext['text']} >>>"
+                        )
+                        return comment
             comment = (
-                f" <<< {Debug_0x00['text']},"
-                f"     {sub['text']} >>>"
+                f" <<< {debug['text']},"
+                f"- {sub['text']} >>>"
             )
             break
 
@@ -146,7 +184,8 @@ def get_debug_message_comment(line: str) -> str:
 
         # Use a mapping for better scalability
         if category == Debug_0x00['Debug_id']:
-            comment = get_debug_0_comment(data0)
+            #comment = get_debug_0_comment(data0)
+            comment = get_debug_0_comment_ext(data0, data1)
         elif category == Debug_0x01['Debug_id']:
             comment = get_debug_1_comment()
         elif category == Debug_0x02['Debug_id']:
@@ -157,7 +196,8 @@ def get_debug_message_comment(line: str) -> str:
             comment = get_debug_4_comment()
 
     if comment == "":
-        print(line)
+        #print(line)
+        pass
 
     return comment
 
@@ -188,7 +228,7 @@ def modify_file(file_path) -> None:
 # python C:\Users\urimrm\Projekty\Scripts\AnalyzeRxLogFiles\dbglog_comment\dbglog_comment.py "$(FULL_CURRENT_PATH)"
 
 fn = sys.argv[1]
-
+#fn = "C:/Users/urimrm/Desktop/241122_testLog/Unity/047/split/SC01/SUC008.txt"
 # option = sys.argv[2]  # Option
 option = "Debug_all"
 
